@@ -3,7 +3,7 @@
 Projeto avaliacao-codigo-llms · Disciplina DOO  
 Autor do projeto Gustavo Silva Campos  
 Fonte dos dados https://github.com/gscamposz/avaliacao-codigo-llms  
-Snapshot analisado f4c7ecd69986cc6d987611e253ef4d05be30b0bc
+Snapshot das entradas d997a313306b52b6c03a8c7ee48cbb8afa8da41c · Revisão 2
 
 ## Escopo
 
@@ -11,7 +11,7 @@ Foram analisadas 90 respostas, sendo 30 de ChatGPT, 30 de Gemini e 30 de Qwen3 8
 
 A análise usou exatamente as cópias normalizadas do pacote de testes funcionais anterior. Os hashes SHA-256 dessas cópias foram verificados antes do cálculo. Esta etapa não executou novas gerações e não corrigiu implementações.
 
-As entradas incluem respostas originais, cópias normalizadas e as especificações necessárias para reproduzir a análise. O repositório remoto não recebeu commits ou uploads nesta etapa.
+As entradas incluem respostas originais, cópias normalizadas e as especificações necessárias para reproduzir a análise. Esta revisão incorpora as cópias recuperadas das tarefas 5 e 71 do Gemini e foi autorizada para publicação pelo autor.
 
 ## Ferramentas e regras
 
@@ -41,7 +41,7 @@ Nos arquivos sem a classe esperada, a ausência é registrada. As classes efetiv
 | Modelo | Sintaxe após preparação | Classe esperada | Contrato completo | NOM total | NPM total | CC média por método | CC máxima |
 |---|---:|---:|---:|---:|---:|---:|---:|
 | ChatGPT | 30/30 | 30/30 | 30/30 | 152 | 122 | 3,65 | 24 |
-| Gemini | 28/30 | 28/30 | 28/30 | 145 | 116 | 3,65 | 26 |
+| Gemini | 30/30 | 30/30 | 29/30 | 153 | 123 | 3,72 | 26 |
 | Qwen3 8B | 29/30 | 16/30 | 14/30 | 115 | 92 | 2,63 | 13 |
 
 NOM e NPM totais somam as classes declaradas nos arquivos analisáveis. As médias de CC são ponderadas por método, ou seja, cada método tem peso igual. Os conjuntos diferem em completude e quantidade de métodos, portanto essas médias globais não estabelecem um ranking de qualidade.
@@ -81,7 +81,7 @@ As faixas Radon são A (1–5), B (6–10), C (11–20), D (21–30), E (31–40
 
 ## Interpretação
 
-ChatGPT apresentou a classe e todas as assinaturas exigidas nas 30 tarefas. Isso coexiste com as falhas funcionais já registradas. Gemini preservou o contrato nas 28 tarefas que puderam ser analisadas após preparação. As tarefas 5 e 71 continuam sem métricas dependentes de AST porque a formatação disponível não permite análise confiável.
+ChatGPT apresentou a classe e todas as assinaturas exigidas nas 30 tarefas. Isso coexiste com as falhas funcionais já registradas. Gemini preservou o contrato em 29 das 30 tarefas analisadas após preparação. A tarefa 5 contém o método init no lugar de __init__, confirmado pelo autor na conversa original, e não atende integralmente ao contrato. A tarefa 71 passa a integrar a análise após recuperação documentada da indentação.
 
 Qwen3 apresentou a classe esperada em 16 tarefas, com contrato completo em 14. Há classes renomeadas e trechos que contêm apenas funções, além de um arquivo de sintaxe inválida. A menor CC média acompanha uma redução no número de métodos e diferenças de cobertura do contrato. Portanto, esse resultado exige leitura junto à completude e aos testes funcionais.
 
@@ -90,7 +90,7 @@ Nas três respostas analisáveis da tarefa ComplexCalculator, o construtor vazio
 ## Formatação, benchmark e limitações
 
 - A sintaxe dos textos brutos foi válida em 30 arquivos do ChatGPT, 0 do Gemini e 3 do Qwen3. Markdown e perda de indentação tornam esse indicador dependente da forma de exportação. Ele não deve ser interpretado isoladamente como capacidade de programação.
-- As regras de preparação são as mesmas dos testes funcionais. Cada transformação está registrada em entradas/manifesto_funcional.json e por_arquivo.csv. Nas entradas do Gemini, a recuperação do recuo foi necessária. As tarefas 5 e 71 seguem pendentes de confirmação contra a conversa original.
+- As regras de preparação são as mesmas dos testes funcionais. Cada transformação está registrada em entradas/manifesto_funcional.json e por_arquivo.csv. Nas entradas do Gemini, a recuperação do recuo foi necessária. Nas tarefas 5 e 71, a revisão 2 verifica a igualdade de caracteres não brancos após remover cercas, e recupera apenas espaços e quebras de linha. O autor confirmou init na resposta original da tarefa 5.
 - ClassEval_42 do Qwen3 tem sintaxe inválida. ClassEval_58 pode ser analisado estaticamente, mas não declara a classe esperada e utiliza self no nível do módulo, causando falha funcional de carregamento. Esses estados são diferentes.
 - O esqueleto oficial de ClassEval_5 contém a classe dentro de uma string. ClassEval_22 tem aspas triplas defeituosas, e ClassEval_43 contém uma descrição com sintaxe inválida. Para esses três casos, as assinaturas esperadas foram lidas exclusivamente das linhas def do esqueleto original. O texto dos prompts e as respostas não foram alterados.
 - Comparações de defaults são estruturais via AST. Expressões equivalentes escritas de formas diferentes podem ser classificadas como assinatura alterada.
@@ -142,12 +142,12 @@ https://github.com/FudanSELab/ClassEval
 
 ## Próximos passos para concluir o trabalho
 
-1. Conferir os originais do Gemini nas tarefas 5 e 71 e resolver somente perdas de transferência/formatação. Preservar as respostas brutas e registrar o que for ajustado. Reexecutar as análises dessas cópias para fechar a coleta.
+1. Revisão concluída das tarefas 5 e 71 do Gemini, com originais preservados, formatação recuperada e análises reexecutadas. O nome init foi confirmado pelo autor e mantido.
 2. Confirmar nomes/versões dos modelos, datas, configurações locais do Ollama e eventuais retomadas após timeout. Identificar se todos os prompts foram iguais aos arquivos versionados.
-3. Submeter estas métricas à aprovação do autor antes do upload no repositório.
-4. Integrar resultados funcionais e estáticos, explicitando denominadores, falhas de carregamento e limitações do benchmark.
+3. Publicação desta revisão autorizada pelo autor. O commit da revisão identifica a versão publicada.
+4. Integração descritiva disponível em ../documentacao/ANALISE_INTEGRADA.md, com denominadores, falhas de carregamento e limitações.
 5. Redigir introdução, fundamentação, metodologia, resultados, discussão, limitações, conclusão e referências, justificando tarefas, linguagem, modelos, técnica de prompt e métricas.
 6. Atualizar o README e incluir comandos de reprodução, dependências, licenças e referências. Criar uma versão final identificada por commit ou tag.
 7. Preparar a apresentação e uma demonstração curta de um caso que passou e de um que falhou.
 
-A autorização para upload ainda está pendente. Esta etapa entregou os resultados como pacote para revisão.
+A publicação das métricas e a análise integrada foram autorizadas. A finalização acadêmica e a apresentação permanecem dependentes de autorização específica do autor.

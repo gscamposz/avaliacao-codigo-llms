@@ -224,6 +224,6 @@ Traceback (most recent call last):
 NameError: name 'HRManagementSystem' is not defined
 
 ----------------------------------------------------------------------
-Ran 28 tests in 0.046s
+Ran 28 tests in 0.052s
 
 FAILED (errors=28)

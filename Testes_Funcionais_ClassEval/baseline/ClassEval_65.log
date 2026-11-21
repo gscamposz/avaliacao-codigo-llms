@@ -28,6 +28,6 @@ test_parse_more_4 (candidate_module.NumberWordFormatterTestParseMore.test_parse_
 test_NumberWordFormatter (candidate_module.NumberWordFormatterTest.test_NumberWordFormatter) ... ok
 
 ----------------------------------------------------------------------
-Ran 28 tests in 0.000s
+Ran 28 tests in 0.001s
 
 OK

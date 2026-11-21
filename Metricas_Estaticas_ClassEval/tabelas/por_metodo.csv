@@ -391,6 +391,9 @@ gemini,ClassEval_58,MinesweeperGame,True,generate_mine_sweeper_map,20,True,False
 gemini,ClassEval_58,MinesweeperGame,True,generate_playerMap,53,True,False,3,A,False
 gemini,ClassEval_58,MinesweeperGame,True,check_won,64,True,False,5,A,False
 gemini,ClassEval_58,MinesweeperGame,True,sweep,84,True,False,6,B,False
+gemini,ClassEval_5,AutomaticGuitarSimulator,True,init,4,True,False,1,A,False
+gemini,ClassEval_5,AutomaticGuitarSimulator,True,interpret,8,True,False,10,B,False
+gemini,ClassEval_5,AutomaticGuitarSimulator,True,display,37,True,False,1,A,False
 gemini,ClassEval_61,MusicPlayer,True,__init__,8,False,True,1,A,False
 gemini,ClassEval_61,MusicPlayer,True,add_song,16,True,False,1,A,False
 gemini,ClassEval_61,MusicPlayer,True,remove_song,28,True,False,3,A,False
@@ -420,6 +423,11 @@ gemini,ClassEval_68,PageUtil,True,__init__,6,False,True,3,A,False
 gemini,ClassEval_68,PageUtil,True,get_page,19,True,False,4,A,False
 gemini,ClassEval_68,PageUtil,True,get_page_info,35,True,False,3,A,False
 gemini,ClassEval_68,PageUtil,True,search,64,True,False,4,A,False
+gemini,ClassEval_71,PushBoxGame,True,__init__,6,False,True,1,A,False
+gemini,ClassEval_71,PushBoxGame,True,init_game,28,True,False,6,B,False
+gemini,ClassEval_71,PushBoxGame,True,check_win,61,True,False,3,A,False
+gemini,ClassEval_71,PushBoxGame,True,print_map,73,True,False,8,B,False
+gemini,ClassEval_71,PushBoxGame,True,move,94,True,False,10,B,False
 gemini,ClassEval_75,ShoppingCart,True,__init__,6,False,True,1,A,False
 gemini,ClassEval_75,ShoppingCart,True,add_item,12,True,False,3,A,False
 gemini,ClassEval_75,ShoppingCart,True,remove_item,31,True,False,4,A,False

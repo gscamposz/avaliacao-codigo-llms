@@ -1082,13 +1082,13 @@
     "task": "ClassEval_5",
     "class": "AutomaticGuitarSimulator",
     "raw_syntax_valid": false,
-    "normalization": "restored class indentation and header line breaks",
+    "normalization": "restored whitespace and removed fence lines; verified nonwhitespace equality",
     "sha256_original": "65c7bf000151362ad4ed72a556b190afe51919d1905556bee38bfd95fa972027",
-    "expected_class_present": false,
-    "status": "load_error",
-    "run": 0,
+    "expected_class_present": true,
+    "status": "tested",
+    "run": 15,
     "failures": 0,
-    "errors": 0,
+    "errors": 15,
     "passed": 0
   },
   {
@@ -1166,14 +1166,14 @@
     "task": "ClassEval_71",
     "class": "PushBoxGame",
     "raw_syntax_valid": false,
-    "normalization": "removed Markdown fence lines; restored class indentation and header line breaks",
+    "normalization": "restored whitespace and removed fence lines; verified nonwhitespace equality",
     "sha256_original": "dfbadda9f3f8cd1fac8c95c6d0e7f0e4347a4c32576d04246f3b5442e7d03e8d",
-    "expected_class_present": false,
-    "status": "load_error",
-    "run": 0,
+    "expected_class_present": true,
+    "status": "tested",
+    "run": 16,
     "failures": 0,
     "errors": 0,
-    "passed": 0
+    "passed": 16
   },
   {
     "model": "gemini",

@@ -1,5 +1,5 @@
 Traceback (most recent call last):
-  File "/workspace/scratch/fed29b4943eb/functional_review/evaluate.py", line 38, in worker
+  File "/tmp/avaliacao-r2/Testes_Funcionais_ClassEval/evaluate.py", line 37, in worker
     exec(compile(d['code'],'candidate.py','exec'),module)
   File "candidate.py", line 13, in <module>
 NameError: name 'self' is not defined

@@ -21,6 +21,6 @@ test_solve_5 (candidate_module.EightPuzzleTestSolve.test_solve_5) ... ok
 test_solve_6 (candidate_module.EightPuzzleTestSolve.test_solve_6) ... ok
 
 ----------------------------------------------------------------------
-Ran 21 tests in 3.535s
+Ran 21 tests in 3.499s
 
 OK

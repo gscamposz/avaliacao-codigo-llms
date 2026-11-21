@@ -284,7 +284,8 @@ if __name__ == "__main__":
     (output / "ambiente.json").write_text(json.dumps({
         "python": platform.python_version(), "platform": platform.platform(),
         "radon": importlib.metadata.version("radon"),
-        "commit": "f4c7ecd69986cc6d987611e253ef4d05be30b0bc",
+        "commit": json.loads((BASE / "entradas/proveniencia.json").read_text())["snapshot_entradas"],
+        "revisao": "2 — Gemini 5 e 71 com formatação recuperada; init confirmado pelo autor",
         "verificacao_contagem": "aprovada",
     }, indent=2), encoding="utf-8")
     print(json.dumps({"resumo": summary, "pareada": paired}, indent=2, ensure_ascii=False))

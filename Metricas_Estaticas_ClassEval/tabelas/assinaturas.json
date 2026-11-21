@@ -3891,6 +3891,36 @@
   },
   {
     "modelo": "gemini",
+    "tarefa": "ClassEval_5",
+    "classe": "AutomaticGuitarSimulator",
+    "metodo": "__init__",
+    "presente": false,
+    "assinatura_preservada": false,
+    "assinatura_esperada": "{\"kind\": \"FunctionDef\", \"posonly\": [], \"positional\": [\"self\", \"text\"], \"vararg\": null, \"kwonly\": [], \"kwarg\": null, \"defaults\": [], \"kw_defaults\": [], \"binding\": []}",
+    "assinatura_encontrada": ""
+  },
+  {
+    "modelo": "gemini",
+    "tarefa": "ClassEval_5",
+    "classe": "AutomaticGuitarSimulator",
+    "metodo": "interpret",
+    "presente": true,
+    "assinatura_preservada": true,
+    "assinatura_esperada": "{\"kind\": \"FunctionDef\", \"posonly\": [], \"positional\": [\"self\", \"display\"], \"vararg\": null, \"kwonly\": [], \"kwarg\": null, \"defaults\": [\"Constant(value=False)\"], \"kw_defaults\": [], \"binding\": []}",
+    "assinatura_encontrada": "{\"kind\": \"FunctionDef\", \"posonly\": [], \"positional\": [\"self\", \"display\"], \"vararg\": null, \"kwonly\": [], \"kwarg\": null, \"defaults\": [\"Constant(value=False)\"], \"kw_defaults\": [], \"binding\": []}"
+  },
+  {
+    "modelo": "gemini",
+    "tarefa": "ClassEval_5",
+    "classe": "AutomaticGuitarSimulator",
+    "metodo": "display",
+    "presente": true,
+    "assinatura_preservada": true,
+    "assinatura_esperada": "{\"kind\": \"FunctionDef\", \"posonly\": [], \"positional\": [\"self\", \"key\", \"value\"], \"vararg\": null, \"kwonly\": [], \"kwarg\": null, \"defaults\": [], \"kw_defaults\": [], \"binding\": []}",
+    "assinatura_encontrada": "{\"kind\": \"FunctionDef\", \"posonly\": [], \"positional\": [\"self\", \"key\", \"value\"], \"vararg\": null, \"kwonly\": [], \"kwarg\": null, \"defaults\": [], \"kw_defaults\": [], \"binding\": []}"
+  },
+  {
+    "modelo": "gemini",
     "tarefa": "ClassEval_61",
     "classe": "MusicPlayer",
     "metodo": "__init__",
@@ -4178,6 +4208,46 @@
     "assinatura_preservada": true,
     "assinatura_esperada": "{\"kind\": \"FunctionDef\", \"posonly\": [], \"positional\": [\"self\", \"keyword\"], \"vararg\": null, \"kwonly\": [], \"kwarg\": null, \"defaults\": [], \"kw_defaults\": [], \"binding\": []}",
     "assinatura_encontrada": "{\"kind\": \"FunctionDef\", \"posonly\": [], \"positional\": [\"self\", \"keyword\"], \"vararg\": null, \"kwonly\": [], \"kwarg\": null, \"defaults\": [], \"kw_defaults\": [], \"binding\": []}"
+  },
+  {
+    "modelo": "gemini",
+    "tarefa": "ClassEval_71",
+    "classe": "PushBoxGame",
+    "metodo": "__init__",
+    "presente": true,
+    "assinatura_preservada": true,
+    "assinatura_esperada": "{\"kind\": \"FunctionDef\", \"posonly\": [], \"positional\": [\"self\", \"map\"], \"vararg\": null, \"kwonly\": [], \"kwarg\": null, \"defaults\": [], \"kw_defaults\": [], \"binding\": []}",
+    "assinatura_encontrada": "{\"kind\": \"FunctionDef\", \"posonly\": [], \"positional\": [\"self\", \"map\"], \"vararg\": null, \"kwonly\": [], \"kwarg\": null, \"defaults\": [], \"kw_defaults\": [], \"binding\": []}"
+  },
+  {
+    "modelo": "gemini",
+    "tarefa": "ClassEval_71",
+    "classe": "PushBoxGame",
+    "metodo": "init_game",
+    "presente": true,
+    "assinatura_preservada": true,
+    "assinatura_esperada": "{\"kind\": \"FunctionDef\", \"posonly\": [], \"positional\": [\"self\"], \"vararg\": null, \"kwonly\": [], \"kwarg\": null, \"defaults\": [], \"kw_defaults\": [], \"binding\": []}",
+    "assinatura_encontrada": "{\"kind\": \"FunctionDef\", \"posonly\": [], \"positional\": [\"self\"], \"vararg\": null, \"kwonly\": [], \"kwarg\": null, \"defaults\": [], \"kw_defaults\": [], \"binding\": []}"
+  },
+  {
+    "modelo": "gemini",
+    "tarefa": "ClassEval_71",
+    "classe": "PushBoxGame",
+    "metodo": "check_win",
+    "presente": true,
+    "assinatura_preservada": true,
+    "assinatura_esperada": "{\"kind\": \"FunctionDef\", \"posonly\": [], \"positional\": [\"self\"], \"vararg\": null, \"kwonly\": [], \"kwarg\": null, \"defaults\": [], \"kw_defaults\": [], \"binding\": []}",
+    "assinatura_encontrada": "{\"kind\": \"FunctionDef\", \"posonly\": [], \"positional\": [\"self\"], \"vararg\": null, \"kwonly\": [], \"kwarg\": null, \"defaults\": [], \"kw_defaults\": [], \"binding\": []}"
+  },
+  {
+    "modelo": "gemini",
+    "tarefa": "ClassEval_71",
+    "classe": "PushBoxGame",
+    "metodo": "move",
+    "presente": true,
+    "assinatura_preservada": true,
+    "assinatura_esperada": "{\"kind\": \"FunctionDef\", \"posonly\": [], \"positional\": [\"self\", \"direction\"], \"vararg\": null, \"kwonly\": [], \"kwarg\": null, \"defaults\": [], \"kw_defaults\": [], \"binding\": []}",
+    "assinatura_encontrada": "{\"kind\": \"FunctionDef\", \"posonly\": [], \"positional\": [\"self\", \"direction\"], \"vararg\": null, \"kwonly\": [], \"kwarg\": null, \"defaults\": [], \"kw_defaults\": [], \"binding\": []}"
   },
   {
     "modelo": "gemini",

@@ -296,6 +296,6 @@ Traceback (most recent call last):
 NameError: name 'ExpressionCalculator' is not defined. Did you mean: 'ExpressionCalculatorTest'?
 
 ----------------------------------------------------------------------
-Ran 37 tests in 0.021s
+Ran 37 tests in 0.022s
 
 FAILED (errors=37)

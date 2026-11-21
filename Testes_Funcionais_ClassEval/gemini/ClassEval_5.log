@@ -1,8 +1,125 @@
+test_interpret_1 (candidate_module.AutomaticGuitarSimulatorTestInterpret.test_interpret_1) ... ERROR
+test_interpret_2 (candidate_module.AutomaticGuitarSimulatorTestInterpret.test_interpret_2) ... ERROR
+test_interpret_3 (candidate_module.AutomaticGuitarSimulatorTestInterpret.test_interpret_3) ... ERROR
+test_interpret_4 (candidate_module.AutomaticGuitarSimulatorTestInterpret.test_interpret_4) ... ERROR
+test_interpret_5 (candidate_module.AutomaticGuitarSimulatorTestInterpret.test_interpret_5) ... ERROR
+test_interpret_6 (candidate_module.AutomaticGuitarSimulatorTestInterpret.test_interpret_6) ... ERROR
+test_interpret_7 (candidate_module.AutomaticGuitarSimulatorTestInterpret.test_interpret_7) ... ERROR
+test_interpret_8 (candidate_module.AutomaticGuitarSimulatorTestInterpret.test_interpret_8) ... ERROR
+test_interpret_9 (candidate_module.AutomaticGuitarSimulatorTestInterpret.test_interpret_9) ... ERROR
+test_display_1 (candidate_module.AutomaticGuitarSimulatorTestDisplay.test_display_1) ... ERROR
+test_display_2 (candidate_module.AutomaticGuitarSimulatorTestDisplay.test_display_2) ... ERROR
+test_display_3 (candidate_module.AutomaticGuitarSimulatorTestDisplay.test_display_3) ... ERROR
+test_display_4 (candidate_module.AutomaticGuitarSimulatorTestDisplay.test_display_4) ... ERROR
+test_display_5 (candidate_module.AutomaticGuitarSimulatorTestDisplay.test_display_5) ... ERROR
+test_AutomaticGuitarSimulator (candidate_module.AutomaticGuitarSimulatorTest.test_AutomaticGuitarSimulator) ... ERROR
+
+======================================================================
+ERROR: test_interpret_1 (candidate_module.AutomaticGuitarSimulatorTestInterpret.test_interpret_1)
+----------------------------------------------------------------------
 Traceback (most recent call last):
-  File "/workspace/scratch/fed29b4943eb/functional_review/evaluate.py", line 38, in worker
-    exec(compile(d['code'],'candidate.py','exec'),module)
-         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "candidate.py", line 1
-    import reclass AutomaticGuitarSimulator:def init(self, text) -> None:"""Initialize the score to be played:param text:str, score to be played"""self.play_text = text   def interpret(self, display=False):
-                   ^^^^^^^^^^^^^^^^^^^^^^^^
-SyntaxError: invalid syntax
+  File "official_tests.py", line 6, in test_interpret_1
+TypeError: AutomaticGuitarSimulator() takes no arguments
+
+======================================================================
+ERROR: test_interpret_2 (candidate_module.AutomaticGuitarSimulatorTestInterpret.test_interpret_2)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "official_tests.py", line 11, in test_interpret_2
+TypeError: AutomaticGuitarSimulator() takes no arguments
+
+======================================================================
+ERROR: test_interpret_3 (candidate_module.AutomaticGuitarSimulatorTestInterpret.test_interpret_3)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "official_tests.py", line 16, in test_interpret_3
+TypeError: AutomaticGuitarSimulator() takes no arguments
+
+======================================================================
+ERROR: test_interpret_4 (candidate_module.AutomaticGuitarSimulatorTestInterpret.test_interpret_4)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "official_tests.py", line 21, in test_interpret_4
+TypeError: AutomaticGuitarSimulator() takes no arguments
+
+======================================================================
+ERROR: test_interpret_5 (candidate_module.AutomaticGuitarSimulatorTestInterpret.test_interpret_5)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "official_tests.py", line 26, in test_interpret_5
+TypeError: AutomaticGuitarSimulator() takes no arguments
+
+======================================================================
+ERROR: test_interpret_6 (candidate_module.AutomaticGuitarSimulatorTestInterpret.test_interpret_6)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "official_tests.py", line 31, in test_interpret_6
+TypeError: AutomaticGuitarSimulator() takes no arguments
+
+======================================================================
+ERROR: test_interpret_7 (candidate_module.AutomaticGuitarSimulatorTestInterpret.test_interpret_7)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "official_tests.py", line 36, in test_interpret_7
+TypeError: AutomaticGuitarSimulator() takes no arguments
+
+======================================================================
+ERROR: test_interpret_8 (candidate_module.AutomaticGuitarSimulatorTestInterpret.test_interpret_8)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "official_tests.py", line 41, in test_interpret_8
+TypeError: AutomaticGuitarSimulator() takes no arguments
+
+======================================================================
+ERROR: test_interpret_9 (candidate_module.AutomaticGuitarSimulatorTestInterpret.test_interpret_9)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "official_tests.py", line 46, in test_interpret_9
+TypeError: AutomaticGuitarSimulator() takes no arguments
+
+======================================================================
+ERROR: test_display_1 (candidate_module.AutomaticGuitarSimulatorTestDisplay.test_display_1)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "official_tests.py", line 53, in test_display_1
+TypeError: AutomaticGuitarSimulator() takes no arguments
+
+======================================================================
+ERROR: test_display_2 (candidate_module.AutomaticGuitarSimulatorTestDisplay.test_display_2)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "official_tests.py", line 59, in test_display_2
+TypeError: AutomaticGuitarSimulator() takes no arguments
+
+======================================================================
+ERROR: test_display_3 (candidate_module.AutomaticGuitarSimulatorTestDisplay.test_display_3)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "official_tests.py", line 65, in test_display_3
+TypeError: AutomaticGuitarSimulator() takes no arguments
+
+======================================================================
+ERROR: test_display_4 (candidate_module.AutomaticGuitarSimulatorTestDisplay.test_display_4)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "official_tests.py", line 71, in test_display_4
+TypeError: AutomaticGuitarSimulator() takes no arguments
+
+======================================================================
+ERROR: test_display_5 (candidate_module.AutomaticGuitarSimulatorTestDisplay.test_display_5)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "official_tests.py", line 77, in test_display_5
+TypeError: AutomaticGuitarSimulator() takes no arguments
+
+======================================================================
+ERROR: test_AutomaticGuitarSimulator (candidate_module.AutomaticGuitarSimulatorTest.test_AutomaticGuitarSimulator)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "official_tests.py", line 84, in test_AutomaticGuitarSimulator
+TypeError: AutomaticGuitarSimulator() takes no arguments
+
+----------------------------------------------------------------------
+Ran 15 tests in 0.001s
+
+FAILED (errors=15)

@@ -1079,6 +1079,20 @@
   },
   {
     "modelo": "gemini",
+    "tarefa": "ClassEval_5",
+    "classe": "AutomaticGuitarSimulator",
+    "classe_esperada": true,
+    "nom": 3,
+    "nom_sem_init": 3,
+    "npm": 3,
+    "metodos_especiais": 0,
+    "nomes_duplicados": 0,
+    "wmc_cc": 12,
+    "cc_media": 4,
+    "cc_max": 10
+  },
+  {
+    "modelo": "gemini",
     "tarefa": "ClassEval_61",
     "classe": "MusicPlayer",
     "classe_esperada": true,
@@ -1146,6 +1160,20 @@
     "wmc_cc": 14,
     "cc_media": 3.5,
     "cc_max": 4
+  },
+  {
+    "modelo": "gemini",
+    "tarefa": "ClassEval_71",
+    "classe": "PushBoxGame",
+    "classe_esperada": true,
+    "nom": 5,
+    "nom_sem_init": 4,
+    "npm": 4,
+    "metodos_especiais": 1,
+    "nomes_duplicados": 0,
+    "wmc_cc": 28,
+    "cc_media": 5.6,
+    "cc_max": 10
   },
   {
     "modelo": "gemini",

@@ -224,6 +224,6 @@ Traceback (most recent call last):
 NameError: name 'NumberWordFormatter' is not defined. Did you mean: 'NumberWordFormatterTest'?
 
 ----------------------------------------------------------------------
-Ran 28 tests in 0.018s
+Ran 28 tests in 0.019s
 
 FAILED (errors=28)

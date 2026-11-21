@@ -16,6 +16,6 @@ test_move_6 (candidate_module.PushBoxGameTestMove.test_move_6) ... ok
 test_move_7 (candidate_module.PushBoxGameTestMove.test_move_7) ... ok
 
 ----------------------------------------------------------------------
-Ran 16 tests in 0.000s
+Ran 16 tests in 0.001s
 
 OK

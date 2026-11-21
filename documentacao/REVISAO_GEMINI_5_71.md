@@ -14,7 +14,7 @@ As quebras e o recuo foram recuperados.
 O nome init foi preservado literalmente. A resposta recebida não declara __init__, e trocar esse nome alteraria a implementação.
 A cópia passa no parser Python. Foram executados os 15 testes oficiais da tarefa, com 15 erros, todos decorrentes de TypeError ao instanciar AutomaticGuitarSimulator com argumento.
 
-Essa constatação descreve o arquivo versionado. É necessário comparar a conversa original para saber se a perda de underscores ocorreu ao copiar. Havendo prova dessa perda, a recuperação deve ser documentada como uma nova revisão, preservando o arquivo original.
+O autor conferiu a conversa original e confirmou literalmente def init(self, text). A falha foi classificada como ausência do construtor exigido na resposta original, e o nome foi mantido na cópia avaliada.
 
 ## ClassEval_71 — PushBoxGame
 
@@ -33,4 +33,4 @@ Para repetir na raiz do repositório
 ## Relação com relatórios anteriores
 
 Os pacotes Testes_Funcionais_ClassEval e Metricas_Estaticas_ClassEval já estavam presentes na branch ao iniciar esta revisão. Os resultados gerais desses pacotes continuam associados ao snapshot f4c7ecd69986cc6d987611e253ef4d05be30b0bc e devem ser consolidados na etapa posterior.
-Esta revisão acrescenta as duas execuções específicas e os metadados de coleta, sem substituir os relatórios agregados. O upload/atualização das métricas e sua integração ao relatório serão tratados nos itens 3 e 4, conforme a instrução do autor.
+Após a autorização posterior do autor, os relatórios funcionais e estáticos foram recalculados como revisão 2 e integrados em ANALISE_INTEGRADA.md. Os históricos desta revisão específica e os TXT originais continuam preservados.

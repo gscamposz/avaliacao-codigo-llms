@@ -76,11 +76,13 @@ gemini,ClassEval_4,AssessmentSystem,True,7,6,6,1,0,20,2.857142857142857,5
 gemini,ClassEval_50,JSONProcessor,True,3,3,3,0,0,11,3.6666666666666665,6
 gemini,ClassEval_54,MahjongConnect,True,6,5,5,1,0,46,7.666666666666667,22
 gemini,ClassEval_58,MinesweeperGame,True,5,4,4,1,0,31,6.2,16
+gemini,ClassEval_5,AutomaticGuitarSimulator,True,3,3,3,0,0,12,4,10
 gemini,ClassEval_61,MusicPlayer,True,9,8,8,1,0,23,2.5555555555555554,4
 gemini,ClassEval_64,NumberConverter,True,6,6,6,0,0,6,1,1
 gemini,ClassEval_65,NumberWordFormatter,True,6,5,5,1,0,28,4.666666666666667,16
 gemini,ClassEval_67,Order,True,4,3,3,1,0,18,4.5,13
 gemini,ClassEval_68,PageUtil,True,4,3,3,1,0,14,3.5,4
+gemini,ClassEval_71,PushBoxGame,True,5,4,4,1,0,28,5.6,10
 gemini,ClassEval_75,ShoppingCart,True,5,4,4,1,0,11,2.2,4
 gemini,ClassEval_77,Snake,True,5,4,4,1,0,10,2,4
 gemini,ClassEval_7,BalancedBrackets,True,3,2,2,1,0,10,3.3333333333333335,6

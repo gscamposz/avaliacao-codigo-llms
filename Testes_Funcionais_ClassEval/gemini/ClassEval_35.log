@@ -59,6 +59,6 @@ Traceback (most recent call last):
 AssertionError: [] != None
 
 ----------------------------------------------------------------------
-Ran 21 tests in 0.035s
+Ran 21 tests in 0.034s
 
 FAILED (failures=2, errors=3)

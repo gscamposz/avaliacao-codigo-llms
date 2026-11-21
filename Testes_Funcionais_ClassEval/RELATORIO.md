@@ -1,51 +1,51 @@
-# Testes funcionais — ClassEval
+# Testes funcionais — revisão 2
 
-## Escopo e versão
-Foram avaliadas as 90 respostas das 30 tarefas selecionadas.
-Repositório https://github.com/gscamposz/avaliacao-codigo-llms
-Commit f4c7ecd69986cc6d987611e253ef4d05be30b0bc
-Ambiente Python 3.12.14 em Linux. Cada tarefa executada em processo separado, diretório temporário, timeout de 15 segundos e random.seed(0).
-A suíte utiliza os testes oficiais presentes no ClassEval_data.json deste commit. As soluções de referência foram executadas para controle.
-O repositório remoto não foi alterado.
+Entradas versionadas no commit d997a313306b52b6c03a8c7ee48cbb8afa8da41c.
+Nesta revisão foram reexecutadas as 90 respostas e as 30 soluções de referência.
 
-## Resultados após extração e ajustes de formatação
+## Procedimento
 
-| Modelo | Testes aprovados/executados | Falhas de asserção | Erros nos testes | Arquivos sem carregamento | Tarefas com suíte inteira aprovada |
+Execução em Python/Linux, com um processo e diretório temporário por tarefa, semente random 0 e timeout de 15 segundos por processo.
+As asserções e os corpos dos testes oficiais em ClassEval_data.json foram preservados. O carregador retira espaços nas extremidades dos nomes em test_classes, por causa de um espaço extra nos metadados de Words2Numbers.
+As respostas originais permanecem em resultados/ e originais/. As cópias executadas e logs estão nas pastas dos modelos deste pacote.
+
+## Resultados
+
+| Modelo | Aprovados/executados | Falhas | Erros nos testes | Testes não executados | Tarefas com suíte inteira aprovada |
 |---|---:|---:|---:|---:|---:|
-| chatgpt | 610/668 | 52 | 6 | 0 | 14/30 |
-| gemini | 580/637 | 51 | 6 | 2 | 11/30 |
-| qwen3_8b | 285/623 | 21 | 317 | 2 | 8/30 |
+| ChatGPT | 610/668 | 52 | 6 | 0 | 14/30 |
+| Gemini | 596/668 | 51 | 21 | 0 | 12/30 |
+| Qwen3 8B | 285/623 | 21 | 317 | 45 | 8/30 |
 
-O conjunto contém 668 testes por modelo. Os denominadores menores indicam testes que não chegaram a executar devido a falha no carregamento, e não devem ser usados como ranking direto.
-Códigos sem classe mas com funções foram submetidos à suíte e geraram os respectivos erros de atributos ou nomes.
+Há 668 testes previstos por modelo. Para Qwen3, 45 deles não executaram porque as tarefas 42 e 58 falham ao carregar. Testes não executados não são apresentados como erros de asserção.
+Os percentuais sobre testes executados são condicionais à execução. A tabela integrada também fornece aprovados sobre os 668 testes previstos para manter o denominador explícito.
 
-## Preparação documentada
-Respostas originais preservadas em originais/. Cada entrada em results.csv registra SHA-256 do texto, situação e transformação aplicada.
-ChatGPT e Qwen3 tiveram extração dos blocos Python quando havia Markdown. Blocos de saída sem etiqueta Python foram descartados quando existiam blocos Python explícitos.
-No Gemini foram removidas cercas e restaurados o recuo comum da classe e quebras do cabeçalho. As cópias executadas estão nas pastas por modelo. Nenhuma implementação de método foi corrigida.
-Os resultados representam o código extraído/normalizado, e não necessariamente o texto bruto pronto para execução. Problemas de transferência e formatação não podem ser atribuídos com certeza ao modelo apenas pelos TXT recebidos.
+## Atualização Gemini
 
-## Pendências de carregamento
-- Gemini ClassEval_5 — cabeçalho concatenado com import e construtor escrito como init. Não foi renomeado para __init__, pois isso alteraria a implementação. Conferir resposta na conversa original.
-- Gemini ClassEval_71 — indentação irregular em vários níveis. A normalização comum não resolve. Conferir ou restaurar apenas a formatação da resposta original e executar novamente.
-- Qwen3 ClassEval_42 — resposta parcial com trechos e exemplos sem classe completa, erro de sintaxe ao carregar o código extraído.
-- Qwen3 ClassEval_58 — trecho que utiliza self no nível do módulo, gerando NameError ao carregar.
+ClassEval_71 passou nos 16 testes após recuperar o recuo.
+ClassEval_5 passou a carregar, mas os 15 testes produziram TypeError ao criar AutomaticGuitarSimulator com um argumento.
+O autor confirmou def init(self, text) na resposta original do Gemini. Não se inseriu __init__.
+As duas cópias preservam todos os caracteres não brancos dos originais, após remover linhas de cercas Markdown.
 
-Os dois casos do Gemini precisam de confirmação de fidelidade à resposta original para encerrar completamente a avaliação funcional dessas tarefas.
+## Controle e limitações
 
-## Controle do benchmark
-A solução de referência passou em 667/668 testes com seed 0. A exceção é CalendarUtil, test_get_upcoming_events_5, que falha também na referência e depende de datas. A falha deve ser interpretada com ressalva e não como evidência exclusiva de defeito no modelo.
-Uma primeira execução sem semente fixa também apresentou uma falha de MinesweeperGame na referência. A execução final usa seed 0 para todos os modelos. Jogos aleatórios podem produzir outros resultados com outras sementes.
-O campo test_classes de Words2Numbers contém espaço extra em um nome. O carregador remove espaços nas extremidades dos nomes, sem alterar os corpos ou asserções dos testes.
-As tarefas com referência aprovada fornecem uma verificação do carregador, mas testes oficiais ainda podem conter ambiguidades.
-O script antigo rodar_teste.py do repositório não foi alterado.
+A solução de referência passou em 667 dos 668 testes. CalendarUtil.test_get_upcoming_events_5 falha também na referência e depende de datas históricas.
+Em uma execução exploratória anterior sem semente fixa, ocorreu também uma falha de MinesweeperGame na referência. Os resultados publicados desta revisão usam seed 0.
+Aprovação nos testes descreve a suíte e a execução, sem provar correção universal. O resultado é sensível à cobertura, a requisitos ambíguos e à aleatoriedade.
+Os registros de ambiente, o hash do JSON oficial e o snapshot estão em ambiente.json.
 
-## Arquivos
-- results.csv e results.json — resultados individuais das 90 respostas e das 30 soluções de referência.
-- pastas de modelos — cópias executadas e log detalhado por tarefa.
-- baseline/ — controle com soluções de referência.
-- originais/ — respostas originais usadas.
-- evaluate.py — procedimento reproduzível. Defina CLASSEVAL_REPO para a pasta do repositório e execute com Python. As saídas são escritas na pasta do script.
+## Reprodução
 
-## Próxima etapa
-A análise de métricas estáticas não foi iniciada. Depende da autorização do usuário.
+Na raiz do repositório, execute
+
+    python Testes_Funcionais_ClassEval/evaluate.py
+
+O script usa a raiz atual por padrão. CLASSEVAL_REPO permite escolher outra cópia do repositório.
+Os arquivos de saída são gravados na pasta do script.
+resultados/gemini/preparados contém as recuperações explícitas de formatação usadas para as tarefas 5 e 71.
+Os logs suplementares em revisao_gemini pertencem à primeira verificação dessas cópias. As pastas gemini/ e results.json contêm a nova rodada completa.
+
+## Integração
+
+Consulte ../documentacao/ANALISE_INTEGRADA.md e os CSV/JSON associados.
+Esta revisão atualiza os resultados funcionais e estáticos. A finalização do texto acadêmico e a apresentação aguardam a autorização do autor.

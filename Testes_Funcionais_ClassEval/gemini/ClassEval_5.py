@@ -1,4 +1,11 @@
-import reclass AutomaticGuitarSimulator:def init(self, text) -> None:"""Initialize the score to be played:param text:str, score to be played"""self.play_text = text   def interpret(self, display=False):
+import re
+
+class AutomaticGuitarSimulator:
+    def init(self, text) -> None:
+        """Initialize the score to be played:param text:str, score to be played"""
+        self.play_text = text
+
+    def interpret(self, display=False):
         """
         Interpret the music score to be played
         :param display:Bool, representing whether to print the interpreted score

@@ -25,4 +25,8 @@ O comando de coleta compartilhado na conversa enviava model, prompt e stream=fal
 - Caso disponível, versão efetiva do Ollama durante a coleta, digest e parâmetros do modelo.
 - Histórico de retomadas. erros.log registra dois timeouts em ClassEval_65, e os arquivos finais dessa tarefa estão presentes.
 
-A ausência dessas informações foi registrada sem estimar versões. Os relatórios anteriores mantêm os números do snapshot original até a etapa de consolidação.
+A ausência dessas informações foi registrada sem estimar versões. A revisão 2 incorpora os resultados reexecutados e mantém as informações desconhecidas explicitamente identificadas.
+
+## Confirmação adicional
+
+O autor confirmou que a resposta original de ClassEval_5 do Gemini contém def init(self, text), conforme o TXT versionado. As cópias executáveis preservam esse nome.

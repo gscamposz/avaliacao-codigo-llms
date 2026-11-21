@@ -76,13 +76,13 @@ gemini,ClassEval_4,AssessmentSystem,False,restored class indentation and header 
 gemini,ClassEval_50,JSONProcessor,False,removed Markdown fence lines; restored class indentation and header line breaks,84f4fb8c65327e0c78de47aba378b1f62b8bea2615e8407528b428a97e8dd516,True,tested,16,1,0,15
 gemini,ClassEval_54,MahjongConnect,False,removed Markdown fence lines; restored class indentation and header line breaks,3deace9873e9540071fdefa3838c1f6cac66fddc91ebc0f36383bed060992ca0,True,tested,28,2,0,26
 gemini,ClassEval_58,MinesweeperGame,False,removed Markdown fence lines; restored class indentation and header line breaks,e5520a5b697cc284e8935326009bdf86fd15cd0f5ffdd8e11ee87782a7a28371,True,tested,22,0,0,22
-gemini,ClassEval_5,AutomaticGuitarSimulator,False,restored class indentation and header line breaks,65c7bf000151362ad4ed72a556b190afe51919d1905556bee38bfd95fa972027,False,load_error,0,0,0,0
+gemini,ClassEval_5,AutomaticGuitarSimulator,False,restored whitespace and removed fence lines; verified nonwhitespace equality,65c7bf000151362ad4ed72a556b190afe51919d1905556bee38bfd95fa972027,True,tested,15,0,15,0
 gemini,ClassEval_61,MusicPlayer,False,removed Markdown fence lines; restored class indentation and header line breaks,3cd8c355bf9ace76febd084441844e00a92cbb3e53a89d6410fb5daf3cf1d1a9,True,tested,42,5,0,37
 gemini,ClassEval_64,NumberConverter,False,removed Markdown fence lines; restored class indentation and header line breaks,fdc15abffa3086dc07414941468d2edf3beeb9824465f615818a236d83dbef0e,True,tested,31,0,0,31
 gemini,ClassEval_65,NumberWordFormatter,False,removed Markdown fence lines; restored class indentation and header line breaks,02e0b4b3e0e77a3ffdcd18e6df631fef7a6ce568ab250dec3790d5f9b479cccb,True,tested,28,2,1,25
 gemini,ClassEval_67,Order,False,removed Markdown fence lines; restored class indentation and header line breaks,8138084de92e17db8784d5d59340d576864c8ca030ae23e9cb4cf65169b114dd,True,tested,17,5,0,12
 gemini,ClassEval_68,PageUtil,False,removed Markdown fence lines; restored class indentation and header line breaks,e3d0a45e4fd05b4243f732e0ac0922932243f094379501427e46633ba26f6d38,True,tested,16,1,0,15
-gemini,ClassEval_71,PushBoxGame,False,removed Markdown fence lines; restored class indentation and header line breaks,dfbadda9f3f8cd1fac8c95c6d0e7f0e4347a4c32576d04246f3b5442e7d03e8d,False,load_error,0,0,0,0
+gemini,ClassEval_71,PushBoxGame,False,restored whitespace and removed fence lines; verified nonwhitespace equality,dfbadda9f3f8cd1fac8c95c6d0e7f0e4347a4c32576d04246f3b5442e7d03e8d,True,tested,16,0,0,16
 gemini,ClassEval_75,ShoppingCart,False,removed Markdown fence lines; restored class indentation and header line breaks,ad56e8d7f79b794778aac289fb81ab27e140e87e078223023e09cc3de22547d8,True,tested,23,1,0,22
 gemini,ClassEval_77,Snake,False,removed Markdown fence lines; restored class indentation and header line breaks,03b126663cb7cf151e81f2f19a43a3dd07a970780f95b8839742aefc58587ef4,True,tested,21,7,0,14
 gemini,ClassEval_7,BalancedBrackets,False,removed Markdown fence lines; restored class indentation and header line breaks,6ba1e0c082dbf62c5042d2db89762148ad80e784789bf8afd83b1963ded5d064,True,tested,15,0,0,15

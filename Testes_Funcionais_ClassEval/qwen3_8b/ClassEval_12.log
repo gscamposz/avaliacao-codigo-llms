@@ -144,6 +144,6 @@ Traceback (most recent call last):
 NameError: name 'BlackjackGame' is not defined
 
 ----------------------------------------------------------------------
-Ran 18 tests in 0.027s
+Ran 18 tests in 0.030s
 
 FAILED (errors=18)

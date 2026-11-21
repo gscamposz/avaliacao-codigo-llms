@@ -224,6 +224,6 @@ Traceback (most recent call last):
 NameError: name 'MahjongConnect' is not defined. Did you mean: 'MahjongConnectTest'?
 
 ----------------------------------------------------------------------
-Ran 28 tests in 0.023s
+Ran 28 tests in 0.024s
 
 FAILED (errors=28)

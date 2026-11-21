@@ -9,7 +9,6 @@ def normalize(text,model):
         if code!=text:notes.append('removed Markdown fence lines')
         # Split the joined class/docstring/method header, preserving all tokens.
         code=re.sub(r'(class \w+:)\s*("""[^\n]*?""")\s*(?=def )',r'\1\n\2\n',code)
-        if code!=text and 'Class Assessment' not in code:pass
         m=re.search(r'(?m)^(?:@staticmethod\s*\n)?def \w+\(',code)
         if m:
             head=code[:m.start()]
@@ -58,6 +57,13 @@ for model in ['baseline','chatgpt','gemini','qwen3_8b']:
         tid=re.match(r'ClassEval_\d+',file.name)[0];task=data[tid]
         text=task['solution_code'] if model=='baseline' else file.read_text(encoding='utf-8-sig')
         code,notes=normalize(text,model)
+        prepared = ROOT / 'resultados' / model / 'preparados' / (tid + '.py')
+        if model == 'gemini' and tid in {'ClassEval_5', 'ClassEval_71'} and prepared.exists():
+            code = prepared.read_text(encoding='utf-8')
+            unfenced = re.sub(r'^\s*```(?:python)?[ \t]*$', '', text, flags=re.M)
+            if re.sub(r'\s', '', unfenced) != re.sub(r'\s', '', code):
+                raise ValueError(f'A preparação alterou caracteres não brancos: {tid}')
+            notes = ['restored whitespace and removed fence lines; verified nonwhitespace equality']
         dest=OUT/model;dest.mkdir(exist_ok=True)
         (dest/(tid+'.py')).write_text(code)
         raw_valid=True
@@ -80,6 +86,13 @@ for model in ['baseline','chatgpt','gemini','qwen3_8b']:
         (dest/(tid+'.log')).write_text(result.pop('log'))
         row.update(result);rows.append(row)
     print(model,[(r['status'],r['task']) for r in rows if r['model']==model and r['status']!='tested'],flush=True)
+(OUT/'ambiente.json').write_text(json.dumps({
+    'snapshot_entradas': subprocess.check_output(['git', '-C', str(ROOT), 'rev-parse', 'HEAD'], text=True).strip(),
+    'python': sys.version,
+    'semente_random': 0,
+    'timeout_por_tarefa_segundos': 15,
+    'arquivo_testes_sha256': hashlib.sha256((ROOT/'ClassEval_data.json').read_bytes()).hexdigest(),
+}, indent=2))
 (OUT/'results.json').write_text(json.dumps(rows,indent=2,ensure_ascii=False))
 with (OUT/'results.csv').open('w') as f:
     w=csv.DictWriter(f,fieldnames=rows[0].keys());w.writeheader();w.writerows(rows)
