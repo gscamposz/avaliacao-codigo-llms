@@ -1,0 +1,99 @@
+To implement the `is_valid_move` and `has_path` methods for a board game, we need to ensure that the move satisfies the following conditions:
+
+1. **Position Validity**: Both positions must be within the bounds of the board.
+2. **Distinct Positions**: The two positions must not be the same.
+3. **Same Icon**: Both positions must have the same icon.
+4. **Connectivity**: There must be a path between the two positions through adjacent cells that also have the same icon.
+
+---
+
+### ✅ Implementation Details
+
+- **`is_valid_position(pos)`**:
+  Checks if a given position `(x, y)` is within the bounds of the board.
+
+- **`has_path(pos1, pos2)`**:
+  Uses **Breadth-First Search (BFS)** to determine if there is a path of the same icon connecting `pos1` and `pos2`.
+
+- **`is_valid_move(pos1, pos2)`**:
+  Combines the above checks to validate a move.
+
+---
+
+### ✅ Final Code
+
+```python
+import random
+
+class Board:
+    def __init__(self, size, icons):
+        self.BOARD_SIZE = size
+        self.ICONS = icons
+        self.board = self.create_board()
+
+    def create_board(self):
+        rows, cols = self.BOARD_SIZE
+        board = []
+        for r in range(rows):
+            row = []
+            for c in range(cols):
+                row.append(random.choice(self.ICONS))
+            board.append(row)
+        return board
+
+    def is_valid_position(self, pos):
+        x, y = pos
+        return 0 <= x < self.BOARD_SIZE[0] and 0 <= y < self.BOARD_SIZE[1]
+
+    def has_path(self, pos1, pos2):
+        if not self.is_valid_position(pos1) or not self.is_valid_position(pos2):
+            return False
+
+        # Ensure both positions have the same icon
+        icon = self.board[pos1[0]][pos1[1]]
+        if self.board[pos2[0]][pos2[1]] != icon:
+            return False
+
+        # BFS to check connectivity
+        visited = set()
+        queue = [pos1]
+        visited.add(pos1)
+
+        directions = [(-1, 0), (1, 0), (0, -1), (0, 1)]
+
+        while queue:
+            current = queue.pop(0)
+            if current == pos2:
+                return True
+
+            for dx, dy in directions:
+                x, y = current[0] + dx, current[1] + dy
+                if (x, y) not in visited and self.is_valid_position((x, y)) and self.board[x][y] == icon:
+                    visited.add((x, y))
+                    queue.append((x, y))
+
+        return False
+
+    def is_valid_move(self, pos1, pos2):
+        if not self.is_valid_position(pos1) or not self.is_valid_position(pos2):
+            return False
+
+        if pos1 == pos2:
+            return False
+
+        if self.board[pos1[0]][pos1[1]] != self.board[pos2[0]][pos2[1]]:
+            return False
+
+        return self.has_path(pos1, pos2)
+```
+
+---
+
+### 📌 Summary
+
+- **`create_board()`** generates a random board filled with the given icons.
+- **`is_valid_position()`** ensures the move is within the board.
+- **`has_path()`** uses BFS to determine if the two positions are connected through the same icon.
+- **`is_valid_move()`** combines all these checks to validate a move.
+
+This implementation ensures that the game logic is robust and adheres to the rules of connectivity and position validity.
