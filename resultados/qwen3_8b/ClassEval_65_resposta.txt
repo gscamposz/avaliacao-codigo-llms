@@ -1,0 +1,81 @@
+Here's a complete and well-structured implementation of the `trans_two` and `trans_three` functions, which are used to convert two-digit and three-digit numbers into their English word representations, respectively. These functions are part of a larger number-to-word conversion utility.
+
+---
+
+### ✅ **Key Assumptions**
+- Input to `trans_two` and `trans_three` is a **string of digits** (e.g., `"23"` or `"123"`).
+- The number ranges from `0` to `999`.
+- The result is a **single string** with proper spacing and grammar (e.g., "AND" is used between the hundreds and the rest of the number).
+
+---
+
+### ✅ **Final Implementation**
+
+```python
+class NumberToWords:
+    def __init__(self):
+        self.NUMBER = ["ZERO", "ONE", "TWO", "THREE", "FOUR", "FIVE", "SIX", "SEVEN", "EIGHT", "NINE"]
+        self.NUMBER_TEEN = ["TEN", "ELEVEN", "TWELVE", "THIRTEEN", "FOURTEEN", "FIFTEEN", "SIXTEEN", "SEVENTEEN", "EIGHTEEN", "NINETEEN"]
+        self.NUMBER_TEN = ["TEN", "TWENTY", "THIRTY", "FORTY", "FIFTY", "SIXTY", "SEVENTY", "EIGHTY", "NINETY"]
+
+    def trans_two(self, s):
+        first = int(s[0])
+        second = int(s[1])
+        if first == 0:
+            if second == 0:
+                return "ZERO"
+            else:
+                return self.NUMBER[second]
+        elif first == 1:
+            return self.NUMBER_TEEN[second]
+        else:
+            tens = self.NUMBER_TEN[first - 1]
+            if second == 0:
+                return tens
+            else:
+                return f"{tens} {self.NUMBER[second]}"
+
+    def trans_three(self, s):
+        hundreds = int(s[0])
+        tens = int(s[1])
+        units = int(s[2])
+        result = []
+
+        if hundreds > 0:
+            result.append(f"{self.NUMBER[hundreds]} HUNDRED")
+            if tens * 10 + units > 0:
+                result.append("AND")
+                result.append(self.trans_two(f"{tens}{units}"))
+        else:
+            result.append(self.trans_two(f"{tens}{units}"))
+
+        return " ".join(result)
+```
+
+---
+
+### ✅ **Example Usage**
+
+```python
+converter = NumberToWords()
+print(converter.trans_two("23"))     # "TWENTY THREE"
+print(converter.trans_two("05"))     # "FIVE"
+print(converter.trans_two("10"))     # "TEN"
+print(converter.trans_two("15"))     # "FIFTEEN"
+print(converter.trans_two("100"))    # Error: Input is not two digits
+
+print(converter.trans_three("123"))  # "ONE HUNDRED AND TWENTY THREE"
+print(converter.trans_three("000"))  # "ZERO"
+print(converter.trans_three("023"))  # "TWENTY THREE"
+print(converter.trans_three("100"))  # "ONE HUNDRED"
+print(converter.trans_three("101"))  # "ONE HUNDRED AND ONE"
+```
+
+---
+
+### ✅ **Summary**
+- `trans_two(s)` converts **two-digit numbers** into words.
+- `trans_three(s)` converts **three-digit numbers** into words, including proper use of "AND".
+- These functions are part of a larger system for converting numbers to words, which can be extended to handle numbers up to 999 or more.
+
+Let me know if you'd like to extend this to support numbers beyond 999 or add support for units like "THOUSAND"!

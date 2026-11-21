@@ -1,0 +1,114 @@
+To address the problem, we need to implement a method that returns a list of all employees in a structured format. Each employee entry should be represented as a dictionary with keys such as `'employee_ID'`, `'name'`, `'position'`, `'department'`, and `'salary'`.
+
+Here's a complete and well-documented implementation of the method, along with the necessary class structure:
+
+---
+
+### ✅ Final Implementation
+
+```python
+class EmployeeDB:
+    def __init__(self):
+        self.employees = {}
+
+    def add_employee(self, emp_id, name, position, department, salary):
+        """
+        Adds a new employee to the database.
+        """
+        self.employees[emp_id] = {
+            'name': name,
+            'position': position,
+            'department': department,
+            'salary': salary
+        }
+
+    def get_employee(self, emp_id):
+        """
+        Retrieves an employee's details by ID.
+        """
+        return self.employees.get(emp_id)
+
+    def list_employees(self):
+        """
+        Returns a dictionary of all employees in a structured format.
+        Each employee entry includes:
+        - 'employee_ID' (matching the original ID)
+        - 'name', 'position', 'department', and 'salary'
+        """
+        result = {}
+        for emp_id, emp_data in self.employees.items():
+            result[emp_id] = {
+                'employee_ID': emp_id,
+                'name': emp_data['name'],
+                'position': emp_data['position'],
+                'department': emp_data['department'],
+                'salary': emp_data['salary']
+            }
+        return result
+
+    def update_employee(self, emp_id, name, position, department, salary):
+        """
+        Updates an existing employee's details.
+        Returns True if the employee was found and updated, False otherwise.
+        """
+        if emp_id in self.employees:
+            self.employees[emp_id] = {
+                'name': name,
+                'position': position,
+                'department': department,
+                'salary': salary
+            }
+            return True
+        return False
+```
+
+---
+
+### 📌 Explanation of `list_employees` Method
+
+- **Purpose**: This method transforms the internal data structure (which uses the employee ID as the key and stores their details as a nested dictionary) into a more user-friendly format.
+- **Transformation**:
+  - For each employee in the internal dictionary, a new dictionary is created.
+  - The key `'employee_ID'` is added to this new dictionary, and its value is the original employee ID.
+  - Other fields like `'name'`, `'position'`, etc., are preserved from the original data.
+- **Output**: A dictionary where each key is the employee ID, and the corresponding value is a dictionary containing the structured employee data.
+
+---
+
+### 🧪 Example Usage
+
+```python
+db = EmployeeDB()
+db.add_employee(1, "Alice", "Manager", "HR", 75000)
+db.add_employee(2, "Bob", "Developer", "IT", 85000)
+
+print(db.list_employees())
+```
+
+**Output:**
+```python
+{
+    1: {
+        'employee_ID': 1,
+        'name': 'Alice',
+        'position': 'Manager',
+        'department': 'HR',
+        'salary': 75000
+    },
+    2: {
+        'employee_ID': 2,
+        'name': 'Bob',
+        'position': 'Developer',
+        'department': 'IT',
+        'salary': 85000
+    }
+}
+```
+
+---
+
+### ✅ Summary
+
+- The `list_employees` method ensures that the data is returned in a clean, human-readable format.
+- It transforms the internal data structure by adding a key `'employee_ID'` and reorganizing the data.
+- This method is essential for reporting, exporting, or displaying employee data in a structured way.
