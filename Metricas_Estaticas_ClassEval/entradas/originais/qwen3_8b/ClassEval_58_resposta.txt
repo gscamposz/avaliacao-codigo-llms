@@ -1,0 +1,77 @@
+To complete the logic for the `check_won` method in a Minesweeper game, we need to ensure that the player has successfully revealed **all non-mine cells** and that **mines remain hidden** in the player's map.
+
+---
+
+### ✅ **Understanding the Winning Condition**
+
+The player wins when:
+
+- All **non-mine** cells in the `player_map` have been revealed (i.e., they are **not '-'**).
+- All **mine** cells in the `player_map` are still **hidden** (i.e., they are **'-'**).
+
+This ensures that the player has not triggered any mine and has revealed all safe cells.
+
+---
+
+### ✅ **Implementation of `check_won`**
+
+Given that:
+
+- `self.mine_sweeper_map` is the actual mine layout.
+- `self.player_map` is the player's current state of revealed cells.
+
+We can iterate through each cell and verify the conditions:
+
+```python
+def check_won(self):
+    for i in range(self.n):
+        for j in range(self.n):
+            if self.mine_sweeper_map[i][j] == 'X':
+                if self.player_map[i][j] != '-':
+                    return False
+            else:
+                if self.player_map[i][j] != self.mine_sweeper_map[i][j]:
+                    return False
+    return True
+```
+
+---
+
+### ✅ **Explanation of the Logic**
+
+- **For mine cells (`'X'`)**: The player must have not revealed them. So, if `self.player_map[i][j] != '-'`, the player has triggered a mine, and the game is not won.
+- **For non-mine cells**: The player must have revealed the exact number of adjacent mines. So, if `self.player_map[i][j] != self.mine_sweeper_map[i][j]`, the cell is not fully revealed, and the game is not won.
+
+If all cells meet these conditions, the method returns `True`, indicating the game is won.
+
+---
+
+### ✅ **Example Use Case**
+
+Suppose:
+
+```python
+self.mine_sweeper_map = [
+    ['X', 1, 2],
+    [3, 4, 5],
+    [6, 7, 8]
+]
+
+self.player_map = [
+    ['X', '-', '-'],
+    ['-', '-', '-'],
+    ['-', '-', '-']
+]
+```
+
+In this case, the player has revealed only the mine cell, and the rest are still hidden. So, `check_won` returns `False`.
+
+If all non-mine cells are revealed and all mine cells are hidden, `check_won` returns `True`.
+
+---
+
+### ✅ **Final Answer**
+
+$$
+\boxed{\text{check_won method implemented as above}}
+$$

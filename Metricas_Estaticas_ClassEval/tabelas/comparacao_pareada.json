@@ -1,0 +1,29 @@
+[
+  {
+    "modelo": "chatgpt",
+    "tarefas": 13,
+    "ids": "ClassEval_4;ClassEval_7;ClassEval_8;ClassEval_13;ClassEval_24;ClassEval_29;ClassEval_35;ClassEval_61;ClassEval_64;ClassEval_67;ClassEval_68;ClassEval_75;ClassEval_86",
+    "nom_media_por_classe": 5,
+    "npm_media_por_classe": 4.153846153846154,
+    "wmc_media_por_classe": 13.153846153846153,
+    "cc_media_das_medias_por_classe": 2.735164835164835
+  },
+  {
+    "modelo": "gemini",
+    "tarefas": 13,
+    "ids": "ClassEval_4;ClassEval_7;ClassEval_8;ClassEval_13;ClassEval_24;ClassEval_29;ClassEval_35;ClassEval_61;ClassEval_64;ClassEval_67;ClassEval_68;ClassEval_75;ClassEval_86",
+    "nom_media_por_classe": 5.076923076923077,
+    "npm_media_por_classe": 4.153846153846154,
+    "wmc_media_por_classe": 15.384615384615385,
+    "cc_media_das_medias_por_classe": 3.195848595848596
+  },
+  {
+    "modelo": "qwen3_8b",
+    "tarefas": 13,
+    "ids": "ClassEval_4;ClassEval_7;ClassEval_8;ClassEval_13;ClassEval_24;ClassEval_29;ClassEval_35;ClassEval_61;ClassEval_64;ClassEval_67;ClassEval_68;ClassEval_75;ClassEval_86",
+    "nom_media_por_classe": 5,
+    "npm_media_por_classe": 4.153846153846154,
+    "wmc_media_por_classe": 12.538461538461538,
+    "cc_media_das_medias_por_classe": 2.667948717948718
+  }
+]

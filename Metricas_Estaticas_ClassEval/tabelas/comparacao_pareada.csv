@@ -1,0 +1,4 @@
+modelo,tarefas,ids,nom_media_por_classe,npm_media_por_classe,wmc_media_por_classe,cc_media_das_medias_por_classe
+chatgpt,13,ClassEval_4;ClassEval_7;ClassEval_8;ClassEval_13;ClassEval_24;ClassEval_29;ClassEval_35;ClassEval_61;ClassEval_64;ClassEval_67;ClassEval_68;ClassEval_75;ClassEval_86,5,4.153846153846154,13.153846153846153,2.735164835164835
+gemini,13,ClassEval_4;ClassEval_7;ClassEval_8;ClassEval_13;ClassEval_24;ClassEval_29;ClassEval_35;ClassEval_61;ClassEval_64;ClassEval_67;ClassEval_68;ClassEval_75;ClassEval_86,5.076923076923077,4.153846153846154,15.384615384615385,3.195848595848596
+qwen3_8b,13,ClassEval_4;ClassEval_7;ClassEval_8;ClassEval_13;ClassEval_24;ClassEval_29;ClassEval_35;ClassEval_61;ClassEval_64;ClassEval_67;ClassEval_68;ClassEval_75;ClassEval_86,5,4.153846153846154,12.538461538461538,2.667948717948718

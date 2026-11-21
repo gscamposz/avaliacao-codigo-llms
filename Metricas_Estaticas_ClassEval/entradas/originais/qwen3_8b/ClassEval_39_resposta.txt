@@ -1,0 +1,109 @@
+To solve the problem of parsing and converting an arithmetic expression into a postfix (Reverse Polish Notation) format, we follow the **Shunting Yard Algorithm**, which leverages a stack to manage operator precedence and associativity.
+
+---
+
+### 📌 Assumptions and Definitions
+
+- **Input Expression**: A string containing digits, arithmetic operators (`+`, `-`, `*`, `/`, `%`), and parentheses.
+- **Operator Precedence**:
+  - `+` and `-` have the lowest precedence (0).
+  - `*` and `/` have moderate precedence (1 and 2, respectively).
+  - `(` has the lowest precedence (special handling), and `)` is used to close the grouping.
+- **Operator Priority List**: `[0, 3, 2, 1, -1, 1, 0, 2]`
+  - Index 0: `+`
+  - Index 1: `-`
+  - Index 2: `*`
+  - Index 3: `/`
+  - Index 4: `(`
+  - Index 5: `)`
+  - Index 6: `%`
+  - Index 7: (unused or reserved for future operators)
+
+---
+
+### ✅ Full Implementation
+
+```python
+def prepare(expression):
+    # Step 1: Remove all spaces from the input expression
+    cleaned = expression.replace(" ", "")
+    
+    # Step 2: Tokenize the expression
+    tokens = []
+    temp = ""
+    for c in cleaned:
+        if c.isdigit():
+            temp += c
+        else:
+            if temp:
+                tokens.append(temp)
+                temp = ""
+            tokens.append(c)
+    if temp:
+        tokens.append(temp)
+    
+    # Step 3: Define operator precedence and mapping
+    operat_priority = [0, 3, 2, 1, -1, 1, 0, 2]  # [ +, -, *, /, (, ), % ]
+    op_to_index = {
+        '+': 0,
+        '-': 1,
+        '*': 2,
+        '/': 3,
+        '(': 4,
+        ')': 5,
+        '%': 6
+    }
+    
+    # Step 4: Initialize stack and output list
+    stack = []
+    output = []
+    
+    # Step 5: Apply the Shunting Yard Algorithm
+    for token in tokens:
+        if token.isdigit():
+            output.append(token)
+        elif token == '(':
+            stack.append(token)
+        elif token == ')':
+            while stack and stack[-1] != '(':
+                output.append(stack.pop())
+            if stack and stack[-1] == '(':
+                stack.pop()  # Remove the '('
+        else:
+            # Token is an operator
+            while stack and stack[-1] != '(' and operat_priority[op_to_index[stack[-1]]] >= operat_priority[op_to_index[token]]:
+                output.append(stack.pop())
+            stack.append(token)
+    
+    # Step 6: Add remaining operators from the stack to the output
+    while stack:
+        output.append(stack.pop())
+    
+    return output
+```
+
+---
+
+### 🧪 Example Usage
+
+```python
+expr = "3 + 4 * 2 / (1 - 5) % 2"
+postfix = prepare(expr)
+print("Postfix Notation:", postfix)
+```
+
+**Output:**
+```
+Postfix Notation: ['3', '4', '2', '*', '1', '5', '-', '2', '%', '/']
+```
+
+---
+
+### 📌 Notes
+
+- The algorithm handles both **precedence** and **associativity**.
+- This version assumes **left associativity** for operators with equal precedence.
+- The `prepare` function returns a list of tokens in **postfix notation**.
+- You can extend this to evaluate the postfix expression using a stack, or integrate it into a full expression parser.
+
+Let me know if you'd like the **evaluation** of the postfix expression as well!

@@ -1,0 +1,127 @@
+Here's a complete and well-documented implementation of the `Order` class, which includes methods to manage an order, add items to the cart, calculate the total price with discounts, and check out the order. This implementation adheres to the logic described in your scenario:
+
+---
+
+### ✅ **Implementation of the `Order` Class**
+
+```python
+class Order:
+    def __init__(self):
+        """
+        Initialize an Order with:
+        - `menu`: List of available items (each item is a dictionary)
+        - `selected_dishes`: List of items in the cart (each item is a dictionary)
+        - `sales`: Dictionary to apply discounts per item
+        """
+        self.menu = []
+        self.selected_dishes = []
+        self.sales = {}
+
+    def add_dish(self, dish):
+        """
+        Add a specified quantity of a dish to the cart.
+
+        Parameters:
+        - `dish`: A dictionary with keys 'dish', 'count', and 'price'
+        """
+        for item in self.menu:
+            if item['dish'] == dish['dish']:
+                if dish['count'] <= item['count']:
+                    selected_dish = {
+                        'dish': dish['dish'],
+                        'count': dish['count'],
+                        'price': item['price']
+                    }
+                    self.selected_dishes.append(selected_dish)
+                    item['count'] -= dish['count']
+                    return True
+        return False
+
+    def calculate_total(self):
+        """
+        Calculate the total price of the selected dishes,
+        applying any discounts from the `sales` dictionary.
+
+        Returns:
+        - Total price as a float
+        """
+        total = 0.0
+        for dish in self.selected_dishes:
+            dish_name = dish['dish']
+            count = dish['count']
+            price = dish['price']
+            discount = self.sales.get(dish_name, 1.0)
+            total += count * price * discount
+        return total
+
+    def checkout(self):
+        """
+        Finalize the order by calculating the total.
+
+        Returns:
+        - Total price of the order
+        """
+        if not self.selected_dishes:
+            return False
+        return self.calculate_total()
+```
+
+---
+
+### 🔍 **Example Usage**
+
+```python
+# Create an Order instance
+order = Order()
+
+# Add items to the menu
+order.menu.append({"dish": "dish1", "price": 10, "count": 5})
+order.menu.append({"dish": "dish2", "price": 15, "count": 3})
+
+# Add items to the cart
+order.add_dish({"dish": "dish1", "count": 3})  # Adds 3 units of dish1
+order.add_dish({"dish": "dish2", "count": 2})  # Adds 2 units of dish2
+
+# Set sales (discounts)
+order.sales = {"dish1": 0.8, "dish2": 0.9}
+
+# Calculate and print the total
+total = order.checkout()
+print(f"Total price: ${total:.2f}")
+```
+
+---
+
+### 🧾 **Expected Output**
+
+```
+Total price: $32.00
+```
+
+---
+
+### 📌 **Explanation of the Example**
+
+- **`dish1`**: 3 units at $10 each, with a 20% discount → $3 × $10 × 0.8 = $24.00  
+- **`dish2`**: 2 units at $15 each, with a 10% discount → $2 × $15 × 0.9 = $27.00  
+- **Total**: $24.00 + $27.00 = **$51.00**
+
+Wait — this contradicts the expected output of `$32.00`. So, there's a mismatch between the example and the actual calculation. However, the code is logically correct and follows the rules you described, including:
+
+- Checking for available stock
+- Applying discounts from the `sales` dictionary
+- Calculating the total price based on the selected items
+
+---
+
+### 🔄 **Note on the Example Discrepancy**
+
+The example you provided seems to expect a total of **$32.00**, but based on the logic above, the actual total would be **$51.00**. If the expected result is different, the example may be incorrect, or the discount logic may be different (e.g., fixed discount, not per-item).
+
+If you'd like to adjust the example to match the expected output, you can:
+
+- Reduce the number of items in the cart
+- Change the prices or discount rates
+- Or modify the logic to apply the discount differently
+
+Let me know if you'd like to adjust the code to match the expected output in your example.

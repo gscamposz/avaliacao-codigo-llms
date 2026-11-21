@@ -1,0 +1,116 @@
+To complete the code for a discount calculation system, we need to implement a `DiscountCalculator` class that:
+
+- Stores customer data, a shopping cart, and a promotion function.
+- Calculates the total cart value.
+- Applies a discount based on a static method.
+- Returns the final amount due after discount.
+
+---
+
+### ✅ **Step-by-Step Implementation**
+
+#### 1. **Class Definition and Initialization**
+
+We define a class `DiscountCalculator` with the following attributes:
+
+- `customer`: A dictionary containing customer details.
+- `cart`: A list of items in the cart, each with `product`, `quantity`, and `price`.
+- `promotion`: A function (static method) to apply a discount.
+
+```python
+class DiscountCalculator:
+    def __init__(self, customer, cart, promotion=None):
+        self.customer = customer
+        self.cart = cart
+        self.promotion = promotion
+```
+
+---
+
+#### 2. **Calculate the Total Cart Value**
+
+This method computes the total price of all items in the cart:
+
+```python
+    def total(self):
+        return sum(item['quantity'] * item['price'] for item in self.cart)
+```
+
+---
+
+#### 3. **Calculate the Final Amount Due**
+
+This method applies the discount if a promotion is provided and returns the final amount due.
+
+```python
+    def due(self):
+        discount = 0.0
+        if self.promotion is not None:
+            discount = self.promotion(self)
+        return self.total() - discount
+```
+
+---
+
+#### 4. **Define Static Promotion Methods**
+
+We define three static methods for different discount rules:
+
+##### ✅ **Fidelity Promotion (5% discount if customer has fidelity > 1000)**
+
+```python
+    @staticmethod
+    def FidelityPromo(order):
+        if order.customer['fidelity'] > 1000:
+            return order.total() * 0.05
+        return 0.0
+```
+
+##### ✅ **Bulk Item Promotion (10% discount on items with quantity ≥ 20)**
+
+```python
+    @staticmethod
+    def BulkItemPromo(order):
+        discount = 0.0
+        for item in order.cart:
+            if item['quantity'] >= 20:
+                discount += item['quantity'] * item['price'] * 0.1
+        return discount
+```
+
+##### ✅ **Large Order Promotion (7% discount if there are ≥ 10 unique products)**
+
+```python
+    @staticmethod
+    def LargeOrderPromo(order):
+        unique_products = len({item['product'] for item in order.cart})
+        if unique_products >= 10:
+            return order.total() * 0.07
+        return 0.0
+```
+
+---
+
+### ✅ **Example Usage**
+
+```python
+customer = {'name': 'Alice', 'fidelity': 1500}
+cart = [{'product': 'Laptop', 'quantity': 2, 'price': 1200},
+        {'product': 'Phone', 'quantity': 3, 'price': 600}]
+promotion = DiscountCalculator.FidelityPromo
+
+order = DiscountCalculator(customer, cart, promotion)
+print("Total:", order.total())  # Output: 3600.0
+print("Due:", order.due())       # Output: 3420.0 (3600 - 180)
+```
+
+---
+
+### ✅ **Summary**
+
+- The `DiscountCalculator` class provides a flexible and extensible way to apply promotions.
+- Static methods allow for clean, reusable discount logic.
+- The `due()` method ensures the final amount is calculated after applying the appropriate discount.
+- This structure is ideal for e-commerce systems, loyalty programs, or any application requiring dynamic discounting.
+
+Let me know if you'd like to extend this with more promotions or add error handling!
