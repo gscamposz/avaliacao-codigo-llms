@@ -1,0 +1,45 @@
+test_generate_mine_sweeper_map (candidate_module.MinesweeperGameTestGenerateMineSweeperMap.test_generate_mine_sweeper_map) ... ok
+test_generate_mine_sweeper_map_2 (candidate_module.MinesweeperGameTestGenerateMineSweeperMap.test_generate_mine_sweeper_map_2) ... ok
+test_generate_mine_sweeper_map_3 (candidate_module.MinesweeperGameTestGenerateMineSweeperMap.test_generate_mine_sweeper_map_3) ... ok
+test_generate_mine_sweeper_map_4 (candidate_module.MinesweeperGameTestGenerateMineSweeperMap.test_generate_mine_sweeper_map_4) ... ok
+test_generate_mine_sweeper_map_5 (candidate_module.MinesweeperGameTestGenerateMineSweeperMap.test_generate_mine_sweeper_map_5) ... ok
+test_generate_playerMap (candidate_module.MinesweeperGameTestGeneratePlayerMap.test_generate_playerMap) ... ok
+test_generate_playerMap_2 (candidate_module.MinesweeperGameTestGeneratePlayerMap.test_generate_playerMap_2) ... ok
+test_generate_playerMap_3 (candidate_module.MinesweeperGameTestGeneratePlayerMap.test_generate_playerMap_3) ... ok
+test_generate_playerMap_4 (candidate_module.MinesweeperGameTestGeneratePlayerMap.test_generate_playerMap_4) ... ERROR
+test_generate_playerMap_5 (candidate_module.MinesweeperGameTestGeneratePlayerMap.test_generate_playerMap_5) ... ERROR
+test_check_won (candidate_module.MinesweeperGameTestCheckWon.test_check_won) ... ok
+test_check_won_2 (candidate_module.MinesweeperGameTestCheckWon.test_check_won_2) ... ok
+test_check_won_3 (candidate_module.MinesweeperGameTestCheckWon.test_check_won_3) ... ok
+test_check_won_4 (candidate_module.MinesweeperGameTestCheckWon.test_check_won_4) ... ok
+test_check_won_5 (candidate_module.MinesweeperGameTestCheckWon.test_check_won_5) ... ok
+test_sweep (candidate_module.MinesweeperGameTestSweep.test_sweep) ... ok
+test_sweep_2 (candidate_module.MinesweeperGameTestSweep.test_sweep_2) ... ok
+test_sweep_3 (candidate_module.MinesweeperGameTestSweep.test_sweep_3) ... ok
+test_sweep_4 (candidate_module.MinesweeperGameTestSweep.test_sweep_4) ... ok
+test_sweep_5 (candidate_module.MinesweeperGameTestSweep.test_sweep_5) ... ok
+test_minesweeper_main (candidate_module.MinesweeperGameTestMain.test_minesweeper_main) ... ok
+test_minesweeper_main_2 (candidate_module.MinesweeperGameTestMain.test_minesweeper_main_2) ... ok
+
+======================================================================
+ERROR: test_generate_playerMap_4 (candidate_module.MinesweeperGameTestGeneratePlayerMap.test_generate_playerMap_4)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "official_tests.py", line 73, in test_generate_playerMap_4
+  File "candidate.py", line 20, in __init__
+  File "candidate.py", line 35, in generate_mine_sweeper_map
+ValueError: Invalid number of mines
+
+======================================================================
+ERROR: test_generate_playerMap_5 (candidate_module.MinesweeperGameTestGeneratePlayerMap.test_generate_playerMap_5)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "official_tests.py", line 77, in test_generate_playerMap_5
+  File "candidate.py", line 20, in __init__
+  File "candidate.py", line 35, in generate_mine_sweeper_map
+ValueError: Invalid number of mines
+
+----------------------------------------------------------------------
+Ran 22 tests in 0.001s
+
+FAILED (errors=2)

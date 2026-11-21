@@ -1,0 +1,229 @@
+test_create_board_1 (candidate_module.MahjongConnectTestCreateBoard.test_create_board_1) ... ERROR
+test_create_board_2 (candidate_module.MahjongConnectTestCreateBoard.test_create_board_2) ... ERROR
+test_create_board_3 (candidate_module.MahjongConnectTestCreateBoard.test_create_board_3) ... ERROR
+test_create_board_4 (candidate_module.MahjongConnectTestCreateBoard.test_create_board_4) ... ERROR
+test_create_board_5 (candidate_module.MahjongConnectTestCreateBoard.test_create_board_5) ... ERROR
+test_is_valid_move_1 (candidate_module.MahjongConnectTestIsValidMove.test_is_valid_move_1) ... ERROR
+test_is_valid_move_2 (candidate_module.MahjongConnectTestIsValidMove.test_is_valid_move_2) ... ERROR
+test_is_valid_move_3 (candidate_module.MahjongConnectTestIsValidMove.test_is_valid_move_3) ... ERROR
+test_is_valid_move_4 (candidate_module.MahjongConnectTestIsValidMove.test_is_valid_move_4) ... ERROR
+test_is_valid_move_5 (candidate_module.MahjongConnectTestIsValidMove.test_is_valid_move_5) ... ERROR
+test_is_valid_move_6 (candidate_module.MahjongConnectTestIsValidMove.test_is_valid_move_6) ... ERROR
+test_has_path_1 (candidate_module.MahjongConnectTestHasPath.test_has_path_1) ... ERROR
+test_has_path_2 (candidate_module.MahjongConnectTestHasPath.test_has_path_2) ... ERROR
+test_has_path_3 (candidate_module.MahjongConnectTestHasPath.test_has_path_3) ... ERROR
+test_has_path_4 (candidate_module.MahjongConnectTestHasPath.test_has_path_4) ... ERROR
+test_has_path_5 (candidate_module.MahjongConnectTestHasPath.test_has_path_5) ... ERROR
+test_has_path_6 (candidate_module.MahjongConnectTestHasPath.test_has_path_6) ... ERROR
+test_remove_icons_1 (candidate_module.MahjongConnectTestRemoveIcons.test_remove_icons_1) ... ERROR
+test_remove_icons_2 (candidate_module.MahjongConnectTestRemoveIcons.test_remove_icons_2) ... ERROR
+test_remove_icons_3 (candidate_module.MahjongConnectTestRemoveIcons.test_remove_icons_3) ... ERROR
+test_remove_icons_4 (candidate_module.MahjongConnectTestRemoveIcons.test_remove_icons_4) ... ERROR
+test_remove_icons_5 (candidate_module.MahjongConnectTestRemoveIcons.test_remove_icons_5) ... ERROR
+test_is_game_over_1 (candidate_module.MahjongConnectTestIsGameOver.test_is_game_over_1) ... ERROR
+test_is_game_over_2 (candidate_module.MahjongConnectTestIsGameOver.test_is_game_over_2) ... ERROR
+test_is_game_over_3 (candidate_module.MahjongConnectTestIsGameOver.test_is_game_over_3) ... ERROR
+test_is_game_over_4 (candidate_module.MahjongConnectTestIsGameOver.test_is_game_over_4) ... ERROR
+test_is_game_over_5 (candidate_module.MahjongConnectTestIsGameOver.test_is_game_over_5) ... ERROR
+test_mahjongconnect (candidate_module.MahjongConnectTest.test_mahjongconnect) ... ERROR
+
+======================================================================
+ERROR: test_create_board_1 (candidate_module.MahjongConnectTestCreateBoard.test_create_board_1)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "official_tests.py", line 6, in test_create_board_1
+NameError: name 'MahjongConnect' is not defined. Did you mean: 'MahjongConnectTest'?
+
+======================================================================
+ERROR: test_create_board_2 (candidate_module.MahjongConnectTestCreateBoard.test_create_board_2)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "official_tests.py", line 14, in test_create_board_2
+NameError: name 'MahjongConnect' is not defined. Did you mean: 'MahjongConnectTest'?
+
+======================================================================
+ERROR: test_create_board_3 (candidate_module.MahjongConnectTestCreateBoard.test_create_board_3)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "official_tests.py", line 22, in test_create_board_3
+NameError: name 'MahjongConnect' is not defined. Did you mean: 'MahjongConnectTest'?
+
+======================================================================
+ERROR: test_create_board_4 (candidate_module.MahjongConnectTestCreateBoard.test_create_board_4)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "official_tests.py", line 30, in test_create_board_4
+NameError: name 'MahjongConnect' is not defined. Did you mean: 'MahjongConnectTest'?
+
+======================================================================
+ERROR: test_create_board_5 (candidate_module.MahjongConnectTestCreateBoard.test_create_board_5)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "official_tests.py", line 38, in test_create_board_5
+NameError: name 'MahjongConnect' is not defined. Did you mean: 'MahjongConnectTest'?
+
+======================================================================
+ERROR: test_is_valid_move_1 (candidate_module.MahjongConnectTestIsValidMove.test_is_valid_move_1)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "official_tests.py", line 48, in test_is_valid_move_1
+NameError: name 'MahjongConnect' is not defined. Did you mean: 'MahjongConnectTest'?
+
+======================================================================
+ERROR: test_is_valid_move_2 (candidate_module.MahjongConnectTestIsValidMove.test_is_valid_move_2)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "official_tests.py", line 57, in test_is_valid_move_2
+NameError: name 'MahjongConnect' is not defined. Did you mean: 'MahjongConnectTest'?
+
+======================================================================
+ERROR: test_is_valid_move_3 (candidate_module.MahjongConnectTestIsValidMove.test_is_valid_move_3)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "official_tests.py", line 66, in test_is_valid_move_3
+NameError: name 'MahjongConnect' is not defined. Did you mean: 'MahjongConnectTest'?
+
+======================================================================
+ERROR: test_is_valid_move_4 (candidate_module.MahjongConnectTestIsValidMove.test_is_valid_move_4)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "official_tests.py", line 75, in test_is_valid_move_4
+NameError: name 'MahjongConnect' is not defined. Did you mean: 'MahjongConnectTest'?
+
+======================================================================
+ERROR: test_is_valid_move_5 (candidate_module.MahjongConnectTestIsValidMove.test_is_valid_move_5)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "official_tests.py", line 84, in test_is_valid_move_5
+NameError: name 'MahjongConnect' is not defined. Did you mean: 'MahjongConnectTest'?
+
+======================================================================
+ERROR: test_is_valid_move_6 (candidate_module.MahjongConnectTestIsValidMove.test_is_valid_move_6)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "official_tests.py", line 93, in test_is_valid_move_6
+NameError: name 'MahjongConnect' is not defined. Did you mean: 'MahjongConnectTest'?
+
+======================================================================
+ERROR: test_has_path_1 (candidate_module.MahjongConnectTestHasPath.test_has_path_1)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "official_tests.py", line 104, in test_has_path_1
+NameError: name 'MahjongConnect' is not defined. Did you mean: 'MahjongConnectTest'?
+
+======================================================================
+ERROR: test_has_path_2 (candidate_module.MahjongConnectTestHasPath.test_has_path_2)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "official_tests.py", line 113, in test_has_path_2
+NameError: name 'MahjongConnect' is not defined. Did you mean: 'MahjongConnectTest'?
+
+======================================================================
+ERROR: test_has_path_3 (candidate_module.MahjongConnectTestHasPath.test_has_path_3)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "official_tests.py", line 122, in test_has_path_3
+NameError: name 'MahjongConnect' is not defined. Did you mean: 'MahjongConnectTest'?
+
+======================================================================
+ERROR: test_has_path_4 (candidate_module.MahjongConnectTestHasPath.test_has_path_4)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "official_tests.py", line 131, in test_has_path_4
+NameError: name 'MahjongConnect' is not defined. Did you mean: 'MahjongConnectTest'?
+
+======================================================================
+ERROR: test_has_path_5 (candidate_module.MahjongConnectTestHasPath.test_has_path_5)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "official_tests.py", line 140, in test_has_path_5
+NameError: name 'MahjongConnect' is not defined. Did you mean: 'MahjongConnectTest'?
+
+======================================================================
+ERROR: test_has_path_6 (candidate_module.MahjongConnectTestHasPath.test_has_path_6)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "official_tests.py", line 149, in test_has_path_6
+NameError: name 'MahjongConnect' is not defined. Did you mean: 'MahjongConnectTest'?
+
+======================================================================
+ERROR: test_remove_icons_1 (candidate_module.MahjongConnectTestRemoveIcons.test_remove_icons_1)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "official_tests.py", line 160, in test_remove_icons_1
+NameError: name 'MahjongConnect' is not defined. Did you mean: 'MahjongConnectTest'?
+
+======================================================================
+ERROR: test_remove_icons_2 (candidate_module.MahjongConnectTestRemoveIcons.test_remove_icons_2)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "official_tests.py", line 172, in test_remove_icons_2
+NameError: name 'MahjongConnect' is not defined. Did you mean: 'MahjongConnectTest'?
+
+======================================================================
+ERROR: test_remove_icons_3 (candidate_module.MahjongConnectTestRemoveIcons.test_remove_icons_3)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "official_tests.py", line 184, in test_remove_icons_3
+NameError: name 'MahjongConnect' is not defined. Did you mean: 'MahjongConnectTest'?
+
+======================================================================
+ERROR: test_remove_icons_4 (candidate_module.MahjongConnectTestRemoveIcons.test_remove_icons_4)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "official_tests.py", line 196, in test_remove_icons_4
+NameError: name 'MahjongConnect' is not defined. Did you mean: 'MahjongConnectTest'?
+
+======================================================================
+ERROR: test_remove_icons_5 (candidate_module.MahjongConnectTestRemoveIcons.test_remove_icons_5)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "official_tests.py", line 208, in test_remove_icons_5
+NameError: name 'MahjongConnect' is not defined. Did you mean: 'MahjongConnectTest'?
+
+======================================================================
+ERROR: test_is_game_over_1 (candidate_module.MahjongConnectTestIsGameOver.test_is_game_over_1)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "official_tests.py", line 222, in test_is_game_over_1
+NameError: name 'MahjongConnect' is not defined. Did you mean: 'MahjongConnectTest'?
+
+======================================================================
+ERROR: test_is_game_over_2 (candidate_module.MahjongConnectTestIsGameOver.test_is_game_over_2)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "official_tests.py", line 231, in test_is_game_over_2
+NameError: name 'MahjongConnect' is not defined. Did you mean: 'MahjongConnectTest'?
+
+======================================================================
+ERROR: test_is_game_over_3 (candidate_module.MahjongConnectTestIsGameOver.test_is_game_over_3)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "official_tests.py", line 240, in test_is_game_over_3
+NameError: name 'MahjongConnect' is not defined. Did you mean: 'MahjongConnectTest'?
+
+======================================================================
+ERROR: test_is_game_over_4 (candidate_module.MahjongConnectTestIsGameOver.test_is_game_over_4)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "official_tests.py", line 249, in test_is_game_over_4
+NameError: name 'MahjongConnect' is not defined. Did you mean: 'MahjongConnectTest'?
+
+======================================================================
+ERROR: test_is_game_over_5 (candidate_module.MahjongConnectTestIsGameOver.test_is_game_over_5)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "official_tests.py", line 258, in test_is_game_over_5
+NameError: name 'MahjongConnect' is not defined. Did you mean: 'MahjongConnectTest'?
+
+======================================================================
+ERROR: test_mahjongconnect (candidate_module.MahjongConnectTest.test_mahjongconnect)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "official_tests.py", line 269, in test_mahjongconnect
+NameError: name 'MahjongConnect' is not defined. Did you mean: 'MahjongConnectTest'?
+
+----------------------------------------------------------------------
+Ran 28 tests in 0.023s
+
+FAILED (errors=28)

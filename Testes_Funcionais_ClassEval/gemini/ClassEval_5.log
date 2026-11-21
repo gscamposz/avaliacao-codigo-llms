@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "/workspace/scratch/fed29b4943eb/functional_review/evaluate.py", line 38, in worker
+    exec(compile(d['code'],'candidate.py','exec'),module)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "candidate.py", line 1
+    import reclass AutomaticGuitarSimulator:def init(self, text) -> None:"""Initialize the score to be played:param text:str, score to be played"""self.play_text = text   def interpret(self, display=False):
+                   ^^^^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax

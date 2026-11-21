@@ -1,0 +1,114 @@
+from datetime import datetime, timedelta
+
+class EventScheduler:
+    def __init__(self):
+        self.events = []
+
+    def add_event(self, start_time, end_time, date):
+        """
+        Add a new event to the scheduler.
+        :param start_time: datetime object indicating the start time of the event.
+        :param end_time: datetime object indicating the end time of the event.
+        :param date: datetime object indicating the date of the event.
+        """
+        if start_time >= end_time:
+            raise ValueError("Start time must be earlier than end time.")
+        if start_time.date() != date.date():
+            raise ValueError("Start time and date must match.")
+        if end_time.date() != date.date():
+            raise ValueError("End time and date must match.")
+        
+        event = {
+            'start_time': start_time,
+            'end_time': end_time,
+            'date': date
+        }
+        self.events.append(event)
+
+    def get_available_slots(self, date):
+        """
+        Get all available time slots on a given date.
+        :param date: datetime object representing the date to check.
+        :return: List of (start, end) tuples representing available time slots.
+        """
+        # Filter events on the given date
+        events = [event for event in self.events if event['date'].date() == date.date()]
+        events.sort(key=lambda x: x['start_time'])
+
+        available_slots = []
+
+        if not events:
+            # If no events, the entire date is available
+            start = date.replace(hour=0, minute=0, second=0, microsecond=0)
+            end = date.replace(hour=23, minute=59, second=59, microsecond=999999)
+            available_slots.append((start, end))
+            return available_slots
+
+        # Before the first event
+        first_event = events[0]
+        start = date.replace(hour=0, minute=0, second=0, microsecond=0)
+        end = first_event['start_time']
+        if start < end:
+            available_slots.append((start, end))
+
+        # Between events
+        for i in range(1, len(events)):
+            prev = events[i - 1]
+            curr = events[i]
+            start = prev['end_time']
+            end = curr['start_time']
+            if start < end:
+                available_slots.append((start, end))
+
+        # After the last event
+        last_event = events[-1]
+        start = last_event['end_time']
+        end = date.replace(hour=23, minute=59, second=59, microsecond=999999)
+        if start < end:
+            available_slots.append((start, end))
+
+        return available_slots
+
+    def is_time_available(self, time, date):
+        """
+        Check if a specific time is available on a given date.
+        :param time: datetime object representing the time to check.
+        :param date: datetime object representing the date to check.
+        :return: True if the time is available, False otherwise.
+        """
+        # Ensure the time is within the date
+        if time.date() != date.date():
+            return False
+
+        # Check if the time is occupied by any event
+        for event in self.events:
+            if event['date'].date() == date.date() and event['start_time'] <= time <= event['end_time']:
+                return False
+
+        return True
+
+
+scheduler = EventScheduler()
+
+# Add some events
+scheduler.add_event(
+    start_time=datetime(2025, 4, 1, 9, 0),
+    end_time=datetime(2025, 4, 1, 10, 0),
+    date=datetime(2025, 4, 1)
+)
+
+scheduler.add_event(
+    start_time=datetime(2025, 4, 1, 11, 0),
+    end_time=datetime(2025, 4, 1, 12, 0),
+    date=datetime(2025, 4, 1)
+)
+
+# Get available slots
+slots = scheduler.get_available_slots(datetime(2025, 4, 1))
+print("Available slots:", slots)
+
+# Check if a specific time is available
+print("Is 10:30 available?", scheduler.is_time_available(
+    datetime(2025, 4, 1, 10, 30),
+    datetime(2025, 4, 1)
+))

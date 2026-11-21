@@ -1,0 +1,21 @@
+test_get_page_1 (candidate_module.PageUtilTestGetPage.test_get_page_1) ... ok
+test_get_page_2 (candidate_module.PageUtilTestGetPage.test_get_page_2) ... ok
+test_get_page_3 (candidate_module.PageUtilTestGetPage.test_get_page_3) ... ok
+test_get_page_4 (candidate_module.PageUtilTestGetPage.test_get_page_4) ... ok
+test_get_page_5 (candidate_module.PageUtilTestGetPage.test_get_page_5) ... ok
+test_get_page_info_1 (candidate_module.PageUtilTestGetPageInfo.test_get_page_info_1) ... ok
+test_get_page_info_2 (candidate_module.PageUtilTestGetPageInfo.test_get_page_info_2) ... ok
+test_get_page_info_3 (candidate_module.PageUtilTestGetPageInfo.test_get_page_info_3) ... ok
+test_get_page_info_4 (candidate_module.PageUtilTestGetPageInfo.test_get_page_info_4) ... ok
+test_get_page_info_5 (candidate_module.PageUtilTestGetPageInfo.test_get_page_info_5) ... ok
+test_search_1 (candidate_module.PageUtilTestSearch.test_search_1) ... ok
+test_search_2 (candidate_module.PageUtilTestSearch.test_search_2) ... ok
+test_search_3 (candidate_module.PageUtilTestSearch.test_search_3) ... ok
+test_search_4 (candidate_module.PageUtilTestSearch.test_search_4) ... ok
+test_search_5 (candidate_module.PageUtilTestSearch.test_search_5) ... ok
+test_pageutil (candidate_module.PageUtilTest.test_pageutil) ... ok
+
+----------------------------------------------------------------------
+Ran 16 tests in 0.000s
+
+OK

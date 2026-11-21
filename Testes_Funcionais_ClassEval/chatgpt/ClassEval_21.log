@@ -1,0 +1,29 @@
+test_add_course_1 (candidate_module.ClassroomTestAddCourse.test_add_course_1) ... ok
+test_add_course_2 (candidate_module.ClassroomTestAddCourse.test_add_course_2) ... ok
+test_add_course_3 (candidate_module.ClassroomTestAddCourse.test_add_course_3) ... ok
+test_add_course_4 (candidate_module.ClassroomTestAddCourse.test_add_course_4) ... ok
+test_add_course_5 (candidate_module.ClassroomTestAddCourse.test_add_course_5) ... ok
+test_add_course_6 (candidate_module.ClassroomTestAddCourse.test_add_course_6) ... ok
+test_remove_course_1 (candidate_module.ClassroomTestRemoveCourse.test_remove_course_1) ... ok
+test_remove_course_2 (candidate_module.ClassroomTestRemoveCourse.test_remove_course_2) ... ok
+test_remove_course_3 (candidate_module.ClassroomTestRemoveCourse.test_remove_course_3) ... ok
+test_remove_course_4 (candidate_module.ClassroomTestRemoveCourse.test_remove_course_4) ... ok
+test_remove_course_5 (candidate_module.ClassroomTestRemoveCourse.test_remove_course_5) ... ok
+test_remove_course_6 (candidate_module.ClassroomTestRemoveCourse.test_remove_course_6) ... ok
+test_is_free_at_1 (candidate_module.ClassroomTestIsFreeAt.test_is_free_at_1) ... ok
+test_is_free_at_2 (candidate_module.ClassroomTestIsFreeAt.test_is_free_at_2) ... ok
+test_is_free_at_3 (candidate_module.ClassroomTestIsFreeAt.test_is_free_at_3) ... ok
+test_is_free_at_4 (candidate_module.ClassroomTestIsFreeAt.test_is_free_at_4) ... ok
+test_is_free_at_5 (candidate_module.ClassroomTestIsFreeAt.test_is_free_at_5) ... ok
+test_check_course_conflict_1 (candidate_module.ClassroomTestCheckCourseConflict.test_check_course_conflict_1) ... ok
+test_check_course_conflict_2 (candidate_module.ClassroomTestCheckCourseConflict.test_check_course_conflict_2) ... ok
+test_check_course_conflict_3 (candidate_module.ClassroomTestCheckCourseConflict.test_check_course_conflict_3) ... ok
+test_check_course_conflict_4 (candidate_module.ClassroomTestCheckCourseConflict.test_check_course_conflict_4) ... ok
+test_check_course_conflict_5 (candidate_module.ClassroomTestCheckCourseConflict.test_check_course_conflict_5) ... ok
+test_check_course_conflict_6 (candidate_module.ClassroomTestCheckCourseConflict.test_check_course_conflict_6) ... ok
+test_main (candidate_module.ClassroomTestMain.test_main) ... ok
+
+----------------------------------------------------------------------
+Ran 24 tests in 0.002s
+
+OK

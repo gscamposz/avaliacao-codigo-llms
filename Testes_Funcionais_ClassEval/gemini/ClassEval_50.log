@@ -1,0 +1,28 @@
+test_read_json_1 (candidate_module.JSONProcessorTestReadJson.test_read_json_1) ... ok
+test_read_json_2 (candidate_module.JSONProcessorTestReadJson.test_read_json_2) ... ok
+test_read_json_3 (candidate_module.JSONProcessorTestReadJson.test_read_json_3) ... ok
+test_read_json_4 (candidate_module.JSONProcessorTestReadJson.test_read_json_4) ... ok
+test_read_json_5 (candidate_module.JSONProcessorTestReadJson.test_read_json_5) ... ok
+test_write_json_1 (candidate_module.JSONProcessorTestWriteJson.test_write_json_1) ... ok
+test_write_json_2 (candidate_module.JSONProcessorTestWriteJson.test_write_json_2) ... ok
+test_write_json_3 (candidate_module.JSONProcessorTestWriteJson.test_write_json_3) ... ok
+test_write_json_4 (candidate_module.JSONProcessorTestWriteJson.test_write_json_4) ... ok
+test_write_json_5 (candidate_module.JSONProcessorTestWriteJson.test_write_json_5) ... ok
+test_process_json_1 (candidate_module.JSONProcessorTestProcessJsonExistingKey.test_process_json_1) ... ok
+test_process_json_2 (candidate_module.JSONProcessorTestProcessJsonExistingKey.test_process_json_2) ... ok
+test_process_json_3 (candidate_module.JSONProcessorTestProcessJsonExistingKey.test_process_json_3) ... FAIL
+test_process_json_4 (candidate_module.JSONProcessorTestProcessJsonExistingKey.test_process_json_4) ... ok
+test_process_json_5 (candidate_module.JSONProcessorTestProcessJsonExistingKey.test_process_json_5) ... ok
+test_main (candidate_module.JSONProcessorTestMain.test_main) ... ok
+
+======================================================================
+FAIL: test_process_json_3 (candidate_module.JSONProcessorTestProcessJsonExistingKey.test_process_json_3)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "official_tests.py", line 145, in test_process_json_3
+AssertionError: -1 != 0
+
+----------------------------------------------------------------------
+Ran 16 tests in 0.001s
+
+FAILED (failures=1)

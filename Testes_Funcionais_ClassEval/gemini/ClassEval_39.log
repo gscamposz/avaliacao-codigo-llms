@@ -1,0 +1,101 @@
+test_calculate_1 (candidate_module.ExpressionCalculatorTestCalculate.test_calculate_1) ... ok
+test_calculate_2 (candidate_module.ExpressionCalculatorTestCalculate.test_calculate_2) ... ok
+test_calculate_3 (candidate_module.ExpressionCalculatorTestCalculate.test_calculate_3) ... ok
+test_calculate_4 (candidate_module.ExpressionCalculatorTestCalculate.test_calculate_4) ... ok
+test_calculate_5 (candidate_module.ExpressionCalculatorTestCalculate.test_calculate_5) ... ok
+test_prepare_1 (candidate_module.ExpressionCalculatorTestPrepare.test_prepare_1) ... ok
+test_prepare_2 (candidate_module.ExpressionCalculatorTestPrepare.test_prepare_2) ... ok
+test_prepare_3 (candidate_module.ExpressionCalculatorTestPrepare.test_prepare_3) ... ok
+test_prepare_4 (candidate_module.ExpressionCalculatorTestPrepare.test_prepare_4) ... ok
+test_prepare_5 (candidate_module.ExpressionCalculatorTestPrepare.test_prepare_5) ... ok
+test_prepare_6 (candidate_module.ExpressionCalculatorTestPrepare.test_prepare_6) ... ok
+test_is_operator_1 (candidate_module.ExpressionCalculatorTestIsOperator.test_is_operator_1) ... ok
+test_is_operator_2 (candidate_module.ExpressionCalculatorTestIsOperator.test_is_operator_2) ... ok
+test_is_operator_3 (candidate_module.ExpressionCalculatorTestIsOperator.test_is_operator_3) ... ok
+test_is_operator_4 (candidate_module.ExpressionCalculatorTestIsOperator.test_is_operator_4) ... ok
+test_is_operator_5 (candidate_module.ExpressionCalculatorTestIsOperator.test_is_operator_5) ... ok
+test_compare_1 (candidate_module.ExpressionCalculatorTestCompare.test_compare_1) ... ok
+test_compare_2 (candidate_module.ExpressionCalculatorTestCompare.test_compare_2) ... ok
+test_compare_3 (candidate_module.ExpressionCalculatorTestCompare.test_compare_3) ... FAIL
+test_compare_4 (candidate_module.ExpressionCalculatorTestCompare.test_compare_4) ... FAIL
+test_compare_5 (candidate_module.ExpressionCalculatorTestCompare.test_compare_5) ... FAIL
+test_compare_6 (candidate_module.ExpressionCalculatorTestCompare.test_compare_6) ... FAIL
+test_compare_7 (candidate_module.ExpressionCalculatorTestCompare.test_compare_7) ... FAIL
+test_calculate_method_1 (candidate_module.ExpressionCalculatorTestCalculateMethod.test_calculate_method_1) ... ok
+test_calculate_method_2 (candidate_module.ExpressionCalculatorTestCalculateMethod.test_calculate_method_2) ... ok
+test_calculate_method_3 (candidate_module.ExpressionCalculatorTestCalculateMethod.test_calculate_method_3) ... ok
+test_calculate_method_4 (candidate_module.ExpressionCalculatorTestCalculateMethod.test_calculate_method_4) ... ok
+test_calculate_method_5 (candidate_module.ExpressionCalculatorTestCalculateMethod.test_calculate_method_5) ... ok
+test_calculate_method_6 (candidate_module.ExpressionCalculatorTestCalculateMethod.test_calculate_method_6) ... ok
+test_calculate_method_7 (candidate_module.ExpressionCalculatorTestCalculateMethod.test_calculate_method_7) ... ok
+test_transform_1 (candidate_module.ExpressionCalculatorTestTransform.test_transform_1) ... ok
+test_transform_2 (candidate_module.ExpressionCalculatorTestTransform.test_transform_2) ... ok
+test_transform_3 (candidate_module.ExpressionCalculatorTestTransform.test_transform_3) ... ok
+test_transform_4 (candidate_module.ExpressionCalculatorTestTransform.test_transform_4) ... ok
+test_transform_5 (candidate_module.ExpressionCalculatorTestTransform.test_transform_5) ... FAIL
+test_transform_6 (candidate_module.ExpressionCalculatorTestTransform.test_transform_6) ... FAIL
+test_ExpressionCalculator (candidate_module.ExpressionCalculatorTest.test_ExpressionCalculator) ... ok
+
+======================================================================
+FAIL: test_compare_3 (candidate_module.ExpressionCalculatorTestCompare.test_compare_3)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "official_tests.py", line 92, in test_compare_3
+AssertionError: False is not true
+
+======================================================================
+FAIL: test_compare_4 (candidate_module.ExpressionCalculatorTestCompare.test_compare_4)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "official_tests.py", line 96, in test_compare_4
+AssertionError: True is not false
+
+======================================================================
+FAIL: test_compare_5 (candidate_module.ExpressionCalculatorTestCompare.test_compare_5)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "official_tests.py", line 100, in test_compare_5
+AssertionError: True is not false
+
+======================================================================
+FAIL: test_compare_6 (candidate_module.ExpressionCalculatorTestCompare.test_compare_6)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "official_tests.py", line 104, in test_compare_6
+AssertionError: True is not false
+
+======================================================================
+FAIL: test_compare_7 (candidate_module.ExpressionCalculatorTestCompare.test_compare_7)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "official_tests.py", line 108, in test_compare_7
+AssertionError: False is not true
+
+======================================================================
+FAIL: test_transform_5 (candidate_module.ExpressionCalculatorTestTransform.test_transform_5)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "official_tests.py", line 168, in test_transform_5
+AssertionError: '-2+(-3)*4' != '~2+(~3)*4'
+- -2+(-3)*4
+? ^   ^
++ ~2+(~3)*4
+? ^   ^
+
+
+======================================================================
+FAIL: test_transform_6 (candidate_module.ExpressionCalculatorTestTransform.test_transform_6)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "official_tests.py", line 172, in test_transform_6
+AssertionError: '~(1+1)' != '0-(1+1)'
+- ~(1+1)
+? ^
++ 0-(1+1)
+? ^^
+
+
+----------------------------------------------------------------------
+Ran 37 tests in 0.001s
+
+FAILED (failures=7)

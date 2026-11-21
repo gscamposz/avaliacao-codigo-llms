@@ -1,0 +1,237 @@
+test_add_event (candidate_module.CalendarTestAddEvent.test_add_event) ... ERROR
+test_add_event_2 (candidate_module.CalendarTestAddEvent.test_add_event_2) ... ERROR
+test_add_event_3 (candidate_module.CalendarTestAddEvent.test_add_event_3) ... ERROR
+test_add_event_4 (candidate_module.CalendarTestAddEvent.test_add_event_4) ... ERROR
+test_add_event_5 (candidate_module.CalendarTestAddEvent.test_add_event_5) ... ERROR
+test_remove_event (candidate_module.CalendarTestRemoveEvent.test_remove_event) ... ERROR
+test_remove_event_2 (candidate_module.CalendarTestRemoveEvent.test_remove_event_2) ... ERROR
+test_remove_event_3 (candidate_module.CalendarTestRemoveEvent.test_remove_event_3) ... ERROR
+test_remove_event_4 (candidate_module.CalendarTestRemoveEvent.test_remove_event_4) ... ERROR
+test_remove_event_5 (candidate_module.CalendarTestRemoveEvent.test_remove_event_5) ... ERROR
+test_remove_event_6 (candidate_module.CalendarTestRemoveEvent.test_remove_event_6) ... ERROR
+test_get_events (candidate_module.CalendarTestGetEvents.test_get_events) ... ERROR
+test_get_events_2 (candidate_module.CalendarTestGetEvents.test_get_events_2) ... ERROR
+test_is_available (candidate_module.CalendarTestIsAvailable.test_is_available) ... ERROR
+test_is_available_2 (candidate_module.CalendarTestIsAvailable.test_is_available_2) ... ERROR
+test_is_available_3 (candidate_module.CalendarTestIsAvailable.test_is_available_3) ... ERROR
+test_is_available_4 (candidate_module.CalendarTestIsAvailable.test_is_available_4) ... ERROR
+test_is_available_5 (candidate_module.CalendarTestIsAvailable.test_is_available_5) ... ERROR
+test_get_available_slots (candidate_module.CalendarTestGetAvailableSlots.test_get_available_slots) ... ERROR
+test_get_available_slots_2 (candidate_module.CalendarTestGetAvailableSlots.test_get_available_slots_2) ... ERROR
+test_get_available_slots_3 (candidate_module.CalendarTestGetAvailableSlots.test_get_available_slots_3) ... ERROR
+test_get_available_slots_4 (candidate_module.CalendarTestGetAvailableSlots.test_get_available_slots_4) ... ERROR
+test_get_available_slots_5 (candidate_module.CalendarTestGetAvailableSlots.test_get_available_slots_5) ... ERROR
+test_get_upcoming_events (candidate_module.CalendarTestGetUpcomingEvents.test_get_upcoming_events) ... ERROR
+test_get_upcoming_events_2 (candidate_module.CalendarTestGetUpcomingEvents.test_get_upcoming_events_2) ... ERROR
+test_get_upcoming_events_3 (candidate_module.CalendarTestGetUpcomingEvents.test_get_upcoming_events_3) ... ERROR
+test_get_upcoming_events_4 (candidate_module.CalendarTestGetUpcomingEvents.test_get_upcoming_events_4) ... ERROR
+test_get_upcoming_events_5 (candidate_module.CalendarTestGetUpcomingEvents.test_get_upcoming_events_5) ... ERROR
+test_main (candidate_module.CalendarTestMain.test_main) ... ERROR
+
+======================================================================
+ERROR: test_add_event (candidate_module.CalendarTestAddEvent.test_add_event)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "official_tests.py", line 7, in test_add_event
+NameError: name 'CalendarUtil' is not defined
+
+======================================================================
+ERROR: test_add_event_2 (candidate_module.CalendarTestAddEvent.test_add_event_2)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "official_tests.py", line 15, in test_add_event_2
+NameError: name 'CalendarUtil' is not defined
+
+======================================================================
+ERROR: test_add_event_3 (candidate_module.CalendarTestAddEvent.test_add_event_3)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "official_tests.py", line 27, in test_add_event_3
+NameError: name 'CalendarUtil' is not defined
+
+======================================================================
+ERROR: test_add_event_4 (candidate_module.CalendarTestAddEvent.test_add_event_4)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "official_tests.py", line 35, in test_add_event_4
+NameError: name 'CalendarUtil' is not defined
+
+======================================================================
+ERROR: test_add_event_5 (candidate_module.CalendarTestAddEvent.test_add_event_5)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "official_tests.py", line 43, in test_add_event_5
+NameError: name 'CalendarUtil' is not defined
+
+======================================================================
+ERROR: test_remove_event (candidate_module.CalendarTestRemoveEvent.test_remove_event)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "official_tests.py", line 53, in test_remove_event
+NameError: name 'CalendarUtil' is not defined
+
+======================================================================
+ERROR: test_remove_event_2 (candidate_module.CalendarTestRemoveEvent.test_remove_event_2)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "official_tests.py", line 61, in test_remove_event_2
+NameError: name 'CalendarUtil' is not defined
+
+======================================================================
+ERROR: test_remove_event_3 (candidate_module.CalendarTestRemoveEvent.test_remove_event_3)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "official_tests.py", line 73, in test_remove_event_3
+NameError: name 'CalendarUtil' is not defined
+
+======================================================================
+ERROR: test_remove_event_4 (candidate_module.CalendarTestRemoveEvent.test_remove_event_4)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "official_tests.py", line 85, in test_remove_event_4
+NameError: name 'CalendarUtil' is not defined
+
+======================================================================
+ERROR: test_remove_event_5 (candidate_module.CalendarTestRemoveEvent.test_remove_event_5)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "official_tests.py", line 97, in test_remove_event_5
+NameError: name 'CalendarUtil' is not defined
+
+======================================================================
+ERROR: test_remove_event_6 (candidate_module.CalendarTestRemoveEvent.test_remove_event_6)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "official_tests.py", line 109, in test_remove_event_6
+NameError: name 'CalendarUtil' is not defined
+
+======================================================================
+ERROR: test_get_events (candidate_module.CalendarTestGetEvents.test_get_events)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "official_tests.py", line 118, in test_get_events
+NameError: name 'CalendarUtil' is not defined
+
+======================================================================
+ERROR: test_get_events_2 (candidate_module.CalendarTestGetEvents.test_get_events_2)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "official_tests.py", line 126, in test_get_events_2
+NameError: name 'CalendarUtil' is not defined
+
+======================================================================
+ERROR: test_is_available (candidate_module.CalendarTestIsAvailable.test_is_available)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "official_tests.py", line 134, in test_is_available
+NameError: name 'CalendarUtil' is not defined
+
+======================================================================
+ERROR: test_is_available_2 (candidate_module.CalendarTestIsAvailable.test_is_available_2)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "official_tests.py", line 140, in test_is_available_2
+NameError: name 'CalendarUtil' is not defined
+
+======================================================================
+ERROR: test_is_available_3 (candidate_module.CalendarTestIsAvailable.test_is_available_3)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "official_tests.py", line 146, in test_is_available_3
+NameError: name 'CalendarUtil' is not defined
+
+======================================================================
+ERROR: test_is_available_4 (candidate_module.CalendarTestIsAvailable.test_is_available_4)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "official_tests.py", line 152, in test_is_available_4
+NameError: name 'CalendarUtil' is not defined
+
+======================================================================
+ERROR: test_is_available_5 (candidate_module.CalendarTestIsAvailable.test_is_available_5)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "official_tests.py", line 158, in test_is_available_5
+NameError: name 'CalendarUtil' is not defined
+
+======================================================================
+ERROR: test_get_available_slots (candidate_module.CalendarTestGetAvailableSlots.test_get_available_slots)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "official_tests.py", line 166, in test_get_available_slots
+NameError: name 'CalendarUtil' is not defined
+
+======================================================================
+ERROR: test_get_available_slots_2 (candidate_module.CalendarTestGetAvailableSlots.test_get_available_slots_2)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "official_tests.py", line 173, in test_get_available_slots_2
+NameError: name 'CalendarUtil' is not defined
+
+======================================================================
+ERROR: test_get_available_slots_3 (candidate_module.CalendarTestGetAvailableSlots.test_get_available_slots_3)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "official_tests.py", line 179, in test_get_available_slots_3
+NameError: name 'CalendarUtil' is not defined
+
+======================================================================
+ERROR: test_get_available_slots_4 (candidate_module.CalendarTestGetAvailableSlots.test_get_available_slots_4)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "official_tests.py", line 185, in test_get_available_slots_4
+NameError: name 'CalendarUtil' is not defined
+
+======================================================================
+ERROR: test_get_available_slots_5 (candidate_module.CalendarTestGetAvailableSlots.test_get_available_slots_5)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "official_tests.py", line 191, in test_get_available_slots_5
+NameError: name 'CalendarUtil' is not defined
+
+======================================================================
+ERROR: test_get_upcoming_events (candidate_module.CalendarTestGetUpcomingEvents.test_get_upcoming_events)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "official_tests.py", line 199, in test_get_upcoming_events
+NameError: name 'CalendarUtil' is not defined
+
+======================================================================
+ERROR: test_get_upcoming_events_2 (candidate_module.CalendarTestGetUpcomingEvents.test_get_upcoming_events_2)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "official_tests.py", line 205, in test_get_upcoming_events_2
+NameError: name 'CalendarUtil' is not defined
+
+======================================================================
+ERROR: test_get_upcoming_events_3 (candidate_module.CalendarTestGetUpcomingEvents.test_get_upcoming_events_3)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "official_tests.py", line 211, in test_get_upcoming_events_3
+NameError: name 'CalendarUtil' is not defined
+
+======================================================================
+ERROR: test_get_upcoming_events_4 (candidate_module.CalendarTestGetUpcomingEvents.test_get_upcoming_events_4)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "official_tests.py", line 217, in test_get_upcoming_events_4
+NameError: name 'CalendarUtil' is not defined
+
+======================================================================
+ERROR: test_get_upcoming_events_5 (candidate_module.CalendarTestGetUpcomingEvents.test_get_upcoming_events_5)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "official_tests.py", line 223, in test_get_upcoming_events_5
+NameError: name 'CalendarUtil' is not defined
+
+======================================================================
+ERROR: test_main (candidate_module.CalendarTestMain.test_main)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "official_tests.py", line 236, in test_main
+NameError: name 'CalendarUtil' is not defined
+
+----------------------------------------------------------------------
+Ran 29 tests in 0.040s
+
+FAILED (errors=29)

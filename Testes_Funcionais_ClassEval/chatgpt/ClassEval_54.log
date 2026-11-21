@@ -1,0 +1,75 @@
+test_create_board_1 (candidate_module.MahjongConnectTestCreateBoard.test_create_board_1) ... ok
+test_create_board_2 (candidate_module.MahjongConnectTestCreateBoard.test_create_board_2) ... ok
+test_create_board_3 (candidate_module.MahjongConnectTestCreateBoard.test_create_board_3) ... FAIL
+test_create_board_4 (candidate_module.MahjongConnectTestCreateBoard.test_create_board_4) ... FAIL
+test_create_board_5 (candidate_module.MahjongConnectTestCreateBoard.test_create_board_5) ... FAIL
+test_is_valid_move_1 (candidate_module.MahjongConnectTestIsValidMove.test_is_valid_move_1) ... ok
+test_is_valid_move_2 (candidate_module.MahjongConnectTestIsValidMove.test_is_valid_move_2) ... ok
+test_is_valid_move_3 (candidate_module.MahjongConnectTestIsValidMove.test_is_valid_move_3) ... ok
+test_is_valid_move_4 (candidate_module.MahjongConnectTestIsValidMove.test_is_valid_move_4) ... ok
+test_is_valid_move_5 (candidate_module.MahjongConnectTestIsValidMove.test_is_valid_move_5) ... ok
+test_is_valid_move_6 (candidate_module.MahjongConnectTestIsValidMove.test_is_valid_move_6) ... FAIL
+test_has_path_1 (candidate_module.MahjongConnectTestHasPath.test_has_path_1) ... ok
+test_has_path_2 (candidate_module.MahjongConnectTestHasPath.test_has_path_2) ... FAIL
+test_has_path_3 (candidate_module.MahjongConnectTestHasPath.test_has_path_3) ... ok
+test_has_path_4 (candidate_module.MahjongConnectTestHasPath.test_has_path_4) ... ok
+test_has_path_5 (candidate_module.MahjongConnectTestHasPath.test_has_path_5) ... ok
+test_has_path_6 (candidate_module.MahjongConnectTestHasPath.test_has_path_6) ... FAIL
+test_remove_icons_1 (candidate_module.MahjongConnectTestRemoveIcons.test_remove_icons_1) ... ok
+test_remove_icons_2 (candidate_module.MahjongConnectTestRemoveIcons.test_remove_icons_2) ... ok
+test_remove_icons_3 (candidate_module.MahjongConnectTestRemoveIcons.test_remove_icons_3) ... ok
+test_remove_icons_4 (candidate_module.MahjongConnectTestRemoveIcons.test_remove_icons_4) ... ok
+test_remove_icons_5 (candidate_module.MahjongConnectTestRemoveIcons.test_remove_icons_5) ... ok
+test_is_game_over_1 (candidate_module.MahjongConnectTestIsGameOver.test_is_game_over_1) ... ok
+test_is_game_over_2 (candidate_module.MahjongConnectTestIsGameOver.test_is_game_over_2) ... ok
+test_is_game_over_3 (candidate_module.MahjongConnectTestIsGameOver.test_is_game_over_3) ... ok
+test_is_game_over_4 (candidate_module.MahjongConnectTestIsGameOver.test_is_game_over_4) ... ok
+test_is_game_over_5 (candidate_module.MahjongConnectTestIsGameOver.test_is_game_over_5) ... ok
+test_mahjongconnect (candidate_module.MahjongConnectTest.test_mahjongconnect) ... ok
+
+======================================================================
+FAIL: test_create_board_3 (candidate_module.MahjongConnectTestCreateBoard.test_create_board_3)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "official_tests.py", line 27, in test_create_board_3
+AssertionError: ' ' not found in ['a', 'b', 'c']
+
+======================================================================
+FAIL: test_create_board_4 (candidate_module.MahjongConnectTestCreateBoard.test_create_board_4)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "official_tests.py", line 35, in test_create_board_4
+AssertionError: ' ' not found in ['a', 'b', 'c']
+
+======================================================================
+FAIL: test_create_board_5 (candidate_module.MahjongConnectTestCreateBoard.test_create_board_5)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "official_tests.py", line 43, in test_create_board_5
+AssertionError: ' ' not found in ['a', 'b', 'c']
+
+======================================================================
+FAIL: test_is_valid_move_6 (candidate_module.MahjongConnectTestIsValidMove.test_is_valid_move_6)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "official_tests.py", line 99, in test_is_valid_move_6
+AssertionError: True != False
+
+======================================================================
+FAIL: test_has_path_2 (candidate_module.MahjongConnectTestHasPath.test_has_path_2)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "official_tests.py", line 119, in test_has_path_2
+AssertionError: False != True
+
+======================================================================
+FAIL: test_has_path_6 (candidate_module.MahjongConnectTestHasPath.test_has_path_6)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "official_tests.py", line 155, in test_has_path_6
+AssertionError: False != True
+
+----------------------------------------------------------------------
+Ran 28 tests in 0.001s
+
+FAILED (failures=6)

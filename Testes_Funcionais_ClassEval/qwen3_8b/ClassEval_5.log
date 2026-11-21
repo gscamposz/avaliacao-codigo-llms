@@ -1,0 +1,20 @@
+test_interpret_1 (candidate_module.AutomaticGuitarSimulatorTestInterpret.test_interpret_1) ... ok
+test_interpret_2 (candidate_module.AutomaticGuitarSimulatorTestInterpret.test_interpret_2) ... ok
+test_interpret_3 (candidate_module.AutomaticGuitarSimulatorTestInterpret.test_interpret_3) ... ok
+test_interpret_4 (candidate_module.AutomaticGuitarSimulatorTestInterpret.test_interpret_4) ... ok
+test_interpret_5 (candidate_module.AutomaticGuitarSimulatorTestInterpret.test_interpret_5) ... ok
+test_interpret_6 (candidate_module.AutomaticGuitarSimulatorTestInterpret.test_interpret_6) ... ok
+test_interpret_7 (candidate_module.AutomaticGuitarSimulatorTestInterpret.test_interpret_7) ... ok
+test_interpret_8 (candidate_module.AutomaticGuitarSimulatorTestInterpret.test_interpret_8) ... ok
+test_interpret_9 (candidate_module.AutomaticGuitarSimulatorTestInterpret.test_interpret_9) ... ok
+test_display_1 (candidate_module.AutomaticGuitarSimulatorTestDisplay.test_display_1) ... ok
+test_display_2 (candidate_module.AutomaticGuitarSimulatorTestDisplay.test_display_2) ... ok
+test_display_3 (candidate_module.AutomaticGuitarSimulatorTestDisplay.test_display_3) ... ok
+test_display_4 (candidate_module.AutomaticGuitarSimulatorTestDisplay.test_display_4) ... ok
+test_display_5 (candidate_module.AutomaticGuitarSimulatorTestDisplay.test_display_5) ... ok
+test_AutomaticGuitarSimulator (candidate_module.AutomaticGuitarSimulatorTest.test_AutomaticGuitarSimulator) ... ok
+
+----------------------------------------------------------------------
+Ran 15 tests in 0.000s
+
+OK

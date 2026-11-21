@@ -1,0 +1,28 @@
+test_book_room_1 (candidate_module.HotelTestBookRoom.test_book_room_1) ... ok
+test_book_room_2 (candidate_module.HotelTestBookRoom.test_book_room_2) ... ok
+test_book_room_3 (candidate_module.HotelTestBookRoom.test_book_room_3) ... ok
+test_book_room_4 (candidate_module.HotelTestBookRoom.test_book_room_4) ... ok
+test_book_room_5 (candidate_module.HotelTestBookRoom.test_book_room_5) ... ok
+test_book_room_6 (candidate_module.HotelTestBookRoom.test_book_room_6) ... ok
+test_check_in_1 (candidate_module.HotelTestCheckIn.test_check_in_1) ... ok
+test_check_in_2 (candidate_module.HotelTestCheckIn.test_check_in_2) ... ok
+test_check_in_3 (candidate_module.HotelTestCheckIn.test_check_in_3) ... ok
+test_check_in_4 (candidate_module.HotelTestCheckIn.test_check_in_4) ... ok
+test_check_in_5 (candidate_module.HotelTestCheckIn.test_check_in_5) ... ok
+test_check_in_6 (candidate_module.HotelTestCheckIn.test_check_in_6) ... ok
+test_check_out_1 (candidate_module.HotelTestCheckOut.test_check_out_1) ... ok
+test_check_out_2 (candidate_module.HotelTestCheckOut.test_check_out_2) ... ok
+test_check_out_3 (candidate_module.HotelTestCheckOut.test_check_out_3) ... ok
+test_check_out_4 (candidate_module.HotelTestCheckOut.test_check_out_4) ... ok
+test_check_out_5 (candidate_module.HotelTestCheckOut.test_check_out_5) ... ok
+test_get_available_rooms (candidate_module.HotelTestAvailableRooms.test_get_available_rooms) ... ok
+test_get_available_rooms_2 (candidate_module.HotelTestAvailableRooms.test_get_available_rooms_2) ... ok
+test_get_available_rooms_3 (candidate_module.HotelTestAvailableRooms.test_get_available_rooms_3) ... ok
+test_get_available_rooms_4 (candidate_module.HotelTestAvailableRooms.test_get_available_rooms_4) ... ok
+test_get_available_rooms_5 (candidate_module.HotelTestAvailableRooms.test_get_available_rooms_5) ... ok
+test_main (candidate_module.HotelTestMain.test_main) ... ok
+
+----------------------------------------------------------------------
+Ran 23 tests in 0.000s
+
+OK

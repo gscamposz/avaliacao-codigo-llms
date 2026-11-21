@@ -1,0 +1,42 @@
+test_calculate_1 (candidate_module.ExpressionCalculatorTestCalculate.test_calculate_1) ... ok
+test_calculate_2 (candidate_module.ExpressionCalculatorTestCalculate.test_calculate_2) ... ok
+test_calculate_3 (candidate_module.ExpressionCalculatorTestCalculate.test_calculate_3) ... ok
+test_calculate_4 (candidate_module.ExpressionCalculatorTestCalculate.test_calculate_4) ... ok
+test_calculate_5 (candidate_module.ExpressionCalculatorTestCalculate.test_calculate_5) ... ok
+test_prepare_1 (candidate_module.ExpressionCalculatorTestPrepare.test_prepare_1) ... ok
+test_prepare_2 (candidate_module.ExpressionCalculatorTestPrepare.test_prepare_2) ... ok
+test_prepare_3 (candidate_module.ExpressionCalculatorTestPrepare.test_prepare_3) ... ok
+test_prepare_4 (candidate_module.ExpressionCalculatorTestPrepare.test_prepare_4) ... ok
+test_prepare_5 (candidate_module.ExpressionCalculatorTestPrepare.test_prepare_5) ... ok
+test_prepare_6 (candidate_module.ExpressionCalculatorTestPrepare.test_prepare_6) ... ok
+test_is_operator_1 (candidate_module.ExpressionCalculatorTestIsOperator.test_is_operator_1) ... ok
+test_is_operator_2 (candidate_module.ExpressionCalculatorTestIsOperator.test_is_operator_2) ... ok
+test_is_operator_3 (candidate_module.ExpressionCalculatorTestIsOperator.test_is_operator_3) ... ok
+test_is_operator_4 (candidate_module.ExpressionCalculatorTestIsOperator.test_is_operator_4) ... ok
+test_is_operator_5 (candidate_module.ExpressionCalculatorTestIsOperator.test_is_operator_5) ... ok
+test_compare_1 (candidate_module.ExpressionCalculatorTestCompare.test_compare_1) ... ok
+test_compare_2 (candidate_module.ExpressionCalculatorTestCompare.test_compare_2) ... ok
+test_compare_3 (candidate_module.ExpressionCalculatorTestCompare.test_compare_3) ... ok
+test_compare_4 (candidate_module.ExpressionCalculatorTestCompare.test_compare_4) ... ok
+test_compare_5 (candidate_module.ExpressionCalculatorTestCompare.test_compare_5) ... ok
+test_compare_6 (candidate_module.ExpressionCalculatorTestCompare.test_compare_6) ... ok
+test_compare_7 (candidate_module.ExpressionCalculatorTestCompare.test_compare_7) ... ok
+test_calculate_method_1 (candidate_module.ExpressionCalculatorTestCalculateMethod.test_calculate_method_1) ... ok
+test_calculate_method_2 (candidate_module.ExpressionCalculatorTestCalculateMethod.test_calculate_method_2) ... ok
+test_calculate_method_3 (candidate_module.ExpressionCalculatorTestCalculateMethod.test_calculate_method_3) ... ok
+test_calculate_method_4 (candidate_module.ExpressionCalculatorTestCalculateMethod.test_calculate_method_4) ... ok
+test_calculate_method_5 (candidate_module.ExpressionCalculatorTestCalculateMethod.test_calculate_method_5) ... ok
+test_calculate_method_6 (candidate_module.ExpressionCalculatorTestCalculateMethod.test_calculate_method_6) ... ok
+test_calculate_method_7 (candidate_module.ExpressionCalculatorTestCalculateMethod.test_calculate_method_7) ... ok
+test_transform_1 (candidate_module.ExpressionCalculatorTestTransform.test_transform_1) ... ok
+test_transform_2 (candidate_module.ExpressionCalculatorTestTransform.test_transform_2) ... ok
+test_transform_3 (candidate_module.ExpressionCalculatorTestTransform.test_transform_3) ... ok
+test_transform_4 (candidate_module.ExpressionCalculatorTestTransform.test_transform_4) ... ok
+test_transform_5 (candidate_module.ExpressionCalculatorTestTransform.test_transform_5) ... ok
+test_transform_6 (candidate_module.ExpressionCalculatorTestTransform.test_transform_6) ... ok
+test_ExpressionCalculator (candidate_module.ExpressionCalculatorTest.test_ExpressionCalculator) ... ok
+
+----------------------------------------------------------------------
+Ran 37 tests in 0.001s
+
+OK

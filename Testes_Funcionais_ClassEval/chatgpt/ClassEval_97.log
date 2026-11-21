@@ -1,0 +1,44 @@
+test_text2int (candidate_module.Words2NumbersTestText2Int.test_text2int) ... ok
+test_text2int2 (candidate_module.Words2NumbersTestText2Int.test_text2int2) ... ok
+test_text2int3 (candidate_module.Words2NumbersTestText2Int.test_text2int3) ... ok
+test_text2int4 (candidate_module.Words2NumbersTestText2Int.test_text2int4) ... ok
+test_text2int5 (candidate_module.Words2NumbersTestText2Int.test_text2int5) ... ok
+test_text2int6 (candidate_module.Words2NumbersTestText2Int.test_text2int6) ... ok
+test_is_valid_input (candidate_module.Words2NumbersTestIsValidInput.test_is_valid_input) ... FAIL
+test_is_valid_input2 (candidate_module.Words2NumbersTestIsValidInput.test_is_valid_input2) ... ok
+test_is_valid_input3 (candidate_module.Words2NumbersTestIsValidInput.test_is_valid_input3) ... FAIL
+test_is_valid_input4 (candidate_module.Words2NumbersTestIsValidInput.test_is_valid_input4) ... ok
+test_is_valid_input5 (candidate_module.Words2NumbersTestIsValidInput.test_is_valid_input5) ... ok
+test_is_valid_input6 (candidate_module.Words2NumbersTestIsValidInput.test_is_valid_input6) ... ok
+test_main (candidate_module.Words2NumbersTestMain.test_main) ... FAIL
+
+======================================================================
+FAIL: test_is_valid_input (candidate_module.Words2NumbersTestIsValidInput.test_is_valid_input)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "official_tests.py", line 32, in test_is_valid_input
+AssertionError: False is not true
+
+======================================================================
+FAIL: test_is_valid_input3 (candidate_module.Words2NumbersTestIsValidInput.test_is_valid_input3)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "official_tests.py", line 40, in test_is_valid_input3
+AssertionError: False is not true
+
+======================================================================
+FAIL: test_main (candidate_module.Words2NumbersTestMain.test_main)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "official_tests.py", line 58, in test_main
+AssertionError: '72111' != '72011'
+- 72111
+?   ^
++ 72011
+?   ^
+
+
+----------------------------------------------------------------------
+Ran 13 tests in 0.001s
+
+FAILED (failures=3)

@@ -1,0 +1,21 @@
+test_register_student (candidate_module.ClassRegistrationSystemTestRegisterStudent.test_register_student) ... ok
+test_register_student2 (candidate_module.ClassRegistrationSystemTestRegisterStudent.test_register_student2) ... ok
+test_register_student3 (candidate_module.ClassRegistrationSystemTestRegisterStudent.test_register_student3) ... ok
+test_register_class (candidate_module.ClassRegistrationSystemTestRegisterClass.test_register_class) ... ok
+test_register_class2 (candidate_module.ClassRegistrationSystemTestRegisterClass.test_register_class2) ... ok
+test_register_class3 (candidate_module.ClassRegistrationSystemTestRegisterClass.test_register_class3) ... ok
+test_get_students_by_major (candidate_module.ClassRegistrationSystemTestGetStudent.test_get_students_by_major) ... ok
+test_get_students_by_major2 (candidate_module.ClassRegistrationSystemTestGetStudent.test_get_students_by_major2) ... ok
+test_get_students_by_major3 (candidate_module.ClassRegistrationSystemTestGetStudent.test_get_students_by_major3) ... ok
+test_get_students_by_major4 (candidate_module.ClassRegistrationSystemTestGetStudent.test_get_students_by_major4) ... ok
+test_get_all_major (candidate_module.ClassRegistrationSystemTestGetMajor.test_get_all_major) ... ok
+test_get_all_major2 (candidate_module.ClassRegistrationSystemTestGetMajor.test_get_all_major2) ... ok
+test_get_all_major3 (candidate_module.ClassRegistrationSystemTestGetMajor.test_get_all_major3) ... ok
+test_get_most_popular_class_in_major (candidate_module.ClassRegistrationSystemTestPopularClass.test_get_most_popular_class_in_major) ... ok
+test_get_most_popular_class_in_major2 (candidate_module.ClassRegistrationSystemTestPopularClass.test_get_most_popular_class_in_major2) ... ok
+test (candidate_module.ClassRegistrationSystemTest.test) ... ok
+
+----------------------------------------------------------------------
+Ran 16 tests in 0.000s
+
+OK

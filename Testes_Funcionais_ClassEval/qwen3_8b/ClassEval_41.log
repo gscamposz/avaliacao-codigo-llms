@@ -1,0 +1,133 @@
+test_make_move_1 (candidate_module.GomokuGameTestMakeMove.test_make_move_1) ... ERROR
+test_make_move_2 (candidate_module.GomokuGameTestMakeMove.test_make_move_2) ... ERROR
+test_make_move_3 (candidate_module.GomokuGameTestMakeMove.test_make_move_3) ... ERROR
+test_make_move_4 (candidate_module.GomokuGameTestMakeMove.test_make_move_4) ... ERROR
+test_make_move_5 (candidate_module.GomokuGameTestMakeMove.test_make_move_5) ... ERROR
+test_check_winner_1 (candidate_module.GomokuGameTestCheckWinner.test_check_winner_1) ... ERROR
+test_check_winner_2 (candidate_module.GomokuGameTestCheckWinner.test_check_winner_2) ... ERROR
+test_check_winner_3 (candidate_module.GomokuGameTestCheckWinner.test_check_winner_3) ... ERROR
+test_check_winner_4 (candidate_module.GomokuGameTestCheckWinner.test_check_winner_4) ... ERROR
+test_check_winner_5 (candidate_module.GomokuGameTestCheckWinner.test_check_winner_5) ... ERROR
+test_check_five_in_a_row_1 (candidate_module.GomokuGameTestCheckFiveInARow.test_check_five_in_a_row_1) ... ERROR
+test_check_five_in_a_row_2 (candidate_module.GomokuGameTestCheckFiveInARow.test_check_five_in_a_row_2) ... ERROR
+test_check_five_in_a_row_3 (candidate_module.GomokuGameTestCheckFiveInARow.test_check_five_in_a_row_3) ... ERROR
+test_check_five_in_a_row_4 (candidate_module.GomokuGameTestCheckFiveInARow.test_check_five_in_a_row_4) ... ERROR
+test_check_five_in_a_row_5 (candidate_module.GomokuGameTestCheckFiveInARow.test_check_five_in_a_row_5) ... ERROR
+test_main (candidate_module.GomokuGameTestMain.test_main) ... ERROR
+
+======================================================================
+ERROR: test_make_move_1 (candidate_module.GomokuGameTestMakeMove.test_make_move_1)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "official_tests.py", line 10, in test_make_move_1
+AttributeError: 'GomokuGame' object has no attribute 'make_move'
+
+======================================================================
+ERROR: test_make_move_2 (candidate_module.GomokuGameTestMakeMove.test_make_move_2)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "official_tests.py", line 17, in test_make_move_2
+AttributeError: 'GomokuGame' object has no attribute 'make_move'
+
+======================================================================
+ERROR: test_make_move_3 (candidate_module.GomokuGameTestMakeMove.test_make_move_3)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "official_tests.py", line 24, in test_make_move_3
+AttributeError: 'GomokuGame' object has no attribute 'make_move'
+
+======================================================================
+ERROR: test_make_move_4 (candidate_module.GomokuGameTestMakeMove.test_make_move_4)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "official_tests.py", line 32, in test_make_move_4
+AttributeError: 'GomokuGame' object has no attribute 'make_move'
+
+======================================================================
+ERROR: test_make_move_5 (candidate_module.GomokuGameTestMakeMove.test_make_move_5)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "official_tests.py", line 41, in test_make_move_5
+AttributeError: 'GomokuGame' object has no attribute 'make_move'
+
+======================================================================
+ERROR: test_check_winner_1 (candidate_module.GomokuGameTestCheckWinner.test_check_winner_1)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "official_tests.py", line 52, in test_check_winner_1
+TypeError: GomokuGame.check_winner() missing 3 required positional arguments: 'x', 'y', and 'player'
+
+======================================================================
+ERROR: test_check_winner_2 (candidate_module.GomokuGameTestCheckWinner.test_check_winner_2)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "official_tests.py", line 58, in test_check_winner_2
+AttributeError: 'GomokuGame' object has no attribute 'make_move'
+
+======================================================================
+ERROR: test_check_winner_3 (candidate_module.GomokuGameTestCheckWinner.test_check_winner_3)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "official_tests.py", line 65, in test_check_winner_3
+AttributeError: 'GomokuGame' object has no attribute 'make_move'
+
+======================================================================
+ERROR: test_check_winner_4 (candidate_module.GomokuGameTestCheckWinner.test_check_winner_4)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "official_tests.py", line 72, in test_check_winner_4
+AttributeError: 'GomokuGame' object has no attribute 'make_move'
+
+======================================================================
+ERROR: test_check_winner_5 (candidate_module.GomokuGameTestCheckWinner.test_check_winner_5)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "official_tests.py", line 79, in test_check_winner_5
+AttributeError: 'GomokuGame' object has no attribute 'make_move'
+
+======================================================================
+ERROR: test_check_five_in_a_row_1 (candidate_module.GomokuGameTestCheckFiveInARow.test_check_five_in_a_row_1)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "official_tests.py", line 88, in setUp
+AttributeError: 'GomokuGame' object has no attribute 'make_move'
+
+======================================================================
+ERROR: test_check_five_in_a_row_2 (candidate_module.GomokuGameTestCheckFiveInARow.test_check_five_in_a_row_2)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "official_tests.py", line 88, in setUp
+AttributeError: 'GomokuGame' object has no attribute 'make_move'
+
+======================================================================
+ERROR: test_check_five_in_a_row_3 (candidate_module.GomokuGameTestCheckFiveInARow.test_check_five_in_a_row_3)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "official_tests.py", line 88, in setUp
+AttributeError: 'GomokuGame' object has no attribute 'make_move'
+
+======================================================================
+ERROR: test_check_five_in_a_row_4 (candidate_module.GomokuGameTestCheckFiveInARow.test_check_five_in_a_row_4)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "official_tests.py", line 88, in setUp
+AttributeError: 'GomokuGame' object has no attribute 'make_move'
+
+======================================================================
+ERROR: test_check_five_in_a_row_5 (candidate_module.GomokuGameTestCheckFiveInARow.test_check_five_in_a_row_5)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "official_tests.py", line 88, in setUp
+AttributeError: 'GomokuGame' object has no attribute 'make_move'
+
+======================================================================
+ERROR: test_main (candidate_module.GomokuGameTestMain.test_main)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "official_tests.py", line 109, in test_main
+TypeError: GomokuGame.check_winner() missing 3 required positional arguments: 'x', 'y', and 'player'
+
+----------------------------------------------------------------------
+Ran 16 tests in 0.005s
+
+FAILED (errors=16)

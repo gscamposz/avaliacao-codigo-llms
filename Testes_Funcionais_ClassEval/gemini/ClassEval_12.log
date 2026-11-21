@@ -1,0 +1,31 @@
+test_create_deck_1 (candidate_module.BlackjackGameTestCreateDeck.test_create_deck_1) ... ok
+test_create_deck_2 (candidate_module.BlackjackGameTestCreateDeck.test_create_deck_2) ... ok
+test_create_deck_3 (candidate_module.BlackjackGameTestCreateDeck.test_create_deck_3) ... ok
+test_create_deck_4 (candidate_module.BlackjackGameTestCreateDeck.test_create_deck_4) ... ok
+test_create_deck_5 (candidate_module.BlackjackGameTestCreateDeck.test_create_deck_5) ... ok
+test_calculate_hand_value_1 (candidate_module.BlackjackGameTestCalculateHandValue.test_calculate_hand_value_1) ... ok
+test_calculate_hand_value_2 (candidate_module.BlackjackGameTestCalculateHandValue.test_calculate_hand_value_2) ... ok
+test_calculate_hand_value_3 (candidate_module.BlackjackGameTestCalculateHandValue.test_calculate_hand_value_3) ... ok
+test_calculate_hand_value_4 (candidate_module.BlackjackGameTestCalculateHandValue.test_calculate_hand_value_4) ... ok
+test_calculate_hand_value_5 (candidate_module.BlackjackGameTestCalculateHandValue.test_calculate_hand_value_5) ... ok
+test_calculate_hand_value_6 (candidate_module.BlackjackGameTestCalculateHandValue.test_calculate_hand_value_6) ... ERROR
+test_check_winner_1 (candidate_module.BlackjackGameTestCheckWinner.test_check_winner_1) ... ok
+test_check_winner_2 (candidate_module.BlackjackGameTestCheckWinner.test_check_winner_2) ... ok
+test_check_winner_3 (candidate_module.BlackjackGameTestCheckWinner.test_check_winner_3) ... ok
+test_check_winner_4 (candidate_module.BlackjackGameTestCheckWinner.test_check_winner_4) ... ok
+test_check_winner_5 (candidate_module.BlackjackGameTestCheckWinner.test_check_winner_5) ... ok
+test_check_winner_6 (candidate_module.BlackjackGameTestCheckWinner.test_check_winner_6) ... ok
+test_main_1 (candidate_module.BlackjackGameTestMain.test_main_1) ... ok
+
+======================================================================
+ERROR: test_calculate_hand_value_6 (candidate_module.BlackjackGameTestCalculateHandValue.test_calculate_hand_value_6)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "official_tests.py", line 68, in test_calculate_hand_value_6
+  File "candidate.py", line 60, in calculate_hand_value
+ValueError: invalid literal for int() with base 10: 'B'
+
+----------------------------------------------------------------------
+Ran 18 tests in 0.001s
+
+FAILED (errors=1)

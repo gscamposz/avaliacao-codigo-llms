@@ -1,0 +1,133 @@
+test_register_student (candidate_module.ClassRegistrationSystemTestRegisterStudent.test_register_student) ... ERROR
+test_register_student2 (candidate_module.ClassRegistrationSystemTestRegisterStudent.test_register_student2) ... ERROR
+test_register_student3 (candidate_module.ClassRegistrationSystemTestRegisterStudent.test_register_student3) ... ERROR
+test_register_class (candidate_module.ClassRegistrationSystemTestRegisterClass.test_register_class) ... ERROR
+test_register_class2 (candidate_module.ClassRegistrationSystemTestRegisterClass.test_register_class2) ... ERROR
+test_register_class3 (candidate_module.ClassRegistrationSystemTestRegisterClass.test_register_class3) ... ERROR
+test_get_students_by_major (candidate_module.ClassRegistrationSystemTestGetStudent.test_get_students_by_major) ... ERROR
+test_get_students_by_major2 (candidate_module.ClassRegistrationSystemTestGetStudent.test_get_students_by_major2) ... ERROR
+test_get_students_by_major3 (candidate_module.ClassRegistrationSystemTestGetStudent.test_get_students_by_major3) ... ERROR
+test_get_students_by_major4 (candidate_module.ClassRegistrationSystemTestGetStudent.test_get_students_by_major4) ... ERROR
+test_get_all_major (candidate_module.ClassRegistrationSystemTestGetMajor.test_get_all_major) ... ERROR
+test_get_all_major2 (candidate_module.ClassRegistrationSystemTestGetMajor.test_get_all_major2) ... ERROR
+test_get_all_major3 (candidate_module.ClassRegistrationSystemTestGetMajor.test_get_all_major3) ... ERROR
+test_get_most_popular_class_in_major (candidate_module.ClassRegistrationSystemTestPopularClass.test_get_most_popular_class_in_major) ... ERROR
+test_get_most_popular_class_in_major2 (candidate_module.ClassRegistrationSystemTestPopularClass.test_get_most_popular_class_in_major2) ... ERROR
+test (candidate_module.ClassRegistrationSystemTest.test) ... ERROR
+
+======================================================================
+ERROR: test_register_student (candidate_module.ClassRegistrationSystemTestRegisterStudent.test_register_student)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "official_tests.py", line 7, in setUp
+NameError: name 'ClassRegistrationSystem' is not defined. Did you mean: 'ClassRegistrationSystemTest'?
+
+======================================================================
+ERROR: test_register_student2 (candidate_module.ClassRegistrationSystemTestRegisterStudent.test_register_student2)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "official_tests.py", line 7, in setUp
+NameError: name 'ClassRegistrationSystem' is not defined. Did you mean: 'ClassRegistrationSystemTest'?
+
+======================================================================
+ERROR: test_register_student3 (candidate_module.ClassRegistrationSystemTestRegisterStudent.test_register_student3)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "official_tests.py", line 7, in setUp
+NameError: name 'ClassRegistrationSystem' is not defined. Did you mean: 'ClassRegistrationSystemTest'?
+
+======================================================================
+ERROR: test_register_class (candidate_module.ClassRegistrationSystemTestRegisterClass.test_register_class)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "official_tests.py", line 28, in setUp
+NameError: name 'ClassRegistrationSystem' is not defined. Did you mean: 'ClassRegistrationSystemTest'?
+
+======================================================================
+ERROR: test_register_class2 (candidate_module.ClassRegistrationSystemTestRegisterClass.test_register_class2)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "official_tests.py", line 28, in setUp
+NameError: name 'ClassRegistrationSystem' is not defined. Did you mean: 'ClassRegistrationSystemTest'?
+
+======================================================================
+ERROR: test_register_class3 (candidate_module.ClassRegistrationSystemTestRegisterClass.test_register_class3)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "official_tests.py", line 28, in setUp
+NameError: name 'ClassRegistrationSystem' is not defined. Did you mean: 'ClassRegistrationSystemTest'?
+
+======================================================================
+ERROR: test_get_students_by_major (candidate_module.ClassRegistrationSystemTestGetStudent.test_get_students_by_major)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "official_tests.py", line 47, in setUp
+NameError: name 'ClassRegistrationSystem' is not defined. Did you mean: 'ClassRegistrationSystemTest'?
+
+======================================================================
+ERROR: test_get_students_by_major2 (candidate_module.ClassRegistrationSystemTestGetStudent.test_get_students_by_major2)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "official_tests.py", line 47, in setUp
+NameError: name 'ClassRegistrationSystem' is not defined. Did you mean: 'ClassRegistrationSystemTest'?
+
+======================================================================
+ERROR: test_get_students_by_major3 (candidate_module.ClassRegistrationSystemTestGetStudent.test_get_students_by_major3)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "official_tests.py", line 47, in setUp
+NameError: name 'ClassRegistrationSystem' is not defined. Did you mean: 'ClassRegistrationSystemTest'?
+
+======================================================================
+ERROR: test_get_students_by_major4 (candidate_module.ClassRegistrationSystemTestGetStudent.test_get_students_by_major4)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "official_tests.py", line 47, in setUp
+NameError: name 'ClassRegistrationSystem' is not defined. Did you mean: 'ClassRegistrationSystemTest'?
+
+======================================================================
+ERROR: test_get_all_major (candidate_module.ClassRegistrationSystemTestGetMajor.test_get_all_major)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "official_tests.py", line 95, in setUp
+NameError: name 'ClassRegistrationSystem' is not defined. Did you mean: 'ClassRegistrationSystemTest'?
+
+======================================================================
+ERROR: test_get_all_major2 (candidate_module.ClassRegistrationSystemTestGetMajor.test_get_all_major2)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "official_tests.py", line 95, in setUp
+NameError: name 'ClassRegistrationSystem' is not defined. Did you mean: 'ClassRegistrationSystemTest'?
+
+======================================================================
+ERROR: test_get_all_major3 (candidate_module.ClassRegistrationSystemTestGetMajor.test_get_all_major3)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "official_tests.py", line 95, in setUp
+NameError: name 'ClassRegistrationSystem' is not defined. Did you mean: 'ClassRegistrationSystemTest'?
+
+======================================================================
+ERROR: test_get_most_popular_class_in_major (candidate_module.ClassRegistrationSystemTestPopularClass.test_get_most_popular_class_in_major)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "official_tests.py", line 128, in setUp
+NameError: name 'ClassRegistrationSystem' is not defined. Did you mean: 'ClassRegistrationSystemTest'?
+
+======================================================================
+ERROR: test_get_most_popular_class_in_major2 (candidate_module.ClassRegistrationSystemTestPopularClass.test_get_most_popular_class_in_major2)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "official_tests.py", line 128, in setUp
+NameError: name 'ClassRegistrationSystem' is not defined. Did you mean: 'ClassRegistrationSystemTest'?
+
+======================================================================
+ERROR: test (candidate_module.ClassRegistrationSystemTest.test)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "official_tests.py", line 166, in setUp
+NameError: name 'ClassRegistrationSystem' is not defined. Did you mean: 'ClassRegistrationSystemTest'?
+
+----------------------------------------------------------------------
+Ran 16 tests in 0.005s
+
+FAILED (errors=16)

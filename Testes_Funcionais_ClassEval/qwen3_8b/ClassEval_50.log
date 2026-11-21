@@ -1,0 +1,133 @@
+test_read_json_1 (candidate_module.JSONProcessorTestReadJson.test_read_json_1) ... ERROR
+test_read_json_2 (candidate_module.JSONProcessorTestReadJson.test_read_json_2) ... ERROR
+test_read_json_3 (candidate_module.JSONProcessorTestReadJson.test_read_json_3) ... ERROR
+test_read_json_4 (candidate_module.JSONProcessorTestReadJson.test_read_json_4) ... ERROR
+test_read_json_5 (candidate_module.JSONProcessorTestReadJson.test_read_json_5) ... ERROR
+test_write_json_1 (candidate_module.JSONProcessorTestWriteJson.test_write_json_1) ... ERROR
+test_write_json_2 (candidate_module.JSONProcessorTestWriteJson.test_write_json_2) ... ERROR
+test_write_json_3 (candidate_module.JSONProcessorTestWriteJson.test_write_json_3) ... ERROR
+test_write_json_4 (candidate_module.JSONProcessorTestWriteJson.test_write_json_4) ... ERROR
+test_write_json_5 (candidate_module.JSONProcessorTestWriteJson.test_write_json_5) ... ERROR
+test_process_json_1 (candidate_module.JSONProcessorTestProcessJsonExistingKey.test_process_json_1) ... ERROR
+test_process_json_2 (candidate_module.JSONProcessorTestProcessJsonExistingKey.test_process_json_2) ... ERROR
+test_process_json_3 (candidate_module.JSONProcessorTestProcessJsonExistingKey.test_process_json_3) ... ERROR
+test_process_json_4 (candidate_module.JSONProcessorTestProcessJsonExistingKey.test_process_json_4) ... ERROR
+test_process_json_5 (candidate_module.JSONProcessorTestProcessJsonExistingKey.test_process_json_5) ... ERROR
+test_main (candidate_module.JSONProcessorTestMain.test_main) ... ERROR
+
+======================================================================
+ERROR: test_read_json_1 (candidate_module.JSONProcessorTestReadJson.test_read_json_1)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "official_tests.py", line 9, in setUp
+NameError: name 'JSONProcessor' is not defined. Did you mean: 'JsonProcessor'?
+
+======================================================================
+ERROR: test_read_json_2 (candidate_module.JSONProcessorTestReadJson.test_read_json_2)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "official_tests.py", line 9, in setUp
+NameError: name 'JSONProcessor' is not defined. Did you mean: 'JsonProcessor'?
+
+======================================================================
+ERROR: test_read_json_3 (candidate_module.JSONProcessorTestReadJson.test_read_json_3)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "official_tests.py", line 9, in setUp
+NameError: name 'JSONProcessor' is not defined. Did you mean: 'JsonProcessor'?
+
+======================================================================
+ERROR: test_read_json_4 (candidate_module.JSONProcessorTestReadJson.test_read_json_4)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "official_tests.py", line 9, in setUp
+NameError: name 'JSONProcessor' is not defined. Did you mean: 'JsonProcessor'?
+
+======================================================================
+ERROR: test_read_json_5 (candidate_module.JSONProcessorTestReadJson.test_read_json_5)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "official_tests.py", line 9, in setUp
+NameError: name 'JSONProcessor' is not defined. Did you mean: 'JsonProcessor'?
+
+======================================================================
+ERROR: test_write_json_1 (candidate_module.JSONProcessorTestWriteJson.test_write_json_1)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "official_tests.py", line 51, in setUp
+NameError: name 'JSONProcessor' is not defined. Did you mean: 'JsonProcessor'?
+
+======================================================================
+ERROR: test_write_json_2 (candidate_module.JSONProcessorTestWriteJson.test_write_json_2)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "official_tests.py", line 51, in setUp
+NameError: name 'JSONProcessor' is not defined. Did you mean: 'JsonProcessor'?
+
+======================================================================
+ERROR: test_write_json_3 (candidate_module.JSONProcessorTestWriteJson.test_write_json_3)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "official_tests.py", line 51, in setUp
+NameError: name 'JSONProcessor' is not defined. Did you mean: 'JsonProcessor'?
+
+======================================================================
+ERROR: test_write_json_4 (candidate_module.JSONProcessorTestWriteJson.test_write_json_4)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "official_tests.py", line 51, in setUp
+NameError: name 'JSONProcessor' is not defined. Did you mean: 'JsonProcessor'?
+
+======================================================================
+ERROR: test_write_json_5 (candidate_module.JSONProcessorTestWriteJson.test_write_json_5)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "official_tests.py", line 51, in setUp
+NameError: name 'JSONProcessor' is not defined. Did you mean: 'JsonProcessor'?
+
+======================================================================
+ERROR: test_process_json_1 (candidate_module.JSONProcessorTestProcessJsonExistingKey.test_process_json_1)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "official_tests.py", line 103, in setUp
+NameError: name 'JSONProcessor' is not defined. Did you mean: 'JsonProcessor'?
+
+======================================================================
+ERROR: test_process_json_2 (candidate_module.JSONProcessorTestProcessJsonExistingKey.test_process_json_2)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "official_tests.py", line 103, in setUp
+NameError: name 'JSONProcessor' is not defined. Did you mean: 'JsonProcessor'?
+
+======================================================================
+ERROR: test_process_json_3 (candidate_module.JSONProcessorTestProcessJsonExistingKey.test_process_json_3)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "official_tests.py", line 103, in setUp
+NameError: name 'JSONProcessor' is not defined. Did you mean: 'JsonProcessor'?
+
+======================================================================
+ERROR: test_process_json_4 (candidate_module.JSONProcessorTestProcessJsonExistingKey.test_process_json_4)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "official_tests.py", line 103, in setUp
+NameError: name 'JSONProcessor' is not defined. Did you mean: 'JsonProcessor'?
+
+======================================================================
+ERROR: test_process_json_5 (candidate_module.JSONProcessorTestProcessJsonExistingKey.test_process_json_5)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "official_tests.py", line 103, in setUp
+NameError: name 'JSONProcessor' is not defined. Did you mean: 'JsonProcessor'?
+
+======================================================================
+ERROR: test_main (candidate_module.JSONProcessorTestMain.test_main)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "official_tests.py", line 168, in setUp
+NameError: name 'JSONProcessor' is not defined. Did you mean: 'JsonProcessor'?
+
+----------------------------------------------------------------------
+Ran 16 tests in 0.005s
+
+FAILED (errors=16)

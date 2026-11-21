@@ -1,0 +1,36 @@
+test_add_student (candidate_module.AssessmentSystemTestAddStudent.test_add_student) ... ok
+test_add_student_2 (candidate_module.AssessmentSystemTestAddStudent.test_add_student_2) ... ok
+test_add_student_3 (candidate_module.AssessmentSystemTestAddStudent.test_add_student_3) ... ok
+test_add_student_4 (candidate_module.AssessmentSystemTestAddStudent.test_add_student_4) ... ok
+test_add_student_5 (candidate_module.AssessmentSystemTestAddStudent.test_add_student_5) ... ok
+test_add_course_score (candidate_module.AssessmentSystemTestAddCourseScore.test_add_course_score) ... ok
+test_add_course_score_2 (candidate_module.AssessmentSystemTestAddCourseScore.test_add_course_score_2) ... ok
+test_add_course_score_3 (candidate_module.AssessmentSystemTestAddCourseScore.test_add_course_score_3) ... ok
+test_add_course_score_4 (candidate_module.AssessmentSystemTestAddCourseScore.test_add_course_score_4) ... ok
+test_add_course_score_5 (candidate_module.AssessmentSystemTestAddCourseScore.test_add_course_score_5) ... ok
+test_get_gpa_1 (candidate_module.AssessmentSystemTestGetGPA.test_get_gpa_1) ... ok
+test_get_gpa_2 (candidate_module.AssessmentSystemTestGetGPA.test_get_gpa_2) ... ok
+test_get_gpa_3 (candidate_module.AssessmentSystemTestGetGPA.test_get_gpa_3) ... ok
+test_get_gpa_4 (candidate_module.AssessmentSystemTestGetGPA.test_get_gpa_4) ... ok
+test_get_gpa_5 (candidate_module.AssessmentSystemTestGetGPA.test_get_gpa_5) ... ok
+test_get_all_students_with_fail_course (candidate_module.AssessmentSystemTestGetAllStudentsWithFailCourse.test_get_all_students_with_fail_course) ... ok
+test_get_all_students_with_fail_course_2 (candidate_module.AssessmentSystemTestGetAllStudentsWithFailCourse.test_get_all_students_with_fail_course_2) ... ok
+test_get_all_students_with_fail_course_3 (candidate_module.AssessmentSystemTestGetAllStudentsWithFailCourse.test_get_all_students_with_fail_course_3) ... ok
+test_get_all_students_with_fail_course_4 (candidate_module.AssessmentSystemTestGetAllStudentsWithFailCourse.test_get_all_students_with_fail_course_4) ... ok
+test_get_all_students_with_fail_course_5 (candidate_module.AssessmentSystemTestGetAllStudentsWithFailCourse.test_get_all_students_with_fail_course_5) ... ok
+test_get_course_average_1 (candidate_module.AssessmentSystemTestGetCourseAverage.test_get_course_average_1) ... ok
+test_get_course_average_2 (candidate_module.AssessmentSystemTestGetCourseAverage.test_get_course_average_2) ... ok
+test_get_course_average_3 (candidate_module.AssessmentSystemTestGetCourseAverage.test_get_course_average_3) ... ok
+test_get_course_average_4 (candidate_module.AssessmentSystemTestGetCourseAverage.test_get_course_average_4) ... ok
+test_get_course_average_5 (candidate_module.AssessmentSystemTestGetCourseAverage.test_get_course_average_5) ... ok
+test_get_top_student (candidate_module.AssessmentSystemTestGetTopStudent.test_get_top_student) ... ok
+test_get_top_student_2 (candidate_module.AssessmentSystemTestGetTopStudent.test_get_top_student_2) ... ok
+test_get_top_student_3 (candidate_module.AssessmentSystemTestGetTopStudent.test_get_top_student_3) ... ok
+test_get_top_student_4 (candidate_module.AssessmentSystemTestGetTopStudent.test_get_top_student_4) ... ok
+test_get_top_student_5 (candidate_module.AssessmentSystemTestGetTopStudent.test_get_top_student_5) ... ok
+test_main (candidate_module.AssessmentSystemTestMain.test_main) ... ok
+
+----------------------------------------------------------------------
+Ran 31 tests in 0.000s
+
+OK

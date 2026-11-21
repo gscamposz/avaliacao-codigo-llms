@@ -1,0 +1,229 @@
+test_add_employee (candidate_module.HRManagementSystemTestAddEmployee.test_add_employee) ... ERROR
+test_add_employee_2 (candidate_module.HRManagementSystemTestAddEmployee.test_add_employee_2) ... ERROR
+test_add_employee_3 (candidate_module.HRManagementSystemTestAddEmployee.test_add_employee_3) ... ERROR
+test_add_employee_4 (candidate_module.HRManagementSystemTestAddEmployee.test_add_employee_4) ... ERROR
+test_add_employee_5 (candidate_module.HRManagementSystemTestAddEmployee.test_add_employee_5) ... ERROR
+test_remove_employee (candidate_module.HRManagementSystemTestRemoveEmployee.test_remove_employee) ... ERROR
+test_remove_employee_2 (candidate_module.HRManagementSystemTestRemoveEmployee.test_remove_employee_2) ... ERROR
+test_remove_employee_3 (candidate_module.HRManagementSystemTestRemoveEmployee.test_remove_employee_3) ... ERROR
+test_remove_employee_4 (candidate_module.HRManagementSystemTestRemoveEmployee.test_remove_employee_4) ... ERROR
+test_remove_employee_5 (candidate_module.HRManagementSystemTestRemoveEmployee.test_remove_employee_5) ... ERROR
+test_update_employee (candidate_module.HRManagementSystemTestUpdateEmployee.test_update_employee) ... ERROR
+test_update_employee_2 (candidate_module.HRManagementSystemTestUpdateEmployee.test_update_employee_2) ... ERROR
+test_update_employee_3 (candidate_module.HRManagementSystemTestUpdateEmployee.test_update_employee_3) ... ERROR
+test_update_employee_4 (candidate_module.HRManagementSystemTestUpdateEmployee.test_update_employee_4) ... ERROR
+test_update_employee_5 (candidate_module.HRManagementSystemTestUpdateEmployee.test_update_employee_5) ... ERROR
+test_update_employee_6 (candidate_module.HRManagementSystemTestUpdateEmployee.test_update_employee_6) ... ERROR
+test_get_employee (candidate_module.HRManagementSystemTestGetEmployee.test_get_employee) ... ERROR
+test_get_employee_2 (candidate_module.HRManagementSystemTestGetEmployee.test_get_employee_2) ... ERROR
+test_get_employee_3 (candidate_module.HRManagementSystemTestGetEmployee.test_get_employee_3) ... ERROR
+test_get_employee_4 (candidate_module.HRManagementSystemTestGetEmployee.test_get_employee_4) ... ERROR
+test_get_employee_5 (candidate_module.HRManagementSystemTestGetEmployee.test_get_employee_5) ... ERROR
+test_list_employees (candidate_module.HRManagementSystemTestListEmployees.test_list_employees) ... ERROR
+test_list_employees_2 (candidate_module.HRManagementSystemTestListEmployees.test_list_employees_2) ... ERROR
+test_list_employees_3 (candidate_module.HRManagementSystemTestListEmployees.test_list_employees_3) ... ERROR
+test_list_employees_4 (candidate_module.HRManagementSystemTestListEmployees.test_list_employees_4) ... ERROR
+test_list_employees_5 (candidate_module.HRManagementSystemTestListEmployees.test_list_employees_5) ... ERROR
+test_main (candidate_module.HRManagementSystemTestMain.test_main) ... ERROR
+test_main_2 (candidate_module.HRManagementSystemTestMain.test_main_2) ... ERROR
+
+======================================================================
+ERROR: test_add_employee (candidate_module.HRManagementSystemTestAddEmployee.test_add_employee)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "official_tests.py", line 5, in test_add_employee
+NameError: name 'HRManagementSystem' is not defined
+
+======================================================================
+ERROR: test_add_employee_2 (candidate_module.HRManagementSystemTestAddEmployee.test_add_employee_2)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "official_tests.py", line 10, in test_add_employee_2
+NameError: name 'HRManagementSystem' is not defined
+
+======================================================================
+ERROR: test_add_employee_3 (candidate_module.HRManagementSystemTestAddEmployee.test_add_employee_3)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "official_tests.py", line 16, in test_add_employee_3
+NameError: name 'HRManagementSystem' is not defined
+
+======================================================================
+ERROR: test_add_employee_4 (candidate_module.HRManagementSystemTestAddEmployee.test_add_employee_4)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "official_tests.py", line 22, in test_add_employee_4
+NameError: name 'HRManagementSystem' is not defined
+
+======================================================================
+ERROR: test_add_employee_5 (candidate_module.HRManagementSystemTestAddEmployee.test_add_employee_5)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "official_tests.py", line 29, in test_add_employee_5
+NameError: name 'HRManagementSystem' is not defined
+
+======================================================================
+ERROR: test_remove_employee (candidate_module.HRManagementSystemTestRemoveEmployee.test_remove_employee)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "official_tests.py", line 38, in test_remove_employee
+NameError: name 'HRManagementSystem' is not defined
+
+======================================================================
+ERROR: test_remove_employee_2 (candidate_module.HRManagementSystemTestRemoveEmployee.test_remove_employee_2)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "official_tests.py", line 44, in test_remove_employee_2
+NameError: name 'HRManagementSystem' is not defined
+
+======================================================================
+ERROR: test_remove_employee_3 (candidate_module.HRManagementSystemTestRemoveEmployee.test_remove_employee_3)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "official_tests.py", line 51, in test_remove_employee_3
+NameError: name 'HRManagementSystem' is not defined
+
+======================================================================
+ERROR: test_remove_employee_4 (candidate_module.HRManagementSystemTestRemoveEmployee.test_remove_employee_4)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "official_tests.py", line 57, in test_remove_employee_4
+NameError: name 'HRManagementSystem' is not defined
+
+======================================================================
+ERROR: test_remove_employee_5 (candidate_module.HRManagementSystemTestRemoveEmployee.test_remove_employee_5)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "official_tests.py", line 64, in test_remove_employee_5
+NameError: name 'HRManagementSystem' is not defined
+
+======================================================================
+ERROR: test_update_employee (candidate_module.HRManagementSystemTestUpdateEmployee.test_update_employee)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "official_tests.py", line 74, in test_update_employee
+NameError: name 'HRManagementSystem' is not defined
+
+======================================================================
+ERROR: test_update_employee_2 (candidate_module.HRManagementSystemTestUpdateEmployee.test_update_employee_2)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "official_tests.py", line 80, in test_update_employee_2
+NameError: name 'HRManagementSystem' is not defined
+
+======================================================================
+ERROR: test_update_employee_3 (candidate_module.HRManagementSystemTestUpdateEmployee.test_update_employee_3)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "official_tests.py", line 86, in test_update_employee_3
+NameError: name 'HRManagementSystem' is not defined
+
+======================================================================
+ERROR: test_update_employee_4 (candidate_module.HRManagementSystemTestUpdateEmployee.test_update_employee_4)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "official_tests.py", line 92, in test_update_employee_4
+NameError: name 'HRManagementSystem' is not defined
+
+======================================================================
+ERROR: test_update_employee_5 (candidate_module.HRManagementSystemTestUpdateEmployee.test_update_employee_5)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "official_tests.py", line 99, in test_update_employee_5
+NameError: name 'HRManagementSystem' is not defined
+
+======================================================================
+ERROR: test_update_employee_6 (candidate_module.HRManagementSystemTestUpdateEmployee.test_update_employee_6)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "official_tests.py", line 107, in test_update_employee_6
+NameError: name 'HRManagementSystem' is not defined
+
+======================================================================
+ERROR: test_get_employee (candidate_module.HRManagementSystemTestGetEmployee.test_get_employee)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "official_tests.py", line 114, in test_get_employee
+NameError: name 'HRManagementSystem' is not defined
+
+======================================================================
+ERROR: test_get_employee_2 (candidate_module.HRManagementSystemTestGetEmployee.test_get_employee_2)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "official_tests.py", line 119, in test_get_employee_2
+NameError: name 'HRManagementSystem' is not defined
+
+======================================================================
+ERROR: test_get_employee_3 (candidate_module.HRManagementSystemTestGetEmployee.test_get_employee_3)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "official_tests.py", line 124, in test_get_employee_3
+NameError: name 'HRManagementSystem' is not defined
+
+======================================================================
+ERROR: test_get_employee_4 (candidate_module.HRManagementSystemTestGetEmployee.test_get_employee_4)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "official_tests.py", line 129, in test_get_employee_4
+NameError: name 'HRManagementSystem' is not defined
+
+======================================================================
+ERROR: test_get_employee_5 (candidate_module.HRManagementSystemTestGetEmployee.test_get_employee_5)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "official_tests.py", line 135, in test_get_employee_5
+NameError: name 'HRManagementSystem' is not defined
+
+======================================================================
+ERROR: test_list_employees (candidate_module.HRManagementSystemTestListEmployees.test_list_employees)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "official_tests.py", line 142, in test_list_employees
+NameError: name 'HRManagementSystem' is not defined
+
+======================================================================
+ERROR: test_list_employees_2 (candidate_module.HRManagementSystemTestListEmployees.test_list_employees_2)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "official_tests.py", line 147, in test_list_employees_2
+NameError: name 'HRManagementSystem' is not defined
+
+======================================================================
+ERROR: test_list_employees_3 (candidate_module.HRManagementSystemTestListEmployees.test_list_employees_3)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "official_tests.py", line 152, in test_list_employees_3
+NameError: name 'HRManagementSystem' is not defined
+
+======================================================================
+ERROR: test_list_employees_4 (candidate_module.HRManagementSystemTestListEmployees.test_list_employees_4)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "official_tests.py", line 157, in test_list_employees_4
+NameError: name 'HRManagementSystem' is not defined
+
+======================================================================
+ERROR: test_list_employees_5 (candidate_module.HRManagementSystemTestListEmployees.test_list_employees_5)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "official_tests.py", line 164, in test_list_employees_5
+NameError: name 'HRManagementSystem' is not defined
+
+======================================================================
+ERROR: test_main (candidate_module.HRManagementSystemTestMain.test_main)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "official_tests.py", line 171, in test_main
+NameError: name 'HRManagementSystem' is not defined
+
+======================================================================
+ERROR: test_main_2 (candidate_module.HRManagementSystemTestMain.test_main_2)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "official_tests.py", line 186, in test_main_2
+NameError: name 'HRManagementSystem' is not defined
+
+----------------------------------------------------------------------
+Ran 28 tests in 0.046s
+
+FAILED (errors=28)

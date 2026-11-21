@@ -1,0 +1,149 @@
+test_create_deck_1 (candidate_module.BlackjackGameTestCreateDeck.test_create_deck_1) ... ERROR
+test_create_deck_2 (candidate_module.BlackjackGameTestCreateDeck.test_create_deck_2) ... ERROR
+test_create_deck_3 (candidate_module.BlackjackGameTestCreateDeck.test_create_deck_3) ... ERROR
+test_create_deck_4 (candidate_module.BlackjackGameTestCreateDeck.test_create_deck_4) ... ERROR
+test_create_deck_5 (candidate_module.BlackjackGameTestCreateDeck.test_create_deck_5) ... ERROR
+test_calculate_hand_value_1 (candidate_module.BlackjackGameTestCalculateHandValue.test_calculate_hand_value_1) ... ERROR
+test_calculate_hand_value_2 (candidate_module.BlackjackGameTestCalculateHandValue.test_calculate_hand_value_2) ... ERROR
+test_calculate_hand_value_3 (candidate_module.BlackjackGameTestCalculateHandValue.test_calculate_hand_value_3) ... ERROR
+test_calculate_hand_value_4 (candidate_module.BlackjackGameTestCalculateHandValue.test_calculate_hand_value_4) ... ERROR
+test_calculate_hand_value_5 (candidate_module.BlackjackGameTestCalculateHandValue.test_calculate_hand_value_5) ... ERROR
+test_calculate_hand_value_6 (candidate_module.BlackjackGameTestCalculateHandValue.test_calculate_hand_value_6) ... ERROR
+test_check_winner_1 (candidate_module.BlackjackGameTestCheckWinner.test_check_winner_1) ... ERROR
+test_check_winner_2 (candidate_module.BlackjackGameTestCheckWinner.test_check_winner_2) ... ERROR
+test_check_winner_3 (candidate_module.BlackjackGameTestCheckWinner.test_check_winner_3) ... ERROR
+test_check_winner_4 (candidate_module.BlackjackGameTestCheckWinner.test_check_winner_4) ... ERROR
+test_check_winner_5 (candidate_module.BlackjackGameTestCheckWinner.test_check_winner_5) ... ERROR
+test_check_winner_6 (candidate_module.BlackjackGameTestCheckWinner.test_check_winner_6) ... ERROR
+test_main_1 (candidate_module.BlackjackGameTestMain.test_main_1) ... ERROR
+
+======================================================================
+ERROR: test_create_deck_1 (candidate_module.BlackjackGameTestCreateDeck.test_create_deck_1)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "official_tests.py", line 5, in setUp
+NameError: name 'BlackjackGame' is not defined
+
+======================================================================
+ERROR: test_create_deck_2 (candidate_module.BlackjackGameTestCreateDeck.test_create_deck_2)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "official_tests.py", line 5, in setUp
+NameError: name 'BlackjackGame' is not defined
+
+======================================================================
+ERROR: test_create_deck_3 (candidate_module.BlackjackGameTestCreateDeck.test_create_deck_3)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "official_tests.py", line 5, in setUp
+NameError: name 'BlackjackGame' is not defined
+
+======================================================================
+ERROR: test_create_deck_4 (candidate_module.BlackjackGameTestCreateDeck.test_create_deck_4)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "official_tests.py", line 5, in setUp
+NameError: name 'BlackjackGame' is not defined
+
+======================================================================
+ERROR: test_create_deck_5 (candidate_module.BlackjackGameTestCreateDeck.test_create_deck_5)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "official_tests.py", line 5, in setUp
+NameError: name 'BlackjackGame' is not defined
+
+======================================================================
+ERROR: test_calculate_hand_value_1 (candidate_module.BlackjackGameTestCalculateHandValue.test_calculate_hand_value_1)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "official_tests.py", line 41, in test_calculate_hand_value_1
+NameError: name 'BlackjackGame' is not defined
+
+======================================================================
+ERROR: test_calculate_hand_value_2 (candidate_module.BlackjackGameTestCalculateHandValue.test_calculate_hand_value_2)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "official_tests.py", line 46, in test_calculate_hand_value_2
+NameError: name 'BlackjackGame' is not defined
+
+======================================================================
+ERROR: test_calculate_hand_value_3 (candidate_module.BlackjackGameTestCalculateHandValue.test_calculate_hand_value_3)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "official_tests.py", line 51, in test_calculate_hand_value_3
+NameError: name 'BlackjackGame' is not defined
+
+======================================================================
+ERROR: test_calculate_hand_value_4 (candidate_module.BlackjackGameTestCalculateHandValue.test_calculate_hand_value_4)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "official_tests.py", line 56, in test_calculate_hand_value_4
+NameError: name 'BlackjackGame' is not defined
+
+======================================================================
+ERROR: test_calculate_hand_value_5 (candidate_module.BlackjackGameTestCalculateHandValue.test_calculate_hand_value_5)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "official_tests.py", line 61, in test_calculate_hand_value_5
+NameError: name 'BlackjackGame' is not defined
+
+======================================================================
+ERROR: test_calculate_hand_value_6 (candidate_module.BlackjackGameTestCalculateHandValue.test_calculate_hand_value_6)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "official_tests.py", line 66, in test_calculate_hand_value_6
+NameError: name 'BlackjackGame' is not defined
+
+======================================================================
+ERROR: test_check_winner_1 (candidate_module.BlackjackGameTestCheckWinner.test_check_winner_1)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "official_tests.py", line 73, in setUp
+NameError: name 'BlackjackGame' is not defined
+
+======================================================================
+ERROR: test_check_winner_2 (candidate_module.BlackjackGameTestCheckWinner.test_check_winner_2)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "official_tests.py", line 73, in setUp
+NameError: name 'BlackjackGame' is not defined
+
+======================================================================
+ERROR: test_check_winner_3 (candidate_module.BlackjackGameTestCheckWinner.test_check_winner_3)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "official_tests.py", line 73, in setUp
+NameError: name 'BlackjackGame' is not defined
+
+======================================================================
+ERROR: test_check_winner_4 (candidate_module.BlackjackGameTestCheckWinner.test_check_winner_4)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "official_tests.py", line 73, in setUp
+NameError: name 'BlackjackGame' is not defined
+
+======================================================================
+ERROR: test_check_winner_5 (candidate_module.BlackjackGameTestCheckWinner.test_check_winner_5)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "official_tests.py", line 73, in setUp
+NameError: name 'BlackjackGame' is not defined
+
+======================================================================
+ERROR: test_check_winner_6 (candidate_module.BlackjackGameTestCheckWinner.test_check_winner_6)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "official_tests.py", line 73, in setUp
+NameError: name 'BlackjackGame' is not defined
+
+======================================================================
+ERROR: test_main_1 (candidate_module.BlackjackGameTestMain.test_main_1)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "official_tests.py", line 115, in test_main_1
+NameError: name 'BlackjackGame' is not defined
+
+----------------------------------------------------------------------
+Ran 18 tests in 0.027s
+
+FAILED (errors=18)

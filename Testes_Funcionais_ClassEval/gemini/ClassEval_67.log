@@ -1,0 +1,57 @@
+test_add_dish_1 (candidate_module.OrderTestAddDish.test_add_dish_1) ... FAIL
+test_add_dish_2 (candidate_module.OrderTestAddDish.test_add_dish_2) ... ok
+test_add_dish_3 (candidate_module.OrderTestAddDish.test_add_dish_3) ... FAIL
+test_add_dish_4 (candidate_module.OrderTestAddDish.test_add_dish_4) ... FAIL
+test_add_dish_5 (candidate_module.OrderTestAddDish.test_add_dish_5) ... FAIL
+test_add_dish_6 (candidate_module.OrderTestAddDish.test_add_dish_6) ... FAIL
+test_calculate_total_1 (candidate_module.OrderTestCalculateTotal.test_calculate_total_1) ... ok
+test_calculate_total_2 (candidate_module.OrderTestCalculateTotal.test_calculate_total_2) ... ok
+test_calculate_total_3 (candidate_module.OrderTestCalculateTotal.test_calculate_total_3) ... ok
+test_calculate_total_4 (candidate_module.OrderTestCalculateTotal.test_calculate_total_4) ... ok
+test_calculate_total_5 (candidate_module.OrderTestCalculateTotal.test_calculate_total_5) ... ok
+test_checkout_1 (candidate_module.OrderTestCheckout.test_checkout_1) ... ok
+test_checkout_2 (candidate_module.OrderTestCheckout.test_checkout_2) ... ok
+test_checkout_3 (candidate_module.OrderTestCheckout.test_checkout_3) ... ok
+test_checkout_4 (candidate_module.OrderTestCheckout.test_checkout_4) ... ok
+test_checkout_5 (candidate_module.OrderTestCheckout.test_checkout_5) ... ok
+test_order (candidate_module.OrderTest.test_order) ... ok
+
+======================================================================
+FAIL: test_add_dish_1 (candidate_module.OrderTestAddDish.test_add_dish_1)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "official_tests.py", line 16, in test_add_dish_1
+AssertionError: False is not true
+
+======================================================================
+FAIL: test_add_dish_3 (candidate_module.OrderTestAddDish.test_add_dish_3)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "official_tests.py", line 46, in test_add_dish_3
+AssertionError: False is not true
+
+======================================================================
+FAIL: test_add_dish_4 (candidate_module.OrderTestAddDish.test_add_dish_4)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "official_tests.py", line 61, in test_add_dish_4
+AssertionError: False is not true
+
+======================================================================
+FAIL: test_add_dish_5 (candidate_module.OrderTestAddDish.test_add_dish_5)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "official_tests.py", line 76, in test_add_dish_5
+AssertionError: False is not true
+
+======================================================================
+FAIL: test_add_dish_6 (candidate_module.OrderTestAddDish.test_add_dish_6)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "official_tests.py", line 92, in test_add_dish_6
+AssertionError: False is not true
+
+----------------------------------------------------------------------
+Ran 17 tests in 0.001s
+
+FAILED (failures=5)

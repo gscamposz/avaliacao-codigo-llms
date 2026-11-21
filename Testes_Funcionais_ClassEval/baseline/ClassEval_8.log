@@ -1,0 +1,27 @@
+test_deposit (candidate_module.BankAccountTestDeposit.test_deposit) ... ok
+test_deposit_2 (candidate_module.BankAccountTestDeposit.test_deposit_2) ... ok
+test_deposit_3 (candidate_module.BankAccountTestDeposit.test_deposit_3) ... ok
+test_deposit_4 (candidate_module.BankAccountTestDeposit.test_deposit_4) ... ok
+test_deposit_5 (candidate_module.BankAccountTestDeposit.test_deposit_5) ... ok
+test_withdraw (candidate_module.BankAccountTestWithdraw.test_withdraw) ... ok
+test_withdraw_2 (candidate_module.BankAccountTestWithdraw.test_withdraw_2) ... ok
+test_withdraw_3 (candidate_module.BankAccountTestWithdraw.test_withdraw_3) ... ok
+test_withdraw_4 (candidate_module.BankAccountTestWithdraw.test_withdraw_4) ... ok
+test_withdraw_5 (candidate_module.BankAccountTestWithdraw.test_withdraw_5) ... ok
+test_view_balance (candidate_module.BankAccountTestViewBalance.test_view_balance) ... ok
+test_view_balance_2 (candidate_module.BankAccountTestViewBalance.test_view_balance_2) ... ok
+test_view_balance_3 (candidate_module.BankAccountTestViewBalance.test_view_balance_3) ... ok
+test_view_balance_4 (candidate_module.BankAccountTestViewBalance.test_view_balance_4) ... ok
+test_view_balance_5 (candidate_module.BankAccountTestViewBalance.test_view_balance_5) ... ok
+test_transfer (candidate_module.BankAccountTestTransfer.test_transfer) ... ok
+test_transfer_2 (candidate_module.BankAccountTestTransfer.test_transfer_2) ... ok
+test_transfer_3 (candidate_module.BankAccountTestTransfer.test_transfer_3) ... ok
+test_transfer_4 (candidate_module.BankAccountTestTransfer.test_transfer_4) ... ok
+test_transfer_5 (candidate_module.BankAccountTestTransfer.test_transfer_5) ... ok
+test_all (candidate_module.BankAccountTest.test_all) ... ok
+test_all2 (candidate_module.BankAccountTest.test_all2) ... ok
+
+----------------------------------------------------------------------
+Ran 22 tests in 0.000s
+
+OK

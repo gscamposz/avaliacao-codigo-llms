@@ -1,0 +1,20 @@
+test_clear_expr (candidate_module.BalancedBracketsTestClearExpr.test_clear_expr) ... ok
+test_clear_expr_2 (candidate_module.BalancedBracketsTestClearExpr.test_clear_expr_2) ... ok
+test_clear_expr_3 (candidate_module.BalancedBracketsTestClearExpr.test_clear_expr_3) ... ok
+test_clear_expr_4 (candidate_module.BalancedBracketsTestClearExpr.test_clear_expr_4) ... ok
+test_clear_expr_5 (candidate_module.BalancedBracketsTestClearExpr.test_clear_expr_5) ... ok
+test_check_balanced_brackets (candidate_module.BalancedBracketsTestCheckBalancedBrackets.test_check_balanced_brackets) ... ok
+test_check_balanced_brackets_2 (candidate_module.BalancedBracketsTestCheckBalancedBrackets.test_check_balanced_brackets_2) ... ok
+test_check_balanced_brackets_3 (candidate_module.BalancedBracketsTestCheckBalancedBrackets.test_check_balanced_brackets_3) ... ok
+test_check_balanced_brackets_4 (candidate_module.BalancedBracketsTestCheckBalancedBrackets.test_check_balanced_brackets_4) ... ok
+test_check_balanced_brackets_5 (candidate_module.BalancedBracketsTestCheckBalancedBrackets.test_check_balanced_brackets_5) ... ok
+test_check_balanced_brackets_6 (candidate_module.BalancedBracketsTestCheckBalancedBrackets.test_check_balanced_brackets_6) ... ok
+test_check_balanced_brackets_7 (candidate_module.BalancedBracketsTestCheckBalancedBrackets.test_check_balanced_brackets_7) ... ok
+test_main (candidate_module.BalancedBracketsTestMain.test_main) ... ok
+test_main_2 (candidate_module.BalancedBracketsTestMain.test_main_2) ... ok
+test_main_3 (candidate_module.BalancedBracketsTestMain.test_main_3) ... ok
+
+----------------------------------------------------------------------
+Ran 15 tests in 0.000s
+
+OK

@@ -1,0 +1,36 @@
+test_decimal_to_binary (candidate_module.NumberConverterTestDecimalToBinary.test_decimal_to_binary) ... ok
+test_decimal_to_binary_2 (candidate_module.NumberConverterTestDecimalToBinary.test_decimal_to_binary_2) ... ok
+test_decimal_to_binary_3 (candidate_module.NumberConverterTestDecimalToBinary.test_decimal_to_binary_3) ... ok
+test_decimal_to_binary_4 (candidate_module.NumberConverterTestDecimalToBinary.test_decimal_to_binary_4) ... ok
+test_decimal_to_binary_5 (candidate_module.NumberConverterTestDecimalToBinary.test_decimal_to_binary_5) ... ok
+test_binary_to_decimal (candidate_module.NumberConverterTestBinaryToDecimal.test_binary_to_decimal) ... ok
+test_binary_to_decimal_2 (candidate_module.NumberConverterTestBinaryToDecimal.test_binary_to_decimal_2) ... ok
+test_binary_to_decimal_3 (candidate_module.NumberConverterTestBinaryToDecimal.test_binary_to_decimal_3) ... ok
+test_binary_to_decimal_4 (candidate_module.NumberConverterTestBinaryToDecimal.test_binary_to_decimal_4) ... ok
+test_binary_to_decimal_5 (candidate_module.NumberConverterTestBinaryToDecimal.test_binary_to_decimal_5) ... ok
+test_decimal_to_octal (candidate_module.NumberConvertTestDecimalToOctal.test_decimal_to_octal) ... ok
+test_decimal_to_octal_2 (candidate_module.NumberConvertTestDecimalToOctal.test_decimal_to_octal_2) ... ok
+test_decimal_to_octal_3 (candidate_module.NumberConvertTestDecimalToOctal.test_decimal_to_octal_3) ... ok
+test_decimal_to_octal_4 (candidate_module.NumberConvertTestDecimalToOctal.test_decimal_to_octal_4) ... ok
+test_decimal_to_octal_5 (candidate_module.NumberConvertTestDecimalToOctal.test_decimal_to_octal_5) ... ok
+test_octal_to_decimal (candidate_module.NumberConvertTestOctalToDecimal.test_octal_to_decimal) ... ok
+test_octal_to_decimal_2 (candidate_module.NumberConvertTestOctalToDecimal.test_octal_to_decimal_2) ... ok
+test_octal_to_decimal_3 (candidate_module.NumberConvertTestOctalToDecimal.test_octal_to_decimal_3) ... ok
+test_octal_to_decimal_4 (candidate_module.NumberConvertTestOctalToDecimal.test_octal_to_decimal_4) ... ok
+test_octal_to_decimal_5 (candidate_module.NumberConvertTestOctalToDecimal.test_octal_to_decimal_5) ... ok
+test_decimal_to_hex (candidate_module.NumberConvertTestDecimalToHex.test_decimal_to_hex) ... ok
+test_decimal_to_hex_2 (candidate_module.NumberConvertTestDecimalToHex.test_decimal_to_hex_2) ... ok
+test_decimal_to_hex_3 (candidate_module.NumberConvertTestDecimalToHex.test_decimal_to_hex_3) ... ok
+test_decimal_to_hex_4 (candidate_module.NumberConvertTestDecimalToHex.test_decimal_to_hex_4) ... ok
+test_decimal_to_hex_5 (candidate_module.NumberConvertTestDecimalToHex.test_decimal_to_hex_5) ... ok
+test_hex_to_decimal (candidate_module.NumberConvertTestHexToDecimal.test_hex_to_decimal) ... ok
+test_hex_to_decimal_2 (candidate_module.NumberConvertTestHexToDecimal.test_hex_to_decimal_2) ... ok
+test_hex_to_decimal_3 (candidate_module.NumberConvertTestHexToDecimal.test_hex_to_decimal_3) ... ok
+test_hex_to_decimal_4 (candidate_module.NumberConvertTestHexToDecimal.test_hex_to_decimal_4) ... ok
+test_hex_to_decimal_5 (candidate_module.NumberConvertTestHexToDecimal.test_hex_to_decimal_5) ... ok
+test_main (candidate_module.NumberConvertTestMain.test_main) ... ok
+
+----------------------------------------------------------------------
+Ran 31 tests in 0.000s
+
+OK

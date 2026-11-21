@@ -1,0 +1,47 @@
+test_add_book_1 (candidate_module.BookManagementTestAddBook.test_add_book_1) ... ok
+test_add_book_2 (candidate_module.BookManagementTestAddBook.test_add_book_2) ... ok
+test_add_book_3 (candidate_module.BookManagementTestAddBook.test_add_book_3) ... ok
+test_add_book_4 (candidate_module.BookManagementTestAddBook.test_add_book_4) ... ok
+test_add_book_5 (candidate_module.BookManagementTestAddBook.test_add_book_5) ... ok
+test_remove_book_1 (candidate_module.BookManagementTestRemoveBook.test_remove_book_1) ... ok
+test_remove_book_2 (candidate_module.BookManagementTestRemoveBook.test_remove_book_2) ... ok
+test_remove_book_3 (candidate_module.BookManagementTestRemoveBook.test_remove_book_3) ... FAIL
+test_remove_book_4 (candidate_module.BookManagementTestRemoveBook.test_remove_book_4) ... FAIL
+test_remove_book_5 (candidate_module.BookManagementTestRemoveBook.test_remove_book_5) ... FAIL
+test_view_inventory_1 (candidate_module.BookManagementTestViewInventory.test_view_inventory_1) ... ok
+test_view_inventory_2 (candidate_module.BookManagementTestViewInventory.test_view_inventory_2) ... ok
+test_view_inventory_3 (candidate_module.BookManagementTestViewInventory.test_view_inventory_3) ... ok
+test_view_inventory_4 (candidate_module.BookManagementTestViewInventory.test_view_inventory_4) ... ok
+test_view_inventory_5 (candidate_module.BookManagementTestViewInventory.test_view_inventory_5) ... ok
+test_view_book_quantity_1 (candidate_module.BookManagementTestViewBookQuantity.test_view_book_quantity_1) ... ok
+test_view_book_quantity_2 (candidate_module.BookManagementTestViewBookQuantity.test_view_book_quantity_2) ... ok
+test_view_book_quantity_3 (candidate_module.BookManagementTestViewBookQuantity.test_view_book_quantity_3) ... ok
+test_view_book_quantity_4 (candidate_module.BookManagementTestViewBookQuantity.test_view_book_quantity_4) ... ok
+test_view_book_quantity_5 (candidate_module.BookManagementTestViewBookQuantity.test_view_book_quantity_5) ... ok
+test_main (candidate_module.BookManagementTestMain.test_main) ... ok
+
+======================================================================
+FAIL: test_remove_book_3 (candidate_module.BookManagementTestRemoveBook.test_remove_book_3)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "official_tests.py", line 50, in test_remove_book_3
+AssertionError: Exception not raised
+
+======================================================================
+FAIL: test_remove_book_4 (candidate_module.BookManagementTestRemoveBook.test_remove_book_4)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "official_tests.py", line 55, in test_remove_book_4
+AssertionError: Exception not raised
+
+======================================================================
+FAIL: test_remove_book_5 (candidate_module.BookManagementTestRemoveBook.test_remove_book_5)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "official_tests.py", line 59, in test_remove_book_5
+AssertionError: Exception not raised
+
+----------------------------------------------------------------------
+Ran 21 tests in 0.001s
+
+FAILED (failures=3)
