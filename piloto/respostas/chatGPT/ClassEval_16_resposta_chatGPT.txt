@@ -1,0 +1,134 @@
+import re
+
+
+class Calculator:
+    """
+    This is a class for a calculator, capable of performing basic arithmetic calculations on numerical expressions using the operators +, -, *, /, and ^ (exponentiation).
+    """
+
+    def __init__(self):
+        self.operators = {
+            '+': lambda x, y: x + y,
+            '-': lambda x, y: x - y,
+            '*': lambda x, y: x * y,
+            '/': lambda x, y: x / y,
+            '^': lambda x, y: x ** y
+        }
+
+    def calculate(self, expression):
+        try:
+            if not isinstance(expression, str):
+                return None
+
+            expression = expression.replace(' ', '')
+
+            if not expression:
+                return None
+
+            tokens = re.findall(r'\d+(?:\.\d*)?|\.\d+|[+\-*/^()]', expression)
+
+            if ''.join(tokens) != expression:
+                return None
+
+            operand_stack = []
+            operator_stack = []
+            expect_operand = True
+
+            for token in tokens:
+                if token == '(':
+                    if not expect_operand:
+                        return None
+                    operator_stack.append(token)
+
+                elif token == ')':
+                    if expect_operand:
+                        return None
+
+                    while operator_stack and operator_stack[-1] != '(':
+                        self.apply_operator(operand_stack, operator_stack)
+
+                    if not operator_stack:
+                        return None
+
+                    operator_stack.pop()
+                    expect_operand = False
+
+                elif token in self.operators:
+                    if expect_operand:
+                        if token in ('+', '-'):
+                            operator_stack.append('u' + token)
+                            continue
+                        return None
+
+                    while operator_stack and operator_stack[-1] != '(':
+                        top = operator_stack[-1]
+
+                        top_precedence = (
+                            3 if top in ('u+', 'u-')
+                            else self.precedence(top)
+                        )
+
+                        current_precedence = self.precedence(token)
+
+                        if (
+                            top_precedence > current_precedence
+                            or (
+                                top_precedence == current_precedence
+                                and token != '^'
+                            )
+                        ):
+                            self.apply_operator(operand_stack, operator_stack)
+                        else:
+                            break
+
+                    operator_stack.append(token)
+                    expect_operand = True
+
+                else:
+                    if not expect_operand:
+                        return None
+
+                    operand_stack.append(float(token))
+                    expect_operand = False
+
+            if expect_operand:
+                return None
+
+            while operator_stack:
+                if operator_stack[-1] == '(':
+                    return None
+
+                self.apply_operator(operand_stack, operator_stack)
+
+            if len(operand_stack) != 1:
+                return None
+
+            return operand_stack[0]
+
+        except Exception:
+            return None
+
+    def precedence(self, operator):
+        if operator in ('+', '-'):
+            return 1
+        elif operator in ('*', '/'):
+            return 2
+        elif operator == '^':
+            return 3
+        return 0
+
+    def apply_operator(self, operand_stack, operator_stack):
+        operator = operator_stack.pop()
+
+        if operator in ('u+', 'u-'):
+            operand = operand_stack.pop()
+            operand_stack.append(
+                -operand if operator == 'u-' else operand
+            )
+        else:
+            right = operand_stack.pop()
+            left = operand_stack.pop()
+            result = self.operators[operator](left, right)
+            operand_stack.append(result)
+
+        return operand_stack, operator_stack
