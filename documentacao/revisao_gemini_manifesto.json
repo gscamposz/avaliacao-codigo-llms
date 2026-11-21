@@ -1,0 +1,20 @@
+[
+  {
+    "tarefa": "ClassEval_5",
+    "raw_sha256_bytes": "65c7bf000151362ad4ed72a556b190afe51919d1905556bee38bfd95fa972027",
+    "prepared_sha256_bytes": "fbec73f6893389e74620a413332294f51c3f0229cfed3021d2042b24ac358a5f",
+    "nonwhitespace_preserved_after_fence_removal": true,
+    "tests_run": 15,
+    "passed": 0,
+    "errors": 15
+  },
+  {
+    "tarefa": "ClassEval_71",
+    "raw_sha256_bytes": "dfbadda9f3f8cd1fac8c95c6d0e7f0e4347a4c32576d04246f3b5442e7d03e8d",
+    "prepared_sha256_bytes": "f74e93191ef15f5b44f9d7131e30311f0a39e7e87624436c27bc2a2828027458",
+    "nonwhitespace_preserved_after_fence_removal": true,
+    "tests_run": 16,
+    "passed": 16,
+    "errors": 0
+  }
+]

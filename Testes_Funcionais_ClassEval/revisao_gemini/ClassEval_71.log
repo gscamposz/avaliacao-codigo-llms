@@ -1,0 +1,21 @@
+test_check_win_1 (avaliacao_classeval.PushBoxGameTestCheckWin.test_check_win_1) ... ok
+test_check_win_2 (avaliacao_classeval.PushBoxGameTestCheckWin.test_check_win_2) ... ok
+test_init_game_1 (avaliacao_classeval.PushBoxGameTestInitGame.test_init_game_1) ... ok
+test_init_game_2 (avaliacao_classeval.PushBoxGameTestInitGame.test_init_game_2) ... ok
+test_init_game_3 (avaliacao_classeval.PushBoxGameTestInitGame.test_init_game_3) ... ok
+test_init_game_4 (avaliacao_classeval.PushBoxGameTestInitGame.test_init_game_4) ... ok
+test_init_game_5 (avaliacao_classeval.PushBoxGameTestInitGame.test_init_game_5) ... ok
+test_init_game_6 (avaliacao_classeval.PushBoxGameTestInitGame.test_init_game_6) ... ok
+test_init_game_7 (avaliacao_classeval.PushBoxGameTestInitGame.test_init_game_7) ... ok
+test_move_1 (avaliacao_classeval.PushBoxGameTestMove.test_move_1) ... ok
+test_move_2 (avaliacao_classeval.PushBoxGameTestMove.test_move_2) ... ok
+test_move_3 (avaliacao_classeval.PushBoxGameTestMove.test_move_3) ... ok
+test_move_4 (avaliacao_classeval.PushBoxGameTestMove.test_move_4) ... ok
+test_move_5 (avaliacao_classeval.PushBoxGameTestMove.test_move_5) ... ok
+test_move_6 (avaliacao_classeval.PushBoxGameTestMove.test_move_6) ... ok
+test_move_7 (avaliacao_classeval.PushBoxGameTestMove.test_move_7) ... ok
+
+----------------------------------------------------------------------
+Ran 16 tests in 0.000s
+
+OK

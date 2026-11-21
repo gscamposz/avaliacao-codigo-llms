@@ -21,10 +21,10 @@ Analisar como diferentes modelos de linguagem implementam classes Python, consid
 | Modelo | Ambiente |
 |---|---|
 | ChatGPT | Navegador |
-| Gemini | Navegador no piloto, com API prevista para a coleta principal |
+| Gemini | Navegador, no piloto e na coleta principal |
 | Qwen3 8B | Ollama local — `qwen3:8b` |
 
-Os identificadores exatos dos modelos, as datas e as configurações utilizadas devem ser registrados durante a coleta.
+As formas de acesso foram confirmadas pelo autor. Os identificadores exatos de ChatGPT e Gemini não foram informados. Consulte [os metadados da coleta](documentacao/COLETA_MODELOS.md) e [a revisão das tarefas 5 e 71 do Gemini](documentacao/REVISAO_GEMINI_5_71.md).
 
 ## Metodologia
 
