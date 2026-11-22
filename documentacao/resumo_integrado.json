@@ -1,0 +1,41 @@
+[
+  {
+    "modelo": "chatgpt",
+    "testes_previstos": 668,
+    "testes_executados": 668,
+    "aprovados": 610,
+    "falhas": 52,
+    "erros": 6,
+    "arquivos_sem_carregar": 0,
+    "tarefas_aprovadas": 14,
+    "testes_nao_executados": 0,
+    "proporcao_aprovados_entre_executados": 0.9131736526946108,
+    "aprovados_sobre_previstos": 0.9131736526946108
+  },
+  {
+    "modelo": "gemini",
+    "testes_previstos": 668,
+    "testes_executados": 668,
+    "aprovados": 596,
+    "falhas": 51,
+    "erros": 21,
+    "arquivos_sem_carregar": 0,
+    "tarefas_aprovadas": 12,
+    "testes_nao_executados": 0,
+    "proporcao_aprovados_entre_executados": 0.8922155688622755,
+    "aprovados_sobre_previstos": 0.8922155688622755
+  },
+  {
+    "modelo": "qwen3_8b",
+    "testes_previstos": 668,
+    "testes_executados": 623,
+    "aprovados": 285,
+    "falhas": 21,
+    "erros": 317,
+    "arquivos_sem_carregar": 2,
+    "tarefas_aprovadas": 8,
+    "testes_nao_executados": 45,
+    "proporcao_aprovados_entre_executados": 0.45746388443017655,
+    "aprovados_sobre_previstos": 0.42664670658682635
+  }
+]

@@ -1,0 +1,109 @@
+test_text2int (candidate_module.Words2NumbersTestText2Int.test_text2int) ... ERROR
+test_text2int2 (candidate_module.Words2NumbersTestText2Int.test_text2int2) ... ERROR
+test_text2int3 (candidate_module.Words2NumbersTestText2Int.test_text2int3) ... ERROR
+test_text2int4 (candidate_module.Words2NumbersTestText2Int.test_text2int4) ... ERROR
+test_text2int5 (candidate_module.Words2NumbersTestText2Int.test_text2int5) ... ERROR
+test_text2int6 (candidate_module.Words2NumbersTestText2Int.test_text2int6) ... ERROR
+test_is_valid_input (candidate_module.Words2NumbersTestIsValidInput.test_is_valid_input) ... ERROR
+test_is_valid_input2 (candidate_module.Words2NumbersTestIsValidInput.test_is_valid_input2) ... ERROR
+test_is_valid_input3 (candidate_module.Words2NumbersTestIsValidInput.test_is_valid_input3) ... ERROR
+test_is_valid_input4 (candidate_module.Words2NumbersTestIsValidInput.test_is_valid_input4) ... ERROR
+test_is_valid_input5 (candidate_module.Words2NumbersTestIsValidInput.test_is_valid_input5) ... ERROR
+test_is_valid_input6 (candidate_module.Words2NumbersTestIsValidInput.test_is_valid_input6) ... ERROR
+test_main (candidate_module.Words2NumbersTestMain.test_main) ... ERROR
+
+======================================================================
+ERROR: test_text2int (candidate_module.Words2NumbersTestText2Int.test_text2int)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "official_tests.py", line 6, in test_text2int
+NameError: name 'Words2Numbers' is not defined
+
+======================================================================
+ERROR: test_text2int2 (candidate_module.Words2NumbersTestText2Int.test_text2int2)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "official_tests.py", line 10, in test_text2int2
+NameError: name 'Words2Numbers' is not defined
+
+======================================================================
+ERROR: test_text2int3 (candidate_module.Words2NumbersTestText2Int.test_text2int3)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "official_tests.py", line 14, in test_text2int3
+NameError: name 'Words2Numbers' is not defined
+
+======================================================================
+ERROR: test_text2int4 (candidate_module.Words2NumbersTestText2Int.test_text2int4)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "official_tests.py", line 18, in test_text2int4
+NameError: name 'Words2Numbers' is not defined
+
+======================================================================
+ERROR: test_text2int5 (candidate_module.Words2NumbersTestText2Int.test_text2int5)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "official_tests.py", line 22, in test_text2int5
+NameError: name 'Words2Numbers' is not defined
+
+======================================================================
+ERROR: test_text2int6 (candidate_module.Words2NumbersTestText2Int.test_text2int6)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "official_tests.py", line 26, in test_text2int6
+NameError: name 'Words2Numbers' is not defined
+
+======================================================================
+ERROR: test_is_valid_input (candidate_module.Words2NumbersTestIsValidInput.test_is_valid_input)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "official_tests.py", line 31, in test_is_valid_input
+NameError: name 'Words2Numbers' is not defined
+
+======================================================================
+ERROR: test_is_valid_input2 (candidate_module.Words2NumbersTestIsValidInput.test_is_valid_input2)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "official_tests.py", line 35, in test_is_valid_input2
+NameError: name 'Words2Numbers' is not defined
+
+======================================================================
+ERROR: test_is_valid_input3 (candidate_module.Words2NumbersTestIsValidInput.test_is_valid_input3)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "official_tests.py", line 39, in test_is_valid_input3
+NameError: name 'Words2Numbers' is not defined
+
+======================================================================
+ERROR: test_is_valid_input4 (candidate_module.Words2NumbersTestIsValidInput.test_is_valid_input4)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "official_tests.py", line 43, in test_is_valid_input4
+NameError: name 'Words2Numbers' is not defined
+
+======================================================================
+ERROR: test_is_valid_input5 (candidate_module.Words2NumbersTestIsValidInput.test_is_valid_input5)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "official_tests.py", line 47, in test_is_valid_input5
+NameError: name 'Words2Numbers' is not defined
+
+======================================================================
+ERROR: test_is_valid_input6 (candidate_module.Words2NumbersTestIsValidInput.test_is_valid_input6)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "official_tests.py", line 51, in test_is_valid_input6
+NameError: name 'Words2Numbers' is not defined
+
+======================================================================
+ERROR: test_main (candidate_module.Words2NumbersTestMain.test_main)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "official_tests.py", line 56, in test_main
+NameError: name 'Words2Numbers' is not defined
+
+----------------------------------------------------------------------
+Ran 13 tests in 0.022s
+
+FAILED (errors=13)

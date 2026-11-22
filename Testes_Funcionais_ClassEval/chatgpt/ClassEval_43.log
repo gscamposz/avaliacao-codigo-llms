@@ -1,0 +1,40 @@
+test_add_employee (candidate_module.HRManagementSystemTestAddEmployee.test_add_employee) ... ok
+test_add_employee_2 (candidate_module.HRManagementSystemTestAddEmployee.test_add_employee_2) ... ok
+test_add_employee_3 (candidate_module.HRManagementSystemTestAddEmployee.test_add_employee_3) ... ok
+test_add_employee_4 (candidate_module.HRManagementSystemTestAddEmployee.test_add_employee_4) ... ok
+test_add_employee_5 (candidate_module.HRManagementSystemTestAddEmployee.test_add_employee_5) ... ok
+test_remove_employee (candidate_module.HRManagementSystemTestRemoveEmployee.test_remove_employee) ... ok
+test_remove_employee_2 (candidate_module.HRManagementSystemTestRemoveEmployee.test_remove_employee_2) ... ok
+test_remove_employee_3 (candidate_module.HRManagementSystemTestRemoveEmployee.test_remove_employee_3) ... ok
+test_remove_employee_4 (candidate_module.HRManagementSystemTestRemoveEmployee.test_remove_employee_4) ... ok
+test_remove_employee_5 (candidate_module.HRManagementSystemTestRemoveEmployee.test_remove_employee_5) ... ok
+test_update_employee (candidate_module.HRManagementSystemTestUpdateEmployee.test_update_employee) ... ok
+test_update_employee_2 (candidate_module.HRManagementSystemTestUpdateEmployee.test_update_employee_2) ... ok
+test_update_employee_3 (candidate_module.HRManagementSystemTestUpdateEmployee.test_update_employee_3) ... ok
+test_update_employee_4 (candidate_module.HRManagementSystemTestUpdateEmployee.test_update_employee_4) ... ok
+test_update_employee_5 (candidate_module.HRManagementSystemTestUpdateEmployee.test_update_employee_5) ... ok
+test_update_employee_6 (candidate_module.HRManagementSystemTestUpdateEmployee.test_update_employee_6) ... FAIL
+test_get_employee (candidate_module.HRManagementSystemTestGetEmployee.test_get_employee) ... ok
+test_get_employee_2 (candidate_module.HRManagementSystemTestGetEmployee.test_get_employee_2) ... ok
+test_get_employee_3 (candidate_module.HRManagementSystemTestGetEmployee.test_get_employee_3) ... ok
+test_get_employee_4 (candidate_module.HRManagementSystemTestGetEmployee.test_get_employee_4) ... ok
+test_get_employee_5 (candidate_module.HRManagementSystemTestGetEmployee.test_get_employee_5) ... ok
+test_list_employees (candidate_module.HRManagementSystemTestListEmployees.test_list_employees) ... ok
+test_list_employees_2 (candidate_module.HRManagementSystemTestListEmployees.test_list_employees_2) ... ok
+test_list_employees_3 (candidate_module.HRManagementSystemTestListEmployees.test_list_employees_3) ... ok
+test_list_employees_4 (candidate_module.HRManagementSystemTestListEmployees.test_list_employees_4) ... ok
+test_list_employees_5 (candidate_module.HRManagementSystemTestListEmployees.test_list_employees_5) ... ok
+test_main (candidate_module.HRManagementSystemTestMain.test_main) ... ok
+test_main_2 (candidate_module.HRManagementSystemTestMain.test_main_2) ... ok
+
+======================================================================
+FAIL: test_update_employee_6 (candidate_module.HRManagementSystemTestUpdateEmployee.test_update_employee_6)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "official_tests.py", line 109, in test_update_employee_6
+AssertionError: True != False
+
+----------------------------------------------------------------------
+Ran 28 tests in 0.001s
+
+FAILED (failures=1)

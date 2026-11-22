@@ -1,0 +1,26 @@
+test_move_1 (candidate_module.SnakeTestMove.test_move_1) ... ok
+test_move_2 (candidate_module.SnakeTestMove.test_move_2) ... ok
+test_move_3 (candidate_module.SnakeTestMove.test_move_3) ... ok
+test_move_4 (candidate_module.SnakeTestMove.test_move_4) ... ok
+test_move_5 (candidate_module.SnakeTestMove.test_move_5) ... ok
+test_random_food_position_1 (candidate_module.SnakeTestRandomFoodPosition.test_random_food_position_1) ... ok
+test_random_food_position_2 (candidate_module.SnakeTestRandomFoodPosition.test_random_food_position_2) ... ok
+test_random_food_position_3 (candidate_module.SnakeTestRandomFoodPosition.test_random_food_position_3) ... ok
+test_random_food_position_4 (candidate_module.SnakeTestRandomFoodPosition.test_random_food_position_4) ... ok
+test_random_food_position_5 (candidate_module.SnakeTestRandomFoodPosition.test_random_food_position_5) ... ok
+test_reset_1 (candidate_module.SnakeTestReset.test_reset_1) ... ok
+test_reset_2 (candidate_module.SnakeTestReset.test_reset_2) ... ok
+test_reset_3 (candidate_module.SnakeTestReset.test_reset_3) ... ok
+test_reset_4 (candidate_module.SnakeTestReset.test_reset_4) ... ok
+test_reset_5 (candidate_module.SnakeTestReset.test_reset_5) ... ok
+test_eat_food_1 (candidate_module.SnakeTestEatFood.test_eat_food_1) ... ok
+test_eat_food_2 (candidate_module.SnakeTestEatFood.test_eat_food_2) ... ok
+test_eat_food_3 (candidate_module.SnakeTestEatFood.test_eat_food_3) ... ok
+test_eat_food_4 (candidate_module.SnakeTestEatFood.test_eat_food_4) ... ok
+test_eat_food_5 (candidate_module.SnakeTestEatFood.test_eat_food_5) ... ok
+test_snake (candidate_module.SnakeTest.test_snake) ... ok
+
+----------------------------------------------------------------------
+Ran 21 tests in 0.000s
+
+OK

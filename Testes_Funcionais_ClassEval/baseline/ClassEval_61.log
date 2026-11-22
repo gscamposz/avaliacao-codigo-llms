@@ -1,0 +1,47 @@
+test_add_song (candidate_module.MusicPlayerTestAddSong.test_add_song) ... ok
+test_add_song2 (candidate_module.MusicPlayerTestAddSong.test_add_song2) ... ok
+test_add_song3 (candidate_module.MusicPlayerTestAddSong.test_add_song3) ... ok
+test_add_song4 (candidate_module.MusicPlayerTestAddSong.test_add_song4) ... ok
+test_add_song5 (candidate_module.MusicPlayerTestAddSong.test_add_song5) ... ok
+test_remove_song (candidate_module.MusicPlayerTestRemoveSong.test_remove_song) ... ok
+test_remove_song2 (candidate_module.MusicPlayerTestRemoveSong.test_remove_song2) ... ok
+test_remove_song3 (candidate_module.MusicPlayerTestRemoveSong.test_remove_song3) ... ok
+test_remove_song4 (candidate_module.MusicPlayerTestRemoveSong.test_remove_song4) ... ok
+test_remove_song5 (candidate_module.MusicPlayerTestRemoveSong.test_remove_song5) ... ok
+test_remove_song6 (candidate_module.MusicPlayerTestRemoveSong.test_remove_song6) ... ok
+test_play (candidate_module.MusicPlayerTestPlay.test_play) ... ok
+test_play_2 (candidate_module.MusicPlayerTestPlay.test_play_2) ... ok
+test_play_3 (candidate_module.MusicPlayerTestPlay.test_play_3) ... ok
+test_play_4 (candidate_module.MusicPlayerTestPlay.test_play_4) ... ok
+test_play_5 (candidate_module.MusicPlayerTestPlay.test_play_5) ... ok
+test_stop (candidate_module.MusicPlayerTestStop.test_stop) ... ok
+test_stop_2 (candidate_module.MusicPlayerTestStop.test_stop_2) ... ok
+test_stop_3 (candidate_module.MusicPlayerTestStop.test_stop_3) ... ok
+test_stop_4 (candidate_module.MusicPlayerTestStop.test_stop_4) ... ok
+test_stop_5 (candidate_module.MusicPlayerTestStop.test_stop_5) ... ok
+test_switch_song (candidate_module.MusicPlayerTestSwitchSong.test_switch_song) ... ok
+test_switch_song2 (candidate_module.MusicPlayerTestSwitchSong.test_switch_song2) ... ok
+test_switch_song3 (candidate_module.MusicPlayerTestSwitchSong.test_switch_song3) ... ok
+test_switch_song4 (candidate_module.MusicPlayerTestSwitchSong.test_switch_song4) ... ok
+test_switch_song5 (candidate_module.MusicPlayerTestSwitchSong.test_switch_song5) ... ok
+test_previous_song (candidate_module.MusicPlayerTestPreviousSong.test_previous_song) ... ok
+test_previous_song2 (candidate_module.MusicPlayerTestPreviousSong.test_previous_song2) ... ok
+test_previous_song3 (candidate_module.MusicPlayerTestPreviousSong.test_previous_song3) ... ok
+test_previous_song4 (candidate_module.MusicPlayerTestPreviousSong.test_previous_song4) ... ok
+test_previous_song5 (candidate_module.MusicPlayerTestPreviousSong.test_previous_song5) ... ok
+test_set_volume (candidate_module.MusicPlayerTestSetVolume.test_set_volume) ... ok
+test_set_volume2 (candidate_module.MusicPlayerTestSetVolume.test_set_volume2) ... ok
+test_set_volume3 (candidate_module.MusicPlayerTestSetVolume.test_set_volume3) ... ok
+test_set_volume4 (candidate_module.MusicPlayerTestSetVolume.test_set_volume4) ... ok
+test_set_volume5 (candidate_module.MusicPlayerTestSetVolume.test_set_volume5) ... ok
+test_shuffle (candidate_module.MusicPlayerTestShuffle.test_shuffle) ... ok
+test_shuffle_2 (candidate_module.MusicPlayerTestShuffle.test_shuffle_2) ... ok
+test_shuffle_3 (candidate_module.MusicPlayerTestShuffle.test_shuffle_3) ... ok
+test_shuffle_4 (candidate_module.MusicPlayerTestShuffle.test_shuffle_4) ... ok
+test_shuffle_5 (candidate_module.MusicPlayerTestShuffle.test_shuffle_5) ... ok
+test_main (candidate_module.MusicPlayerTestMain.test_main) ... ok
+
+----------------------------------------------------------------------
+Ran 42 tests in 0.001s
+
+OK

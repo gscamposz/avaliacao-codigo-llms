@@ -1,0 +1,197 @@
+test_add_course_1 (candidate_module.ClassroomTestAddCourse.test_add_course_1) ... ERROR
+test_add_course_2 (candidate_module.ClassroomTestAddCourse.test_add_course_2) ... ERROR
+test_add_course_3 (candidate_module.ClassroomTestAddCourse.test_add_course_3) ... ERROR
+test_add_course_4 (candidate_module.ClassroomTestAddCourse.test_add_course_4) ... ERROR
+test_add_course_5 (candidate_module.ClassroomTestAddCourse.test_add_course_5) ... ERROR
+test_add_course_6 (candidate_module.ClassroomTestAddCourse.test_add_course_6) ... ERROR
+test_remove_course_1 (candidate_module.ClassroomTestRemoveCourse.test_remove_course_1) ... ERROR
+test_remove_course_2 (candidate_module.ClassroomTestRemoveCourse.test_remove_course_2) ... ERROR
+test_remove_course_3 (candidate_module.ClassroomTestRemoveCourse.test_remove_course_3) ... ERROR
+test_remove_course_4 (candidate_module.ClassroomTestRemoveCourse.test_remove_course_4) ... ERROR
+test_remove_course_5 (candidate_module.ClassroomTestRemoveCourse.test_remove_course_5) ... ERROR
+test_remove_course_6 (candidate_module.ClassroomTestRemoveCourse.test_remove_course_6) ... ERROR
+test_is_free_at_1 (candidate_module.ClassroomTestIsFreeAt.test_is_free_at_1) ... ERROR
+test_is_free_at_2 (candidate_module.ClassroomTestIsFreeAt.test_is_free_at_2) ... ERROR
+test_is_free_at_3 (candidate_module.ClassroomTestIsFreeAt.test_is_free_at_3) ... ERROR
+test_is_free_at_4 (candidate_module.ClassroomTestIsFreeAt.test_is_free_at_4) ... ERROR
+test_is_free_at_5 (candidate_module.ClassroomTestIsFreeAt.test_is_free_at_5) ... ERROR
+test_check_course_conflict_1 (candidate_module.ClassroomTestCheckCourseConflict.test_check_course_conflict_1) ... ERROR
+test_check_course_conflict_2 (candidate_module.ClassroomTestCheckCourseConflict.test_check_course_conflict_2) ... ERROR
+test_check_course_conflict_3 (candidate_module.ClassroomTestCheckCourseConflict.test_check_course_conflict_3) ... ERROR
+test_check_course_conflict_4 (candidate_module.ClassroomTestCheckCourseConflict.test_check_course_conflict_4) ... ERROR
+test_check_course_conflict_5 (candidate_module.ClassroomTestCheckCourseConflict.test_check_course_conflict_5) ... ERROR
+test_check_course_conflict_6 (candidate_module.ClassroomTestCheckCourseConflict.test_check_course_conflict_6) ... ERROR
+test_main (candidate_module.ClassroomTestMain.test_main) ... ERROR
+
+======================================================================
+ERROR: test_add_course_1 (candidate_module.ClassroomTestAddCourse.test_add_course_1)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "official_tests.py", line 7, in test_add_course_1
+NameError: name 'Classroom' is not defined
+
+======================================================================
+ERROR: test_add_course_2 (candidate_module.ClassroomTestAddCourse.test_add_course_2)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "official_tests.py", line 13, in test_add_course_2
+NameError: name 'Classroom' is not defined
+
+======================================================================
+ERROR: test_add_course_3 (candidate_module.ClassroomTestAddCourse.test_add_course_3)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "official_tests.py", line 19, in test_add_course_3
+NameError: name 'Classroom' is not defined
+
+======================================================================
+ERROR: test_add_course_4 (candidate_module.ClassroomTestAddCourse.test_add_course_4)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "official_tests.py", line 25, in test_add_course_4
+NameError: name 'Classroom' is not defined
+
+======================================================================
+ERROR: test_add_course_5 (candidate_module.ClassroomTestAddCourse.test_add_course_5)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "official_tests.py", line 31, in test_add_course_5
+NameError: name 'Classroom' is not defined
+
+======================================================================
+ERROR: test_add_course_6 (candidate_module.ClassroomTestAddCourse.test_add_course_6)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "official_tests.py", line 37, in test_add_course_6
+NameError: name 'Classroom' is not defined
+
+======================================================================
+ERROR: test_remove_course_1 (candidate_module.ClassroomTestRemoveCourse.test_remove_course_1)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "official_tests.py", line 46, in test_remove_course_1
+NameError: name 'Classroom' is not defined
+
+======================================================================
+ERROR: test_remove_course_2 (candidate_module.ClassroomTestRemoveCourse.test_remove_course_2)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "official_tests.py", line 53, in test_remove_course_2
+NameError: name 'Classroom' is not defined
+
+======================================================================
+ERROR: test_remove_course_3 (candidate_module.ClassroomTestRemoveCourse.test_remove_course_3)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "official_tests.py", line 60, in test_remove_course_3
+NameError: name 'Classroom' is not defined
+
+======================================================================
+ERROR: test_remove_course_4 (candidate_module.ClassroomTestRemoveCourse.test_remove_course_4)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "official_tests.py", line 67, in test_remove_course_4
+NameError: name 'Classroom' is not defined
+
+======================================================================
+ERROR: test_remove_course_5 (candidate_module.ClassroomTestRemoveCourse.test_remove_course_5)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "official_tests.py", line 74, in test_remove_course_5
+NameError: name 'Classroom' is not defined
+
+======================================================================
+ERROR: test_remove_course_6 (candidate_module.ClassroomTestRemoveCourse.test_remove_course_6)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "official_tests.py", line 81, in test_remove_course_6
+NameError: name 'Classroom' is not defined
+
+======================================================================
+ERROR: test_is_free_at_1 (candidate_module.ClassroomTestIsFreeAt.test_is_free_at_1)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "official_tests.py", line 89, in test_is_free_at_1
+NameError: name 'Classroom' is not defined
+
+======================================================================
+ERROR: test_is_free_at_2 (candidate_module.ClassroomTestIsFreeAt.test_is_free_at_2)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "official_tests.py", line 97, in test_is_free_at_2
+NameError: name 'Classroom' is not defined
+
+======================================================================
+ERROR: test_is_free_at_3 (candidate_module.ClassroomTestIsFreeAt.test_is_free_at_3)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "official_tests.py", line 105, in test_is_free_at_3
+NameError: name 'Classroom' is not defined
+
+======================================================================
+ERROR: test_is_free_at_4 (candidate_module.ClassroomTestIsFreeAt.test_is_free_at_4)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "official_tests.py", line 113, in test_is_free_at_4
+NameError: name 'Classroom' is not defined
+
+======================================================================
+ERROR: test_is_free_at_5 (candidate_module.ClassroomTestIsFreeAt.test_is_free_at_5)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "official_tests.py", line 121, in test_is_free_at_5
+NameError: name 'Classroom' is not defined
+
+======================================================================
+ERROR: test_check_course_conflict_1 (candidate_module.ClassroomTestCheckCourseConflict.test_check_course_conflict_1)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "official_tests.py", line 131, in test_check_course_conflict_1
+NameError: name 'Classroom' is not defined
+
+======================================================================
+ERROR: test_check_course_conflict_2 (candidate_module.ClassroomTestCheckCourseConflict.test_check_course_conflict_2)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "official_tests.py", line 139, in test_check_course_conflict_2
+NameError: name 'Classroom' is not defined
+
+======================================================================
+ERROR: test_check_course_conflict_3 (candidate_module.ClassroomTestCheckCourseConflict.test_check_course_conflict_3)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "official_tests.py", line 149, in test_check_course_conflict_3
+NameError: name 'Classroom' is not defined
+
+======================================================================
+ERROR: test_check_course_conflict_4 (candidate_module.ClassroomTestCheckCourseConflict.test_check_course_conflict_4)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "official_tests.py", line 157, in test_check_course_conflict_4
+NameError: name 'Classroom' is not defined
+
+======================================================================
+ERROR: test_check_course_conflict_5 (candidate_module.ClassroomTestCheckCourseConflict.test_check_course_conflict_5)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "official_tests.py", line 165, in test_check_course_conflict_5
+NameError: name 'Classroom' is not defined
+
+======================================================================
+ERROR: test_check_course_conflict_6 (candidate_module.ClassroomTestCheckCourseConflict.test_check_course_conflict_6)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "official_tests.py", line 173, in test_check_course_conflict_6
+NameError: name 'Classroom' is not defined
+
+======================================================================
+ERROR: test_main (candidate_module.ClassroomTestMain.test_main)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "official_tests.py", line 183, in test_main
+NameError: name 'Classroom' is not defined
+
+----------------------------------------------------------------------
+Ran 24 tests in 0.022s
+
+FAILED (errors=24)

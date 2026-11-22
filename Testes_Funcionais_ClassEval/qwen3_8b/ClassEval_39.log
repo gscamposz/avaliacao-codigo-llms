@@ -1,0 +1,301 @@
+test_calculate_1 (candidate_module.ExpressionCalculatorTestCalculate.test_calculate_1) ... ERROR
+test_calculate_2 (candidate_module.ExpressionCalculatorTestCalculate.test_calculate_2) ... ERROR
+test_calculate_3 (candidate_module.ExpressionCalculatorTestCalculate.test_calculate_3) ... ERROR
+test_calculate_4 (candidate_module.ExpressionCalculatorTestCalculate.test_calculate_4) ... ERROR
+test_calculate_5 (candidate_module.ExpressionCalculatorTestCalculate.test_calculate_5) ... ERROR
+test_prepare_1 (candidate_module.ExpressionCalculatorTestPrepare.test_prepare_1) ... ERROR
+test_prepare_2 (candidate_module.ExpressionCalculatorTestPrepare.test_prepare_2) ... ERROR
+test_prepare_3 (candidate_module.ExpressionCalculatorTestPrepare.test_prepare_3) ... ERROR
+test_prepare_4 (candidate_module.ExpressionCalculatorTestPrepare.test_prepare_4) ... ERROR
+test_prepare_5 (candidate_module.ExpressionCalculatorTestPrepare.test_prepare_5) ... ERROR
+test_prepare_6 (candidate_module.ExpressionCalculatorTestPrepare.test_prepare_6) ... ERROR
+test_is_operator_1 (candidate_module.ExpressionCalculatorTestIsOperator.test_is_operator_1) ... ERROR
+test_is_operator_2 (candidate_module.ExpressionCalculatorTestIsOperator.test_is_operator_2) ... ERROR
+test_is_operator_3 (candidate_module.ExpressionCalculatorTestIsOperator.test_is_operator_3) ... ERROR
+test_is_operator_4 (candidate_module.ExpressionCalculatorTestIsOperator.test_is_operator_4) ... ERROR
+test_is_operator_5 (candidate_module.ExpressionCalculatorTestIsOperator.test_is_operator_5) ... ERROR
+test_compare_1 (candidate_module.ExpressionCalculatorTestCompare.test_compare_1) ... ERROR
+test_compare_2 (candidate_module.ExpressionCalculatorTestCompare.test_compare_2) ... ERROR
+test_compare_3 (candidate_module.ExpressionCalculatorTestCompare.test_compare_3) ... ERROR
+test_compare_4 (candidate_module.ExpressionCalculatorTestCompare.test_compare_4) ... ERROR
+test_compare_5 (candidate_module.ExpressionCalculatorTestCompare.test_compare_5) ... ERROR
+test_compare_6 (candidate_module.ExpressionCalculatorTestCompare.test_compare_6) ... ERROR
+test_compare_7 (candidate_module.ExpressionCalculatorTestCompare.test_compare_7) ... ERROR
+test_calculate_method_1 (candidate_module.ExpressionCalculatorTestCalculateMethod.test_calculate_method_1) ... ERROR
+test_calculate_method_2 (candidate_module.ExpressionCalculatorTestCalculateMethod.test_calculate_method_2) ... ERROR
+test_calculate_method_3 (candidate_module.ExpressionCalculatorTestCalculateMethod.test_calculate_method_3) ... ERROR
+test_calculate_method_4 (candidate_module.ExpressionCalculatorTestCalculateMethod.test_calculate_method_4) ... ERROR
+test_calculate_method_5 (candidate_module.ExpressionCalculatorTestCalculateMethod.test_calculate_method_5) ... ERROR
+test_calculate_method_6 (candidate_module.ExpressionCalculatorTestCalculateMethod.test_calculate_method_6) ... ERROR
+test_calculate_method_7 (candidate_module.ExpressionCalculatorTestCalculateMethod.test_calculate_method_7) ... ERROR
+test_transform_1 (candidate_module.ExpressionCalculatorTestTransform.test_transform_1) ... ERROR
+test_transform_2 (candidate_module.ExpressionCalculatorTestTransform.test_transform_2) ... ERROR
+test_transform_3 (candidate_module.ExpressionCalculatorTestTransform.test_transform_3) ... ERROR
+test_transform_4 (candidate_module.ExpressionCalculatorTestTransform.test_transform_4) ... ERROR
+test_transform_5 (candidate_module.ExpressionCalculatorTestTransform.test_transform_5) ... ERROR
+test_transform_6 (candidate_module.ExpressionCalculatorTestTransform.test_transform_6) ... ERROR
+test_ExpressionCalculator (candidate_module.ExpressionCalculatorTest.test_ExpressionCalculator) ... ERROR
+
+======================================================================
+ERROR: test_calculate_1 (candidate_module.ExpressionCalculatorTestCalculate.test_calculate_1)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "official_tests.py", line 6, in setUp
+NameError: name 'ExpressionCalculator' is not defined. Did you mean: 'ExpressionCalculatorTest'?
+
+======================================================================
+ERROR: test_calculate_2 (candidate_module.ExpressionCalculatorTestCalculate.test_calculate_2)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "official_tests.py", line 6, in setUp
+NameError: name 'ExpressionCalculator' is not defined. Did you mean: 'ExpressionCalculatorTest'?
+
+======================================================================
+ERROR: test_calculate_3 (candidate_module.ExpressionCalculatorTestCalculate.test_calculate_3)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "official_tests.py", line 6, in setUp
+NameError: name 'ExpressionCalculator' is not defined. Did you mean: 'ExpressionCalculatorTest'?
+
+======================================================================
+ERROR: test_calculate_4 (candidate_module.ExpressionCalculatorTestCalculate.test_calculate_4)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "official_tests.py", line 6, in setUp
+NameError: name 'ExpressionCalculator' is not defined. Did you mean: 'ExpressionCalculatorTest'?
+
+======================================================================
+ERROR: test_calculate_5 (candidate_module.ExpressionCalculatorTestCalculate.test_calculate_5)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "official_tests.py", line 6, in setUp
+NameError: name 'ExpressionCalculator' is not defined. Did you mean: 'ExpressionCalculatorTest'?
+
+======================================================================
+ERROR: test_prepare_1 (candidate_module.ExpressionCalculatorTestPrepare.test_prepare_1)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "official_tests.py", line 31, in setUp
+NameError: name 'ExpressionCalculator' is not defined. Did you mean: 'ExpressionCalculatorTest'?
+
+======================================================================
+ERROR: test_prepare_2 (candidate_module.ExpressionCalculatorTestPrepare.test_prepare_2)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "official_tests.py", line 31, in setUp
+NameError: name 'ExpressionCalculator' is not defined. Did you mean: 'ExpressionCalculatorTest'?
+
+======================================================================
+ERROR: test_prepare_3 (candidate_module.ExpressionCalculatorTestPrepare.test_prepare_3)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "official_tests.py", line 31, in setUp
+NameError: name 'ExpressionCalculator' is not defined. Did you mean: 'ExpressionCalculatorTest'?
+
+======================================================================
+ERROR: test_prepare_4 (candidate_module.ExpressionCalculatorTestPrepare.test_prepare_4)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "official_tests.py", line 31, in setUp
+NameError: name 'ExpressionCalculator' is not defined. Did you mean: 'ExpressionCalculatorTest'?
+
+======================================================================
+ERROR: test_prepare_5 (candidate_module.ExpressionCalculatorTestPrepare.test_prepare_5)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "official_tests.py", line 31, in setUp
+NameError: name 'ExpressionCalculator' is not defined. Did you mean: 'ExpressionCalculatorTest'?
+
+======================================================================
+ERROR: test_prepare_6 (candidate_module.ExpressionCalculatorTestPrepare.test_prepare_6)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "official_tests.py", line 31, in setUp
+NameError: name 'ExpressionCalculator' is not defined. Did you mean: 'ExpressionCalculatorTest'?
+
+======================================================================
+ERROR: test_is_operator_1 (candidate_module.ExpressionCalculatorTestIsOperator.test_is_operator_1)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "official_tests.py", line 60, in setUp
+NameError: name 'ExpressionCalculator' is not defined. Did you mean: 'ExpressionCalculatorTest'?
+
+======================================================================
+ERROR: test_is_operator_2 (candidate_module.ExpressionCalculatorTestIsOperator.test_is_operator_2)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "official_tests.py", line 60, in setUp
+NameError: name 'ExpressionCalculator' is not defined. Did you mean: 'ExpressionCalculatorTest'?
+
+======================================================================
+ERROR: test_is_operator_3 (candidate_module.ExpressionCalculatorTestIsOperator.test_is_operator_3)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "official_tests.py", line 60, in setUp
+NameError: name 'ExpressionCalculator' is not defined. Did you mean: 'ExpressionCalculatorTest'?
+
+======================================================================
+ERROR: test_is_operator_4 (candidate_module.ExpressionCalculatorTestIsOperator.test_is_operator_4)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "official_tests.py", line 60, in setUp
+NameError: name 'ExpressionCalculator' is not defined. Did you mean: 'ExpressionCalculatorTest'?
+
+======================================================================
+ERROR: test_is_operator_5 (candidate_module.ExpressionCalculatorTestIsOperator.test_is_operator_5)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "official_tests.py", line 60, in setUp
+NameError: name 'ExpressionCalculator' is not defined. Did you mean: 'ExpressionCalculatorTest'?
+
+======================================================================
+ERROR: test_compare_1 (candidate_module.ExpressionCalculatorTestCompare.test_compare_1)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "official_tests.py", line 80, in setUp
+NameError: name 'ExpressionCalculator' is not defined. Did you mean: 'ExpressionCalculatorTest'?
+
+======================================================================
+ERROR: test_compare_2 (candidate_module.ExpressionCalculatorTestCompare.test_compare_2)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "official_tests.py", line 80, in setUp
+NameError: name 'ExpressionCalculator' is not defined. Did you mean: 'ExpressionCalculatorTest'?
+
+======================================================================
+ERROR: test_compare_3 (candidate_module.ExpressionCalculatorTestCompare.test_compare_3)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "official_tests.py", line 80, in setUp
+NameError: name 'ExpressionCalculator' is not defined. Did you mean: 'ExpressionCalculatorTest'?
+
+======================================================================
+ERROR: test_compare_4 (candidate_module.ExpressionCalculatorTestCompare.test_compare_4)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "official_tests.py", line 80, in setUp
+NameError: name 'ExpressionCalculator' is not defined. Did you mean: 'ExpressionCalculatorTest'?
+
+======================================================================
+ERROR: test_compare_5 (candidate_module.ExpressionCalculatorTestCompare.test_compare_5)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "official_tests.py", line 80, in setUp
+NameError: name 'ExpressionCalculator' is not defined. Did you mean: 'ExpressionCalculatorTest'?
+
+======================================================================
+ERROR: test_compare_6 (candidate_module.ExpressionCalculatorTestCompare.test_compare_6)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "official_tests.py", line 80, in setUp
+NameError: name 'ExpressionCalculator' is not defined. Did you mean: 'ExpressionCalculatorTest'?
+
+======================================================================
+ERROR: test_compare_7 (candidate_module.ExpressionCalculatorTestCompare.test_compare_7)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "official_tests.py", line 80, in setUp
+NameError: name 'ExpressionCalculator' is not defined. Did you mean: 'ExpressionCalculatorTest'?
+
+======================================================================
+ERROR: test_calculate_method_1 (candidate_module.ExpressionCalculatorTestCalculateMethod.test_calculate_method_1)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "official_tests.py", line 113, in setUp
+NameError: name 'ExpressionCalculator' is not defined. Did you mean: 'ExpressionCalculatorTest'?
+
+======================================================================
+ERROR: test_calculate_method_2 (candidate_module.ExpressionCalculatorTestCalculateMethod.test_calculate_method_2)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "official_tests.py", line 113, in setUp
+NameError: name 'ExpressionCalculator' is not defined. Did you mean: 'ExpressionCalculatorTest'?
+
+======================================================================
+ERROR: test_calculate_method_3 (candidate_module.ExpressionCalculatorTestCalculateMethod.test_calculate_method_3)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "official_tests.py", line 113, in setUp
+NameError: name 'ExpressionCalculator' is not defined. Did you mean: 'ExpressionCalculatorTest'?
+
+======================================================================
+ERROR: test_calculate_method_4 (candidate_module.ExpressionCalculatorTestCalculateMethod.test_calculate_method_4)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "official_tests.py", line 113, in setUp
+NameError: name 'ExpressionCalculator' is not defined. Did you mean: 'ExpressionCalculatorTest'?
+
+======================================================================
+ERROR: test_calculate_method_5 (candidate_module.ExpressionCalculatorTestCalculateMethod.test_calculate_method_5)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "official_tests.py", line 113, in setUp
+NameError: name 'ExpressionCalculator' is not defined. Did you mean: 'ExpressionCalculatorTest'?
+
+======================================================================
+ERROR: test_calculate_method_6 (candidate_module.ExpressionCalculatorTestCalculateMethod.test_calculate_method_6)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "official_tests.py", line 113, in setUp
+NameError: name 'ExpressionCalculator' is not defined. Did you mean: 'ExpressionCalculatorTest'?
+
+======================================================================
+ERROR: test_calculate_method_7 (candidate_module.ExpressionCalculatorTestCalculateMethod.test_calculate_method_7)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "official_tests.py", line 113, in setUp
+NameError: name 'ExpressionCalculator' is not defined. Did you mean: 'ExpressionCalculatorTest'?
+
+======================================================================
+ERROR: test_transform_1 (candidate_module.ExpressionCalculatorTestTransform.test_transform_1)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "official_tests.py", line 148, in setUp
+NameError: name 'ExpressionCalculator' is not defined. Did you mean: 'ExpressionCalculatorTest'?
+
+======================================================================
+ERROR: test_transform_2 (candidate_module.ExpressionCalculatorTestTransform.test_transform_2)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "official_tests.py", line 148, in setUp
+NameError: name 'ExpressionCalculator' is not defined. Did you mean: 'ExpressionCalculatorTest'?
+
+======================================================================
+ERROR: test_transform_3 (candidate_module.ExpressionCalculatorTestTransform.test_transform_3)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "official_tests.py", line 148, in setUp
+NameError: name 'ExpressionCalculator' is not defined. Did you mean: 'ExpressionCalculatorTest'?
+
+======================================================================
+ERROR: test_transform_4 (candidate_module.ExpressionCalculatorTestTransform.test_transform_4)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "official_tests.py", line 148, in setUp
+NameError: name 'ExpressionCalculator' is not defined. Did you mean: 'ExpressionCalculatorTest'?
+
+======================================================================
+ERROR: test_transform_5 (candidate_module.ExpressionCalculatorTestTransform.test_transform_5)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "official_tests.py", line 148, in setUp
+NameError: name 'ExpressionCalculator' is not defined. Did you mean: 'ExpressionCalculatorTest'?
+
+======================================================================
+ERROR: test_transform_6 (candidate_module.ExpressionCalculatorTestTransform.test_transform_6)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "official_tests.py", line 148, in setUp
+NameError: name 'ExpressionCalculator' is not defined. Did you mean: 'ExpressionCalculatorTest'?
+
+======================================================================
+ERROR: test_ExpressionCalculator (candidate_module.ExpressionCalculatorTest.test_ExpressionCalculator)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "official_tests.py", line 177, in setUp
+NameError: name 'ExpressionCalculator' is not defined. Did you mean: 'ExpressionCalculatorTest'?
+
+----------------------------------------------------------------------
+Ran 37 tests in 0.022s
+
+FAILED (errors=37)

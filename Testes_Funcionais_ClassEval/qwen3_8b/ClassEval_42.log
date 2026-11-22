@@ -1,0 +1,7 @@
+Traceback (most recent call last):
+  File "/tmp/avaliacao-r2/Testes_Funcionais_ClassEval/evaluate.py", line 37, in worker
+    exec(compile(d['code'],'candidate.py','exec'),module)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "candidate.py", line 1
+    hotel.book_room('single', 1) → 'Success!'
+IndentationError: unexpected indent

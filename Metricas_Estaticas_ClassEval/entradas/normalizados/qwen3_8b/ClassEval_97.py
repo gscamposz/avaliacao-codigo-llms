@@ -1,0 +1,51 @@
+def text_to_num(text):
+    # Split the input by spaces and hyphens
+    tokens = text.replace('-', ' ').split()
+    
+    numwords = {
+        "zero": (1, 0),
+        "one": (1, 1),
+        "two": (1, 2),
+        "three": (1, 3),
+        "four": (1, 4),
+        "five": (1, 5),
+        "six": (1, 6),
+        "seven": (1, 7),
+        "eight": (1, 8),
+        "nine": (1, 9),
+        "ten": (1, 10),
+        "eleven": (1, 11),
+        "twelve": (1, 12),
+        "thirteen": (1, 13),
+        "fourteen": (1, 14),
+        "fifteen": (1, 15),
+        "sixteen": (1, 16),
+        "seventeen": (1, 17),
+        "eighteen": (1, 18),
+        "nineteen": (1, 19),
+        "twenty": (1, 20),
+        "thirty": (1, 30),
+        "forty": (1, 40),
+        "fifty": (1, 50),
+        "sixty": (1, 60),
+        "seventy": (1, 70),
+        "eighty": (1, 80),
+        "ninety": (1, 90),
+        "hundred": (100, 0),
+        "thousand": (1000, 0),
+    }
+
+    total = 0
+    current = 0
+
+    for token in tokens:
+        scale, number = numwords[token]
+        current = current * scale + number
+        total += current
+
+    return total
+
+
+print(text_to_num("one hundred twenty-three"))  # Output: 123
+print(text_to_num("two thousand three hundred forty-five"))  # Output: 2345
+print(text_to_num("seven thousand eight hundred ninety-nine"))  # Output: 7899

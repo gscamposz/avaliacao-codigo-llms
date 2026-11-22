@@ -1,0 +1,26 @@
+test_add (candidate_module.ComplexCalculatorTestAdd.test_add) ... ok
+test_add_2 (candidate_module.ComplexCalculatorTestAdd.test_add_2) ... ok
+test_add_3 (candidate_module.ComplexCalculatorTestAdd.test_add_3) ... ok
+test_add_4 (candidate_module.ComplexCalculatorTestAdd.test_add_4) ... ok
+test_add_5 (candidate_module.ComplexCalculatorTestAdd.test_add_5) ... ok
+test_subtract (candidate_module.ComplexCalculatorTestSubtract.test_subtract) ... ok
+test_subtract_2 (candidate_module.ComplexCalculatorTestSubtract.test_subtract_2) ... ok
+test_subtract_3 (candidate_module.ComplexCalculatorTestSubtract.test_subtract_3) ... ok
+test_subtract_4 (candidate_module.ComplexCalculatorTestSubtract.test_subtract_4) ... ok
+test_subtract_5 (candidate_module.ComplexCalculatorTestSubtract.test_subtract_5) ... ok
+test_multiply (candidate_module.ComplexCalculatorTestMultiply.test_multiply) ... ok
+test_multiply_2 (candidate_module.ComplexCalculatorTestMultiply.test_multiply_2) ... ok
+test_multiply_3 (candidate_module.ComplexCalculatorTestMultiply.test_multiply_3) ... ok
+test_multiply_4 (candidate_module.ComplexCalculatorTestMultiply.test_multiply_4) ... ok
+test_multiply_5 (candidate_module.ComplexCalculatorTestMultiply.test_multiply_5) ... ok
+test_divide (candidate_module.ComplexCalculatorTestDivide.test_divide) ... ok
+test_divide_2 (candidate_module.ComplexCalculatorTestDivide.test_divide_2) ... ok
+test_divide_3 (candidate_module.ComplexCalculatorTestDivide.test_divide_3) ... ok
+test_divide_4 (candidate_module.ComplexCalculatorTestDivide.test_divide_4) ... ok
+test_divide_5 (candidate_module.ComplexCalculatorTestDivide.test_divide_5) ... ok
+test_main (candidate_module.ComplexCalculatorTestMain.test_main) ... ok
+
+----------------------------------------------------------------------
+Ran 21 tests in 0.000s
+
+OK

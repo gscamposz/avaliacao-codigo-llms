@@ -1,0 +1,21 @@
+test_init_game_1 (candidate_module.PushBoxGameTestInitGame.test_init_game_1) ... ok
+test_init_game_2 (candidate_module.PushBoxGameTestInitGame.test_init_game_2) ... ok
+test_init_game_3 (candidate_module.PushBoxGameTestInitGame.test_init_game_3) ... ok
+test_init_game_4 (candidate_module.PushBoxGameTestInitGame.test_init_game_4) ... ok
+test_init_game_5 (candidate_module.PushBoxGameTestInitGame.test_init_game_5) ... ok
+test_init_game_6 (candidate_module.PushBoxGameTestInitGame.test_init_game_6) ... ok
+test_init_game_7 (candidate_module.PushBoxGameTestInitGame.test_init_game_7) ... ok
+test_check_win_1 (candidate_module.PushBoxGameTestCheckWin.test_check_win_1) ... ok
+test_check_win_2 (candidate_module.PushBoxGameTestCheckWin.test_check_win_2) ... ok
+test_move_1 (candidate_module.PushBoxGameTestMove.test_move_1) ... ok
+test_move_2 (candidate_module.PushBoxGameTestMove.test_move_2) ... ok
+test_move_3 (candidate_module.PushBoxGameTestMove.test_move_3) ... ok
+test_move_4 (candidate_module.PushBoxGameTestMove.test_move_4) ... ok
+test_move_5 (candidate_module.PushBoxGameTestMove.test_move_5) ... ok
+test_move_6 (candidate_module.PushBoxGameTestMove.test_move_6) ... ok
+test_move_7 (candidate_module.PushBoxGameTestMove.test_move_7) ... ok
+
+----------------------------------------------------------------------
+Ran 16 tests in 0.001s
+
+OK

@@ -1,0 +1,4 @@
+modelo,testes_previstos,testes_executados,aprovados,falhas,erros,arquivos_sem_carregar,tarefas_aprovadas,testes_nao_executados,proporcao_aprovados_entre_executados,aprovados_sobre_previstos
+chatgpt,668,668,610,52,6,0,14,0,0.9131736526946108,0.9131736526946108
+gemini,668,668,596,51,21,0,12,0,0.8922155688622755,0.8922155688622755
+qwen3_8b,668,623,285,21,317,2,8,45,0.45746388443017655,0.42664670658682635

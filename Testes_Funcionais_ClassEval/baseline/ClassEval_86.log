@@ -1,0 +1,21 @@
+test_make_move_1 (candidate_module.TicTacToeTestMakeMove.test_make_move_1) ... ok
+test_make_move_2 (candidate_module.TicTacToeTestMakeMove.test_make_move_2) ... ok
+test_make_move_3 (candidate_module.TicTacToeTestMakeMove.test_make_move_3) ... ok
+test_make_move_4 (candidate_module.TicTacToeTestMakeMove.test_make_move_4) ... ok
+test_make_move_5 (candidate_module.TicTacToeTestMakeMove.test_make_move_5) ... ok
+test_check_winner_1 (candidate_module.TicTacToeTestCheckWinner.test_check_winner_1) ... ok
+test_check_winner_2 (candidate_module.TicTacToeTestCheckWinner.test_check_winner_2) ... ok
+test_check_winner_3 (candidate_module.TicTacToeTestCheckWinner.test_check_winner_3) ... ok
+test_check_winner_4 (candidate_module.TicTacToeTestCheckWinner.test_check_winner_4) ... ok
+test_check_winner_5 (candidate_module.TicTacToeTestCheckWinner.test_check_winner_5) ... ok
+test_is_board_full_1 (candidate_module.TicTacToeTestIsBoardFull.test_is_board_full_1) ... ok
+test_is_board_full_2 (candidate_module.TicTacToeTestIsBoardFull.test_is_board_full_2) ... ok
+test_is_board_full_3 (candidate_module.TicTacToeTestIsBoardFull.test_is_board_full_3) ... ok
+test_is_board_full_4 (candidate_module.TicTacToeTestIsBoardFull.test_is_board_full_4) ... ok
+test_is_board_full_5 (candidate_module.TicTacToeTestIsBoardFull.test_is_board_full_5) ... ok
+test_main (candidate_module.TicTacToeTestMain.test_main) ... ok
+
+----------------------------------------------------------------------
+Ran 16 tests in 0.000s
+
+OK

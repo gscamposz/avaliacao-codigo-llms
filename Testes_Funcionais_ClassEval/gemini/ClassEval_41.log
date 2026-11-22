@@ -1,0 +1,21 @@
+test_make_move_1 (candidate_module.GomokuGameTestMakeMove.test_make_move_1) ... ok
+test_make_move_2 (candidate_module.GomokuGameTestMakeMove.test_make_move_2) ... ok
+test_make_move_3 (candidate_module.GomokuGameTestMakeMove.test_make_move_3) ... ok
+test_make_move_4 (candidate_module.GomokuGameTestMakeMove.test_make_move_4) ... ok
+test_make_move_5 (candidate_module.GomokuGameTestMakeMove.test_make_move_5) ... ok
+test_check_winner_1 (candidate_module.GomokuGameTestCheckWinner.test_check_winner_1) ... ok
+test_check_winner_2 (candidate_module.GomokuGameTestCheckWinner.test_check_winner_2) ... ok
+test_check_winner_3 (candidate_module.GomokuGameTestCheckWinner.test_check_winner_3) ... ok
+test_check_winner_4 (candidate_module.GomokuGameTestCheckWinner.test_check_winner_4) ... ok
+test_check_winner_5 (candidate_module.GomokuGameTestCheckWinner.test_check_winner_5) ... ok
+test_check_five_in_a_row_1 (candidate_module.GomokuGameTestCheckFiveInARow.test_check_five_in_a_row_1) ... ok
+test_check_five_in_a_row_2 (candidate_module.GomokuGameTestCheckFiveInARow.test_check_five_in_a_row_2) ... ok
+test_check_five_in_a_row_3 (candidate_module.GomokuGameTestCheckFiveInARow.test_check_five_in_a_row_3) ... ok
+test_check_five_in_a_row_4 (candidate_module.GomokuGameTestCheckFiveInARow.test_check_five_in_a_row_4) ... ok
+test_check_five_in_a_row_5 (candidate_module.GomokuGameTestCheckFiveInARow.test_check_five_in_a_row_5) ... ok
+test_main (candidate_module.GomokuGameTestMain.test_main) ... ok
+
+----------------------------------------------------------------------
+Ran 16 tests in 0.000s
+
+OK

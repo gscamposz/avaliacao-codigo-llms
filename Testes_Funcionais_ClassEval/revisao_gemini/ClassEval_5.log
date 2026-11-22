@@ -1,0 +1,125 @@
+test_AutomaticGuitarSimulator (avaliacao_classeval.AutomaticGuitarSimulatorTest.test_AutomaticGuitarSimulator) ... ERROR
+test_display_1 (avaliacao_classeval.AutomaticGuitarSimulatorTestDisplay.test_display_1) ... ERROR
+test_display_2 (avaliacao_classeval.AutomaticGuitarSimulatorTestDisplay.test_display_2) ... ERROR
+test_display_3 (avaliacao_classeval.AutomaticGuitarSimulatorTestDisplay.test_display_3) ... ERROR
+test_display_4 (avaliacao_classeval.AutomaticGuitarSimulatorTestDisplay.test_display_4) ... ERROR
+test_display_5 (avaliacao_classeval.AutomaticGuitarSimulatorTestDisplay.test_display_5) ... ERROR
+test_interpret_1 (avaliacao_classeval.AutomaticGuitarSimulatorTestInterpret.test_interpret_1) ... ERROR
+test_interpret_2 (avaliacao_classeval.AutomaticGuitarSimulatorTestInterpret.test_interpret_2) ... ERROR
+test_interpret_3 (avaliacao_classeval.AutomaticGuitarSimulatorTestInterpret.test_interpret_3) ... ERROR
+test_interpret_4 (avaliacao_classeval.AutomaticGuitarSimulatorTestInterpret.test_interpret_4) ... ERROR
+test_interpret_5 (avaliacao_classeval.AutomaticGuitarSimulatorTestInterpret.test_interpret_5) ... ERROR
+test_interpret_6 (avaliacao_classeval.AutomaticGuitarSimulatorTestInterpret.test_interpret_6) ... ERROR
+test_interpret_7 (avaliacao_classeval.AutomaticGuitarSimulatorTestInterpret.test_interpret_7) ... ERROR
+test_interpret_8 (avaliacao_classeval.AutomaticGuitarSimulatorTestInterpret.test_interpret_8) ... ERROR
+test_interpret_9 (avaliacao_classeval.AutomaticGuitarSimulatorTestInterpret.test_interpret_9) ... ERROR
+
+======================================================================
+ERROR: test_AutomaticGuitarSimulator (avaliacao_classeval.AutomaticGuitarSimulatorTest.test_AutomaticGuitarSimulator)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "ClassEval_5_testes_oficiais.py", line 84, in test_AutomaticGuitarSimulator
+TypeError: AutomaticGuitarSimulator() takes no arguments
+
+======================================================================
+ERROR: test_display_1 (avaliacao_classeval.AutomaticGuitarSimulatorTestDisplay.test_display_1)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "ClassEval_5_testes_oficiais.py", line 53, in test_display_1
+TypeError: AutomaticGuitarSimulator() takes no arguments
+
+======================================================================
+ERROR: test_display_2 (avaliacao_classeval.AutomaticGuitarSimulatorTestDisplay.test_display_2)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "ClassEval_5_testes_oficiais.py", line 59, in test_display_2
+TypeError: AutomaticGuitarSimulator() takes no arguments
+
+======================================================================
+ERROR: test_display_3 (avaliacao_classeval.AutomaticGuitarSimulatorTestDisplay.test_display_3)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "ClassEval_5_testes_oficiais.py", line 65, in test_display_3
+TypeError: AutomaticGuitarSimulator() takes no arguments
+
+======================================================================
+ERROR: test_display_4 (avaliacao_classeval.AutomaticGuitarSimulatorTestDisplay.test_display_4)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "ClassEval_5_testes_oficiais.py", line 71, in test_display_4
+TypeError: AutomaticGuitarSimulator() takes no arguments
+
+======================================================================
+ERROR: test_display_5 (avaliacao_classeval.AutomaticGuitarSimulatorTestDisplay.test_display_5)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "ClassEval_5_testes_oficiais.py", line 77, in test_display_5
+TypeError: AutomaticGuitarSimulator() takes no arguments
+
+======================================================================
+ERROR: test_interpret_1 (avaliacao_classeval.AutomaticGuitarSimulatorTestInterpret.test_interpret_1)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "ClassEval_5_testes_oficiais.py", line 6, in test_interpret_1
+TypeError: AutomaticGuitarSimulator() takes no arguments
+
+======================================================================
+ERROR: test_interpret_2 (avaliacao_classeval.AutomaticGuitarSimulatorTestInterpret.test_interpret_2)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "ClassEval_5_testes_oficiais.py", line 11, in test_interpret_2
+TypeError: AutomaticGuitarSimulator() takes no arguments
+
+======================================================================
+ERROR: test_interpret_3 (avaliacao_classeval.AutomaticGuitarSimulatorTestInterpret.test_interpret_3)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "ClassEval_5_testes_oficiais.py", line 16, in test_interpret_3
+TypeError: AutomaticGuitarSimulator() takes no arguments
+
+======================================================================
+ERROR: test_interpret_4 (avaliacao_classeval.AutomaticGuitarSimulatorTestInterpret.test_interpret_4)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "ClassEval_5_testes_oficiais.py", line 21, in test_interpret_4
+TypeError: AutomaticGuitarSimulator() takes no arguments
+
+======================================================================
+ERROR: test_interpret_5 (avaliacao_classeval.AutomaticGuitarSimulatorTestInterpret.test_interpret_5)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "ClassEval_5_testes_oficiais.py", line 26, in test_interpret_5
+TypeError: AutomaticGuitarSimulator() takes no arguments
+
+======================================================================
+ERROR: test_interpret_6 (avaliacao_classeval.AutomaticGuitarSimulatorTestInterpret.test_interpret_6)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "ClassEval_5_testes_oficiais.py", line 31, in test_interpret_6
+TypeError: AutomaticGuitarSimulator() takes no arguments
+
+======================================================================
+ERROR: test_interpret_7 (avaliacao_classeval.AutomaticGuitarSimulatorTestInterpret.test_interpret_7)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "ClassEval_5_testes_oficiais.py", line 36, in test_interpret_7
+TypeError: AutomaticGuitarSimulator() takes no arguments
+
+======================================================================
+ERROR: test_interpret_8 (avaliacao_classeval.AutomaticGuitarSimulatorTestInterpret.test_interpret_8)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "ClassEval_5_testes_oficiais.py", line 41, in test_interpret_8
+TypeError: AutomaticGuitarSimulator() takes no arguments
+
+======================================================================
+ERROR: test_interpret_9 (avaliacao_classeval.AutomaticGuitarSimulatorTestInterpret.test_interpret_9)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "ClassEval_5_testes_oficiais.py", line 46, in test_interpret_9
+TypeError: AutomaticGuitarSimulator() takes no arguments
+
+----------------------------------------------------------------------
+Ran 15 tests in 0.001s
+
+FAILED (errors=15)

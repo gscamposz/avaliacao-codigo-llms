@@ -1,0 +1,133 @@
+test_init_game_1 (candidate_module.PushBoxGameTestInitGame.test_init_game_1) ... ERROR
+test_init_game_2 (candidate_module.PushBoxGameTestInitGame.test_init_game_2) ... ERROR
+test_init_game_3 (candidate_module.PushBoxGameTestInitGame.test_init_game_3) ... ERROR
+test_init_game_4 (candidate_module.PushBoxGameTestInitGame.test_init_game_4) ... ERROR
+test_init_game_5 (candidate_module.PushBoxGameTestInitGame.test_init_game_5) ... ERROR
+test_init_game_6 (candidate_module.PushBoxGameTestInitGame.test_init_game_6) ... ERROR
+test_init_game_7 (candidate_module.PushBoxGameTestInitGame.test_init_game_7) ... ERROR
+test_check_win_1 (candidate_module.PushBoxGameTestCheckWin.test_check_win_1) ... ERROR
+test_check_win_2 (candidate_module.PushBoxGameTestCheckWin.test_check_win_2) ... ERROR
+test_move_1 (candidate_module.PushBoxGameTestMove.test_move_1) ... ERROR
+test_move_2 (candidate_module.PushBoxGameTestMove.test_move_2) ... ERROR
+test_move_3 (candidate_module.PushBoxGameTestMove.test_move_3) ... ERROR
+test_move_4 (candidate_module.PushBoxGameTestMove.test_move_4) ... ERROR
+test_move_5 (candidate_module.PushBoxGameTestMove.test_move_5) ... ERROR
+test_move_6 (candidate_module.PushBoxGameTestMove.test_move_6) ... ERROR
+test_move_7 (candidate_module.PushBoxGameTestMove.test_move_7) ... ERROR
+
+======================================================================
+ERROR: test_init_game_1 (candidate_module.PushBoxGameTestInitGame.test_init_game_1)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "official_tests.py", line 13, in setUp
+TypeError: PushBoxGame.__init__() missing 2 required positional arguments: 'boxes' and 'targets'
+
+======================================================================
+ERROR: test_init_game_2 (candidate_module.PushBoxGameTestInitGame.test_init_game_2)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "official_tests.py", line 13, in setUp
+TypeError: PushBoxGame.__init__() missing 2 required positional arguments: 'boxes' and 'targets'
+
+======================================================================
+ERROR: test_init_game_3 (candidate_module.PushBoxGameTestInitGame.test_init_game_3)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "official_tests.py", line 13, in setUp
+TypeError: PushBoxGame.__init__() missing 2 required positional arguments: 'boxes' and 'targets'
+
+======================================================================
+ERROR: test_init_game_4 (candidate_module.PushBoxGameTestInitGame.test_init_game_4)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "official_tests.py", line 13, in setUp
+TypeError: PushBoxGame.__init__() missing 2 required positional arguments: 'boxes' and 'targets'
+
+======================================================================
+ERROR: test_init_game_5 (candidate_module.PushBoxGameTestInitGame.test_init_game_5)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "official_tests.py", line 13, in setUp
+TypeError: PushBoxGame.__init__() missing 2 required positional arguments: 'boxes' and 'targets'
+
+======================================================================
+ERROR: test_init_game_6 (candidate_module.PushBoxGameTestInitGame.test_init_game_6)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "official_tests.py", line 13, in setUp
+TypeError: PushBoxGame.__init__() missing 2 required positional arguments: 'boxes' and 'targets'
+
+======================================================================
+ERROR: test_init_game_7 (candidate_module.PushBoxGameTestInitGame.test_init_game_7)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "official_tests.py", line 13, in setUp
+TypeError: PushBoxGame.__init__() missing 2 required positional arguments: 'boxes' and 'targets'
+
+======================================================================
+ERROR: test_check_win_1 (candidate_module.PushBoxGameTestCheckWin.test_check_win_1)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "official_tests.py", line 46, in setUp
+TypeError: PushBoxGame.__init__() missing 2 required positional arguments: 'boxes' and 'targets'
+
+======================================================================
+ERROR: test_check_win_2 (candidate_module.PushBoxGameTestCheckWin.test_check_win_2)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "official_tests.py", line 46, in setUp
+TypeError: PushBoxGame.__init__() missing 2 required positional arguments: 'boxes' and 'targets'
+
+======================================================================
+ERROR: test_move_1 (candidate_module.PushBoxGameTestMove.test_move_1)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "official_tests.py", line 66, in setUp
+TypeError: PushBoxGame.__init__() missing 2 required positional arguments: 'boxes' and 'targets'
+
+======================================================================
+ERROR: test_move_2 (candidate_module.PushBoxGameTestMove.test_move_2)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "official_tests.py", line 66, in setUp
+TypeError: PushBoxGame.__init__() missing 2 required positional arguments: 'boxes' and 'targets'
+
+======================================================================
+ERROR: test_move_3 (candidate_module.PushBoxGameTestMove.test_move_3)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "official_tests.py", line 66, in setUp
+TypeError: PushBoxGame.__init__() missing 2 required positional arguments: 'boxes' and 'targets'
+
+======================================================================
+ERROR: test_move_4 (candidate_module.PushBoxGameTestMove.test_move_4)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "official_tests.py", line 66, in setUp
+TypeError: PushBoxGame.__init__() missing 2 required positional arguments: 'boxes' and 'targets'
+
+======================================================================
+ERROR: test_move_5 (candidate_module.PushBoxGameTestMove.test_move_5)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "official_tests.py", line 66, in setUp
+TypeError: PushBoxGame.__init__() missing 2 required positional arguments: 'boxes' and 'targets'
+
+======================================================================
+ERROR: test_move_6 (candidate_module.PushBoxGameTestMove.test_move_6)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "official_tests.py", line 66, in setUp
+TypeError: PushBoxGame.__init__() missing 2 required positional arguments: 'boxes' and 'targets'
+
+======================================================================
+ERROR: test_move_7 (candidate_module.PushBoxGameTestMove.test_move_7)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "official_tests.py", line 66, in setUp
+TypeError: PushBoxGame.__init__() missing 2 required positional arguments: 'boxes' and 'targets'
+
+----------------------------------------------------------------------
+Ran 16 tests in 0.001s
+
+FAILED (errors=16)

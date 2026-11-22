@@ -1,0 +1,229 @@
+test_format_1 (candidate_module.NumberWordFormatterTestFormat.test_format_1) ... ERROR
+test_format_2 (candidate_module.NumberWordFormatterTestFormat.test_format_2) ... ERROR
+test_format_3 (candidate_module.NumberWordFormatterTestFormat.test_format_3) ... ERROR
+test_format_4 (candidate_module.NumberWordFormatterTestFormat.test_format_4) ... ERROR
+test_format_5 (candidate_module.NumberWordFormatterTestFormat.test_format_5) ... ERROR
+test_format_6 (candidate_module.NumberWordFormatterTestFormat.test_format_6) ... ERROR
+test_format_string_1 (candidate_module.NumberWordFormatterTestFormatString.test_format_string_1) ... ERROR
+test_format_string_2 (candidate_module.NumberWordFormatterTestFormatString.test_format_string_2) ... ERROR
+test_format_string_3 (candidate_module.NumberWordFormatterTestFormatString.test_format_string_3) ... ERROR
+test_format_string_4 (candidate_module.NumberWordFormatterTestFormatString.test_format_string_4) ... ERROR
+test_format_string_5 (candidate_module.NumberWordFormatterTestFormatString.test_format_string_5) ... ERROR
+test_format_string_6 (candidate_module.NumberWordFormatterTestFormatString.test_format_string_6) ... ERROR
+test_trans_two_1 (candidate_module.NumberWordFormatterTestTransTwo.test_trans_two_1) ... ERROR
+test_trans_two_2 (candidate_module.NumberWordFormatterTestTransTwo.test_trans_two_2) ... ERROR
+test_trans_two_3 (candidate_module.NumberWordFormatterTestTransTwo.test_trans_two_3) ... ERROR
+test_trans_two_4 (candidate_module.NumberWordFormatterTestTransTwo.test_trans_two_4) ... ERROR
+test_trans_two_5 (candidate_module.NumberWordFormatterTestTransTwo.test_trans_two_5) ... ERROR
+test_trans_two_6 (candidate_module.NumberWordFormatterTestTransTwo.test_trans_two_6) ... ERROR
+test_trans_three_1 (candidate_module.NumberWordFormatterTestTransThree.test_trans_three_1) ... ERROR
+test_trans_three_2 (candidate_module.NumberWordFormatterTestTransThree.test_trans_three_2) ... ERROR
+test_trans_three_3 (candidate_module.NumberWordFormatterTestTransThree.test_trans_three_3) ... ERROR
+test_trans_three_4 (candidate_module.NumberWordFormatterTestTransThree.test_trans_three_4) ... ERROR
+test_trans_three_5 (candidate_module.NumberWordFormatterTestTransThree.test_trans_three_5) ... ERROR
+test_parse_more_1 (candidate_module.NumberWordFormatterTestParseMore.test_parse_more_1) ... ERROR
+test_parse_more_2 (candidate_module.NumberWordFormatterTestParseMore.test_parse_more_2) ... ERROR
+test_parse_more_3 (candidate_module.NumberWordFormatterTestParseMore.test_parse_more_3) ... ERROR
+test_parse_more_4 (candidate_module.NumberWordFormatterTestParseMore.test_parse_more_4) ... ERROR
+test_NumberWordFormatter (candidate_module.NumberWordFormatterTest.test_NumberWordFormatter) ... ERROR
+
+======================================================================
+ERROR: test_format_1 (candidate_module.NumberWordFormatterTestFormat.test_format_1)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "official_tests.py", line 6, in test_format_1
+NameError: name 'NumberWordFormatter' is not defined. Did you mean: 'NumberWordFormatterTest'?
+
+======================================================================
+ERROR: test_format_2 (candidate_module.NumberWordFormatterTestFormat.test_format_2)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "official_tests.py", line 11, in test_format_2
+NameError: name 'NumberWordFormatter' is not defined. Did you mean: 'NumberWordFormatterTest'?
+
+======================================================================
+ERROR: test_format_3 (candidate_module.NumberWordFormatterTestFormat.test_format_3)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "official_tests.py", line 15, in test_format_3
+NameError: name 'NumberWordFormatter' is not defined. Did you mean: 'NumberWordFormatterTest'?
+
+======================================================================
+ERROR: test_format_4 (candidate_module.NumberWordFormatterTestFormat.test_format_4)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "official_tests.py", line 19, in test_format_4
+NameError: name 'NumberWordFormatter' is not defined. Did you mean: 'NumberWordFormatterTest'?
+
+======================================================================
+ERROR: test_format_5 (candidate_module.NumberWordFormatterTestFormat.test_format_5)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "official_tests.py", line 23, in test_format_5
+NameError: name 'NumberWordFormatter' is not defined. Did you mean: 'NumberWordFormatterTest'?
+
+======================================================================
+ERROR: test_format_6 (candidate_module.NumberWordFormatterTestFormat.test_format_6)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "official_tests.py", line 27, in test_format_6
+NameError: name 'NumberWordFormatter' is not defined. Did you mean: 'NumberWordFormatterTest'?
+
+======================================================================
+ERROR: test_format_string_1 (candidate_module.NumberWordFormatterTestFormatString.test_format_string_1)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "official_tests.py", line 33, in test_format_string_1
+NameError: name 'NumberWordFormatter' is not defined. Did you mean: 'NumberWordFormatterTest'?
+
+======================================================================
+ERROR: test_format_string_2 (candidate_module.NumberWordFormatterTestFormatString.test_format_string_2)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "official_tests.py", line 38, in test_format_string_2
+NameError: name 'NumberWordFormatter' is not defined. Did you mean: 'NumberWordFormatterTest'?
+
+======================================================================
+ERROR: test_format_string_3 (candidate_module.NumberWordFormatterTestFormatString.test_format_string_3)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "official_tests.py", line 42, in test_format_string_3
+NameError: name 'NumberWordFormatter' is not defined. Did you mean: 'NumberWordFormatterTest'?
+
+======================================================================
+ERROR: test_format_string_4 (candidate_module.NumberWordFormatterTestFormatString.test_format_string_4)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "official_tests.py", line 46, in test_format_string_4
+NameError: name 'NumberWordFormatter' is not defined. Did you mean: 'NumberWordFormatterTest'?
+
+======================================================================
+ERROR: test_format_string_5 (candidate_module.NumberWordFormatterTestFormatString.test_format_string_5)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "official_tests.py", line 50, in test_format_string_5
+NameError: name 'NumberWordFormatter' is not defined. Did you mean: 'NumberWordFormatterTest'?
+
+======================================================================
+ERROR: test_format_string_6 (candidate_module.NumberWordFormatterTestFormatString.test_format_string_6)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "official_tests.py", line 54, in test_format_string_6
+NameError: name 'NumberWordFormatter' is not defined. Did you mean: 'NumberWordFormatterTest'?
+
+======================================================================
+ERROR: test_trans_two_1 (candidate_module.NumberWordFormatterTestTransTwo.test_trans_two_1)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "official_tests.py", line 60, in test_trans_two_1
+NameError: name 'NumberWordFormatter' is not defined. Did you mean: 'NumberWordFormatterTest'?
+
+======================================================================
+ERROR: test_trans_two_2 (candidate_module.NumberWordFormatterTestTransTwo.test_trans_two_2)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "official_tests.py", line 64, in test_trans_two_2
+NameError: name 'NumberWordFormatter' is not defined. Did you mean: 'NumberWordFormatterTest'?
+
+======================================================================
+ERROR: test_trans_two_3 (candidate_module.NumberWordFormatterTestTransTwo.test_trans_two_3)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "official_tests.py", line 68, in test_trans_two_3
+NameError: name 'NumberWordFormatter' is not defined. Did you mean: 'NumberWordFormatterTest'?
+
+======================================================================
+ERROR: test_trans_two_4 (candidate_module.NumberWordFormatterTestTransTwo.test_trans_two_4)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "official_tests.py", line 72, in test_trans_two_4
+NameError: name 'NumberWordFormatter' is not defined. Did you mean: 'NumberWordFormatterTest'?
+
+======================================================================
+ERROR: test_trans_two_5 (candidate_module.NumberWordFormatterTestTransTwo.test_trans_two_5)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "official_tests.py", line 76, in test_trans_two_5
+NameError: name 'NumberWordFormatter' is not defined. Did you mean: 'NumberWordFormatterTest'?
+
+======================================================================
+ERROR: test_trans_two_6 (candidate_module.NumberWordFormatterTestTransTwo.test_trans_two_6)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "official_tests.py", line 80, in test_trans_two_6
+NameError: name 'NumberWordFormatter' is not defined. Did you mean: 'NumberWordFormatterTest'?
+
+======================================================================
+ERROR: test_trans_three_1 (candidate_module.NumberWordFormatterTestTransThree.test_trans_three_1)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "official_tests.py", line 86, in test_trans_three_1
+NameError: name 'NumberWordFormatter' is not defined. Did you mean: 'NumberWordFormatterTest'?
+
+======================================================================
+ERROR: test_trans_three_2 (candidate_module.NumberWordFormatterTestTransThree.test_trans_three_2)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "official_tests.py", line 90, in test_trans_three_2
+NameError: name 'NumberWordFormatter' is not defined. Did you mean: 'NumberWordFormatterTest'?
+
+======================================================================
+ERROR: test_trans_three_3 (candidate_module.NumberWordFormatterTestTransThree.test_trans_three_3)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "official_tests.py", line 94, in test_trans_three_3
+NameError: name 'NumberWordFormatter' is not defined. Did you mean: 'NumberWordFormatterTest'?
+
+======================================================================
+ERROR: test_trans_three_4 (candidate_module.NumberWordFormatterTestTransThree.test_trans_three_4)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "official_tests.py", line 98, in test_trans_three_4
+NameError: name 'NumberWordFormatter' is not defined. Did you mean: 'NumberWordFormatterTest'?
+
+======================================================================
+ERROR: test_trans_three_5 (candidate_module.NumberWordFormatterTestTransThree.test_trans_three_5)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "official_tests.py", line 102, in test_trans_three_5
+NameError: name 'NumberWordFormatter' is not defined. Did you mean: 'NumberWordFormatterTest'?
+
+======================================================================
+ERROR: test_parse_more_1 (candidate_module.NumberWordFormatterTestParseMore.test_parse_more_1)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "official_tests.py", line 108, in test_parse_more_1
+NameError: name 'NumberWordFormatter' is not defined. Did you mean: 'NumberWordFormatterTest'?
+
+======================================================================
+ERROR: test_parse_more_2 (candidate_module.NumberWordFormatterTestParseMore.test_parse_more_2)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "official_tests.py", line 112, in test_parse_more_2
+NameError: name 'NumberWordFormatter' is not defined. Did you mean: 'NumberWordFormatterTest'?
+
+======================================================================
+ERROR: test_parse_more_3 (candidate_module.NumberWordFormatterTestParseMore.test_parse_more_3)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "official_tests.py", line 116, in test_parse_more_3
+NameError: name 'NumberWordFormatter' is not defined. Did you mean: 'NumberWordFormatterTest'?
+
+======================================================================
+ERROR: test_parse_more_4 (candidate_module.NumberWordFormatterTestParseMore.test_parse_more_4)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "official_tests.py", line 120, in test_parse_more_4
+NameError: name 'NumberWordFormatter' is not defined. Did you mean: 'NumberWordFormatterTest'?
+
+======================================================================
+ERROR: test_NumberWordFormatter (candidate_module.NumberWordFormatterTest.test_NumberWordFormatter)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "official_tests.py", line 126, in test_NumberWordFormatter
+NameError: name 'NumberWordFormatter' is not defined. Did you mean: 'NumberWordFormatterTest'?
+
+----------------------------------------------------------------------
+Ran 28 tests in 0.019s
+
+FAILED (errors=28)

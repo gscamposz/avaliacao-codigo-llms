@@ -1,0 +1,121 @@
+model,task,class,raw_syntax_valid,normalization,sha256_original,expected_class_present,status,run,failures,errors,passed
+baseline,ClassEval_12,BlackjackGame,True,,8a31f3831d4d4a2c14d1bc3bf7a3f15773d796cedd8c01e7e68b1769bc6d0ea9,True,tested,18,0,0,18
+baseline,ClassEval_13,BookManagement,True,,35dc6a3a09013ac17a3faa0fada56150d2dd6f400ccc60c4494415230927672b,True,tested,21,0,0,21
+baseline,ClassEval_17,CalendarUtil,True,,9d7111add621b453b8341469e2376beca5c889d11c22a36957175683b39a3061,True,tested,29,1,0,28
+baseline,ClassEval_21,Classroom,True,,9ad059e5f7966625cfb7674954cb5fd471d3b495107b7b514818c489b2aaaa96,True,tested,24,0,0,24
+baseline,ClassEval_22,ClassRegistrationSystem,True,,32f3b6f1a243491f2767e74a05b5c65677c1ca94264eef9e4c6d69ef7f7d4ad3,True,tested,16,0,0,16
+baseline,ClassEval_24,ComplexCalculator,True,,cecc66129257e96e962ca570e5f661477b108e48fbbc9c15c94510e3cf22a16a,True,tested,21,0,0,21
+baseline,ClassEval_29,DataStatistics,True,,857bd0f95eeeec9ab7ee446afa11cf59e8cb8e2d80190f32c25875416d4b5339,True,tested,16,0,0,16
+baseline,ClassEval_33,DiscountStrategy,True,,becb5e9bf7a233a2fab5cc2f34b783fb9c0a2ca2439ee7691ee0a628b65bc45d,True,tested,26,0,0,26
+baseline,ClassEval_35,EightPuzzle,True,,45a83812eb453c7947b2c623dea0a71b4d9684926d9b872e319b286bd26ef468,True,tested,21,0,0,21
+baseline,ClassEval_39,ExpressionCalculator,True,,c50f041cc0a8d00f55abe16e896b0f257e95f412448fc783265ab15dcf42091a,True,tested,37,0,0,37
+baseline,ClassEval_41,GomokuGame,True,,038e06bcc360f8e5f99a23c6c21210fb80cc515a9cc6c79f6019e2caeec60f42,True,tested,16,0,0,16
+baseline,ClassEval_42,Hotel,True,,49969dcc07db7855fa2bda7feaa86cb6ea330e2eace2c3be0efa3643ce44a9e4,True,tested,23,0,0,23
+baseline,ClassEval_43,HRManagementSystem,True,,4772d0c1da64d0eca18228d954ceaadda49e290d3e49cd414ce24b145b859274,True,tested,28,0,0,28
+baseline,ClassEval_4,AssessmentSystem,True,,ce0124606c1c57977ecac50077836e920693cbec4bbffe11ba6bdcb373d03b09,True,tested,31,0,0,31
+baseline,ClassEval_50,JSONProcessor,True,,0d0f777ecdf49f996bfaaf28aee08af7ca7f4d2c18b5a7f70bcc13567c060aa5,True,tested,16,0,0,16
+baseline,ClassEval_54,MahjongConnect,True,,e3815abd24d6669d6a5218bb8f5d48a0e4b65d736ca791f5b0b27c3139a1b237,True,tested,28,0,0,28
+baseline,ClassEval_58,MinesweeperGame,True,,bcba080f6374d6e4cdaf0b92066560c3f0b0c2f8089645a6f288968895aac245,True,tested,22,0,0,22
+baseline,ClassEval_5,AutomaticGuitarSimulator,True,,5635be2425eb5d4477d5ddfcda892f0ee4881ae62bb65c668fde03f01053eacd,True,tested,15,0,0,15
+baseline,ClassEval_61,MusicPlayer,True,,03dec0848754de201c2e1bf181122f674cc5be784a1a15cb402cb607212e1ded,True,tested,42,0,0,42
+baseline,ClassEval_64,NumberConverter,True,,668b699f73319037b255b6c44a137308b1e2143fb0758ed1a7123ae42964011a,True,tested,31,0,0,31
+baseline,ClassEval_65,NumberWordFormatter,True,,f74bb6fbc6545fbd233b30a3b252e764a88c15d6aba68145906a5022ed1d5b48,True,tested,28,0,0,28
+baseline,ClassEval_67,Order,True,,411a41b48a790de88a9b129c77052eb8c1069dcca9309e8dc63b098aeec44cd1,True,tested,17,0,0,17
+baseline,ClassEval_68,PageUtil,True,,1777192c02a6a30129dbe3dc27bac4049cf8435a3c2ea84739ce7c30ac535239,True,tested,16,0,0,16
+baseline,ClassEval_71,PushBoxGame,True,,11cd08adc600f6943fe8aa11befc1b7d167375926080ccc76ecbd1b17ebd8dac,True,tested,16,0,0,16
+baseline,ClassEval_75,ShoppingCart,True,,7acbdfbb366a26342e1c6ad78a81edcbb632cbde1601efe8652fcf4de1c3f21d,True,tested,23,0,0,23
+baseline,ClassEval_77,Snake,True,,37832be5de0d04b1bfa77c58feee03c8cce630d343f178d571893c91bb833e62,True,tested,21,0,0,21
+baseline,ClassEval_7,BalancedBrackets,True,,76c84ee9b66255a253164ad14c51955f0a335b76d86b09ea846e40189b14db62,True,tested,15,0,0,15
+baseline,ClassEval_86,TicTacToe,True,,7e616a8b17ce82085eef892060d02579414c147290a762cca076a50a03fd0efd,True,tested,16,0,0,16
+baseline,ClassEval_8,BankAccount,True,,a3fc6699992e4aefb05a681e381fe95e9876ca7c5082d7db0a46bea5067fc700,True,tested,22,0,0,22
+baseline,ClassEval_97,Words2Numbers,True,,c39854424fa12026ee2baf679fac12ff3251bf0f72b2ba798fedae53ae1202ac,True,tested,13,0,0,13
+chatgpt,ClassEval_12,BlackjackGame,True,,4f439ce2f8356cf2556a1b26d0bd733c973bf14c9977b8cb5458475a7a1db476,True,tested,18,0,1,17
+chatgpt,ClassEval_13,BookManagement,True,,f6c3874beaf723865a4d9e680de3ad612a752ec690c568b43c8b56de984e5ceb,True,tested,21,3,0,18
+chatgpt,ClassEval_17,CalendarUtil,True,,82bbce1eabf847724ccd8e4dd98c47178a680d7ccd11df13fc674da15ddf20c5,True,tested,29,5,0,24
+chatgpt,ClassEval_21,Classroom,True,,4a9986ad9587a32bf20aed1380789322a794a5192d7562f53782f6f2a8f2b9cf,True,tested,24,0,0,24
+chatgpt,ClassEval_22,ClassRegistrationSystem,True,,cbc7d3038cf8c28bb3425ad353285ac0e5eeca9735f631659579c74c6eed9468,True,tested,16,0,0,16
+chatgpt,ClassEval_24,ComplexCalculator,True,,39ac016df8f5e06a9291b3b4b87d56fea926bf2a552a1741e283e885c97067fb,True,tested,21,0,0,21
+chatgpt,ClassEval_29,DataStatistics,True,,81a519bdd92643d380e465fbcce88e880132cde22e1253c9b19310d290b8d45d,True,tested,16,0,0,16
+chatgpt,ClassEval_33,DiscountStrategy,True,,666ff62213a4d892447803d6b39502df860b0a04117708bc903ce25a0c8bbd60,True,tested,26,2,0,24
+chatgpt,ClassEval_35,EightPuzzle,True,,85c7adf3180450e06e3038adfad5ea07a125e01e89c584ca80e5ce95978ef58b,True,tested,21,0,0,21
+chatgpt,ClassEval_39,ExpressionCalculator,True,,3e7fcbe9f635e9165f5cf4407e7ff614d9b065912dd27a6d39057dfe00734c54,True,tested,37,7,0,30
+chatgpt,ClassEval_41,GomokuGame,True,,6e6f2a8c9524e013b8893d532d6ea7e3dd4e2521486ef2c786883d1d0bf4c34f,True,tested,16,0,0,16
+chatgpt,ClassEval_42,Hotel,True,,8247e6f23a495c258b7207f6f30820a9216c948e48efb625a6edc89032626df3,True,tested,23,0,0,23
+chatgpt,ClassEval_43,HRManagementSystem,True,,7e7609eb2ed233f81a5be2995712ba868fa9414ea1ae8e43d0527fa306a28835,True,tested,28,1,0,27
+chatgpt,ClassEval_4,AssessmentSystem,True,,bad1693c321580d56a6b0c59cc1442b3fca0a3626c59181e29f7e87f8131a571,True,tested,31,0,1,30
+chatgpt,ClassEval_50,JSONProcessor,True,,9f7735580cc291c751e04e13fb9e32f7545971b861c986c1a88b39482a7c3408,True,tested,16,0,0,16
+chatgpt,ClassEval_54,MahjongConnect,True,,c10961beb6dd7e68474f2807eb1d0edd4a6a1a141e3594782f0b9a9c833e2acb,True,tested,28,6,0,22
+chatgpt,ClassEval_58,MinesweeperGame,True,,95c44134acb68a51b4de72070e43c12949e9cf0c7539e3c3454965c6ed6f73f3,True,tested,22,0,2,20
+chatgpt,ClassEval_5,AutomaticGuitarSimulator,True,,c9fca709d8506117de1f8dcabcdf80e7ae7f9eecb8e041b18fb95539c3df941b,True,tested,15,0,0,15
+chatgpt,ClassEval_61,MusicPlayer,True,,30ac3d6b395ee4e93156ed635fad696821ab8bd7e950e02142d0d18b427e7882,True,tested,42,5,0,37
+chatgpt,ClassEval_64,NumberConverter,True,,8242355a75889060e5ff3211c3636f334ae4fd848bbd257d401052195fad33a4,True,tested,31,0,0,31
+chatgpt,ClassEval_65,NumberWordFormatter,True,,1ca0d0361f60e39d4975e0b8f2b4b2b9f3b24af090e03760c6a2cac1b5fa0fcf,True,tested,28,2,1,25
+chatgpt,ClassEval_67,Order,True,,1b3658b34d6010a17635d7fcb0d6ce01177888966afa55992faf85892a94f3da,True,tested,17,9,1,7
+chatgpt,ClassEval_68,PageUtil,True,,18828d8be2aac10d6b0b51d710c16bc38e43363a9962f14dc0e4f02ad941a8c6,True,tested,16,1,0,15
+chatgpt,ClassEval_71,PushBoxGame,True,,c0811878f8bb63aee7be11f826abd68c264edcfd7f4639d891170374ddb68696,True,tested,16,0,0,16
+chatgpt,ClassEval_75,ShoppingCart,True,,4596e9e04707ec2038a949dd8b4202893b9eb1bca32979286bb845ee663e8fb3,True,tested,23,1,0,22
+chatgpt,ClassEval_77,Snake,True,,e54725bd4efadb9aefd6f76ffa5d59fdb8a2696f7f9953eecd0bcecb69159650,True,tested,21,7,0,14
+chatgpt,ClassEval_7,BalancedBrackets,True,,eba607d2a4eef584835735b2f69f257ba7aaad89911413f1a516d5a185fb924b,True,tested,15,0,0,15
+chatgpt,ClassEval_86,TicTacToe,True,,00bb194e4daaa7c38236da39bf6cf20223d616fcdf354a2ed9f877d4583b2202,True,tested,16,0,0,16
+chatgpt,ClassEval_8,BankAccount,True,,f5d8156ce8b8c4d2c20936ad987ce78555ce62dbb5eef167a48e65855acc08a0,True,tested,22,0,0,22
+chatgpt,ClassEval_97,Words2Numbers,True,,fcbce6adac42228f9dc594aa74d4ee90cb6b9561aea9b29f2da56cb32980ba7c,True,tested,13,3,0,10
+gemini,ClassEval_12,BlackjackGame,False,removed Markdown fence lines; restored class indentation and header line breaks,3439db3167b4a7d99569e1d11543aa55742c1722ff49f5dae0238cc4e74e57a3,True,tested,18,0,1,17
+gemini,ClassEval_13,BookManagement,False,removed Markdown fence lines; restored class indentation and header line breaks,d0928f2ddcc56e8a82c7f1fd8dc1badfe8f014d7846433b7e3b36af907fc779d,True,tested,21,3,0,18
+gemini,ClassEval_17,CalendarUtil,False,removed Markdown fence lines; restored class indentation and header line breaks,4bee0ec2ab69cdbde74525fc71bd573f00250dc7004e2dabe734a5370f5141a9,True,tested,29,10,0,19
+gemini,ClassEval_21,Classroom,False,removed Markdown fence lines; restored class indentation and header line breaks,2085396aeedf84a8d9d304ce9fcd4c155f161811b9a30ffc9da05a4bc5e31fff,True,tested,24,0,0,24
+gemini,ClassEval_22,ClassRegistrationSystem,False,removed Markdown fence lines; restored class indentation and header line breaks,543f6cfe2777f46bcbf697e0e2ec9cc7c32e401e4310f7a68951cb0381fed034,True,tested,16,0,0,16
+gemini,ClassEval_24,ComplexCalculator,False,removed Markdown fence lines; restored class indentation and header line breaks,d95712ecafe39058f3964ab93021de314ce0a95da3d7b625c009264aa314fed2,True,tested,21,0,0,21
+gemini,ClassEval_29,DataStatistics,False,removed Markdown fence lines; restored class indentation and header line breaks,8dc25b66d01ccced5b0a366b4cf41b4aca02364321a94a4a111c8074fe5ba316,True,tested,16,0,0,16
+gemini,ClassEval_33,DiscountStrategy,False,removed Markdown fence lines; restored class indentation and header line breaks,43893fb1cc2f00419b26b314944f66dd368e6e3c00ddb45910314013ce5ad7ba,True,tested,26,2,0,24
+gemini,ClassEval_35,EightPuzzle,False,removed Markdown fence lines; restored class indentation and header line breaks,b0817362d3a148dfe18537aa955291cd4f220c51e604f3a586b1574a744ae9d9,True,tested,21,2,3,16
+gemini,ClassEval_39,ExpressionCalculator,False,removed Markdown fence lines; restored class indentation and header line breaks,add36c7d6784036338c73e7f29d0bbee21f884f0bef05f6430fa0c6514569005,True,tested,37,7,0,30
+gemini,ClassEval_41,GomokuGame,False,removed Markdown fence lines; restored class indentation and header line breaks,f76b1231e14a04436cecda9fadc3b885498a2dfb5c218edf77ea9aa229aa6b0f,True,tested,16,0,0,16
+gemini,ClassEval_42,Hotel,False,removed Markdown fence lines; restored class indentation and header line breaks,b3a003931d2ae023a99a2fcfc2e98160e8ddee2a5ccb7dfab11d2d76878e1d9f,True,tested,23,0,0,23
+gemini,ClassEval_43,HRManagementSystem,False,removed Markdown fence lines; restored class indentation and header line breaks,3d1e5ca6e39b8c3ed28b4b7585826bd3a091ba89912a455de59d76ba4d29ad2f,True,tested,28,1,0,27
+gemini,ClassEval_4,AssessmentSystem,False,restored class indentation and header line breaks,ea115db7a5d059d4a044d8290f09aa6676965db0dc33389d6e04271215e219a9,True,tested,31,0,1,30
+gemini,ClassEval_50,JSONProcessor,False,removed Markdown fence lines; restored class indentation and header line breaks,84f4fb8c65327e0c78de47aba378b1f62b8bea2615e8407528b428a97e8dd516,True,tested,16,1,0,15
+gemini,ClassEval_54,MahjongConnect,False,removed Markdown fence lines; restored class indentation and header line breaks,3deace9873e9540071fdefa3838c1f6cac66fddc91ebc0f36383bed060992ca0,True,tested,28,2,0,26
+gemini,ClassEval_58,MinesweeperGame,False,removed Markdown fence lines; restored class indentation and header line breaks,e5520a5b697cc284e8935326009bdf86fd15cd0f5ffdd8e11ee87782a7a28371,True,tested,22,0,0,22
+gemini,ClassEval_5,AutomaticGuitarSimulator,False,restored whitespace and removed fence lines; verified nonwhitespace equality,65c7bf000151362ad4ed72a556b190afe51919d1905556bee38bfd95fa972027,True,tested,15,0,15,0
+gemini,ClassEval_61,MusicPlayer,False,removed Markdown fence lines; restored class indentation and header line breaks,3cd8c355bf9ace76febd084441844e00a92cbb3e53a89d6410fb5daf3cf1d1a9,True,tested,42,5,0,37
+gemini,ClassEval_64,NumberConverter,False,removed Markdown fence lines; restored class indentation and header line breaks,fdc15abffa3086dc07414941468d2edf3beeb9824465f615818a236d83dbef0e,True,tested,31,0,0,31
+gemini,ClassEval_65,NumberWordFormatter,False,removed Markdown fence lines; restored class indentation and header line breaks,02e0b4b3e0e77a3ffdcd18e6df631fef7a6ce568ab250dec3790d5f9b479cccb,True,tested,28,2,1,25
+gemini,ClassEval_67,Order,False,removed Markdown fence lines; restored class indentation and header line breaks,8138084de92e17db8784d5d59340d576864c8ca030ae23e9cb4cf65169b114dd,True,tested,17,5,0,12
+gemini,ClassEval_68,PageUtil,False,removed Markdown fence lines; restored class indentation and header line breaks,e3d0a45e4fd05b4243f732e0ac0922932243f094379501427e46633ba26f6d38,True,tested,16,1,0,15
+gemini,ClassEval_71,PushBoxGame,False,restored whitespace and removed fence lines; verified nonwhitespace equality,dfbadda9f3f8cd1fac8c95c6d0e7f0e4347a4c32576d04246f3b5442e7d03e8d,True,tested,16,0,0,16
+gemini,ClassEval_75,ShoppingCart,False,removed Markdown fence lines; restored class indentation and header line breaks,ad56e8d7f79b794778aac289fb81ab27e140e87e078223023e09cc3de22547d8,True,tested,23,1,0,22
+gemini,ClassEval_77,Snake,False,removed Markdown fence lines; restored class indentation and header line breaks,03b126663cb7cf151e81f2f19a43a3dd07a970780f95b8839742aefc58587ef4,True,tested,21,7,0,14
+gemini,ClassEval_7,BalancedBrackets,False,removed Markdown fence lines; restored class indentation and header line breaks,6ba1e0c082dbf62c5042d2db89762148ad80e784789bf8afd83b1963ded5d064,True,tested,15,0,0,15
+gemini,ClassEval_86,TicTacToe,False,removed Markdown fence lines; restored class indentation and header line breaks,63f0f0a1b13e611c7dce6542994c30628d7b290fef55ff711b7f596948024fda,True,tested,16,0,0,16
+gemini,ClassEval_8,BankAccount,False,removed Markdown fence lines; restored class indentation and header line breaks,8b043d7e556f88442e7d717d357bbe14743dab6c1587f9f81c3cce44ff8ddcac,True,tested,22,0,0,22
+gemini,ClassEval_97,Words2Numbers,False,removed Markdown fence lines; restored class indentation and header line breaks,5f5dd6c8a1de252c90d8e8236cd8f6d3a7dff256da1ac3e5935b714be0b798f9,True,tested,13,2,0,11
+qwen3_8b,ClassEval_12,BlackjackGame,False,extracted fenced code blocks without changing code,9d8ba3740408c6f32120635c186616821f7dc7f5581c0b35575f29b9b96647c0,False,tested,18,0,18,0
+qwen3_8b,ClassEval_13,BookManagement,False,extracted fenced code blocks without changing code,19b02aa14e8d21c44a99691922e3f4cec1e2ba948dd7a7a0537740f6af037024,True,tested,21,0,0,21
+qwen3_8b,ClassEval_17,CalendarUtil,False,extracted fenced code blocks without changing code,6e4f5fe436d03c15724341d60316fe1feca8ad3eb55e00871f8102605b979e94,False,tested,29,0,29,0
+qwen3_8b,ClassEval_21,Classroom,False,extracted fenced code blocks without changing code,b650dd1a5d4b983c4edd42f36f7e760fe709a280292efdf62a30d568e522dc73,False,tested,24,0,24,0
+qwen3_8b,ClassEval_22,ClassRegistrationSystem,False,extracted fenced code blocks without changing code,4ec588b950ae85378f31797ac10056203598ee3a24068b8b23691f6fea8c07cd,False,tested,16,0,16,0
+qwen3_8b,ClassEval_24,ComplexCalculator,True,,3cb806ea74d9a3fa5524349a1696087e20a357e62b22a70ccea9813ddfca6585,True,tested,21,0,0,21
+qwen3_8b,ClassEval_29,DataStatistics,False,extracted fenced code blocks without changing code,d962eed17fd7107c45dd75482999f0a1f57dc8ffc05ccd8dbc924fe5ae7953dc,True,tested,16,0,0,16
+qwen3_8b,ClassEval_33,DiscountStrategy,False,extracted fenced code blocks without changing code,6f85fe5d9f113cb6a58f98b4d3fd8d33d920566dca0344b22b80220c9396e64f,False,tested,26,0,26,0
+qwen3_8b,ClassEval_35,EightPuzzle,False,extracted fenced code blocks without changing code,90253512adcfc948696759f3ba7c70ce8489e0b10ab50b0da157e2d11fe93ee8,True,tested,21,4,0,17
+qwen3_8b,ClassEval_39,ExpressionCalculator,False,extracted fenced code blocks without changing code,8b30288dd594b1c792d359b2204d811852cac3ba1fe59a8d407066170ec3869e,False,tested,37,0,37,0
+qwen3_8b,ClassEval_41,GomokuGame,False,extracted fenced code blocks without changing code,ae00507741365b381974bc23e4dd147072a2feebb21d64d0679d2cb6819e8e85,True,tested,16,0,16,0
+qwen3_8b,ClassEval_42,Hotel,False,extracted fenced code blocks without changing code,beca01b3c3bfce59d7d30faa1dbaf9699f7e713598e9f64dbee518404abd2e41,False,load_error,0,0,0,0
+qwen3_8b,ClassEval_43,HRManagementSystem,False,extracted fenced code blocks without changing code,c073171ef9484a2deb5f96920ea402785a722671b58e79b45a0ac3d11ed43e53,False,tested,28,0,28,0
+qwen3_8b,ClassEval_4,AssessmentSystem,False,extracted fenced code blocks without changing code,f3fc074a4df6422f7a4ed899c68800ce6afc1c48971aed0d6da8fe1f98f18b19,True,tested,31,0,1,30
+qwen3_8b,ClassEval_50,JSONProcessor,False,extracted fenced code blocks without changing code,883ec17653c57d4699eada838da90f30aa7713be0acf7f4192b96ba0703fb3ac,False,tested,16,0,16,0
+qwen3_8b,ClassEval_54,MahjongConnect,False,extracted fenced code blocks without changing code,02c82297abd81fa6d1c208790d74fe45ab4acb4f38eaaa0d4495ce646190b89e,False,tested,28,0,28,0
+qwen3_8b,ClassEval_58,MinesweeperGame,False,extracted fenced code blocks without changing code,201c38b814dd769c8d768169b91b2f171791b436b82126f1b02b2e36260292ac,False,load_error,0,0,0,0
+qwen3_8b,ClassEval_5,AutomaticGuitarSimulator,False,extracted fenced code blocks without changing code,2d30a494e032983d21c82b26ed4a42248cc183c165a4f478ce9d9d29dc3dbf81,True,tested,15,0,0,15
+qwen3_8b,ClassEval_61,MusicPlayer,False,extracted fenced code blocks without changing code,ee8491dff09b537cebdf5eb5e73089ed5551c65364d5b1a04b6b6e2d4b838778,True,tested,42,5,0,37
+qwen3_8b,ClassEval_64,NumberConverter,True,,c58dd1c3320b249e8164ebebd465e02e10bebacda967191824af510d3f1728f3,True,tested,31,0,0,31
+qwen3_8b,ClassEval_65,NumberWordFormatter,False,extracted fenced code blocks without changing code,595f6c10a2741a3bc6e7f1180d25b415b1f7fa8568c429e30439c623695f4830,False,tested,28,0,28,0
+qwen3_8b,ClassEval_67,Order,False,extracted fenced code blocks without changing code,d2eb5ceebf7f6a0de7f5dd456391b5785c19f3777e678973a0bd6bb5d47b3887,True,tested,17,10,0,7
+qwen3_8b,ClassEval_68,PageUtil,False,extracted fenced code blocks without changing code,53f94c3e369ea325a2e4bb4b11293fa6a32a0302ad29eb3567baaaeb9cc72f1f,True,tested,16,1,0,15
+qwen3_8b,ClassEval_71,PushBoxGame,False,extracted fenced code blocks without changing code,7fb0ccd36b988afdde2f67b87882b654f3e440ea36873d4f460535cd4571651e,True,tested,16,0,16,0
+qwen3_8b,ClassEval_75,ShoppingCart,False,extracted fenced code blocks without changing code,212f27837c1360d37e38f6e8c55df93f5ca061399c47e2cfa8909be429b2f286,True,tested,23,1,0,22
+qwen3_8b,ClassEval_77,Snake,False,extracted fenced code blocks without changing code,f9335194645905a2e1d13b856fd04e4c5df6059e7438e0e0fdffd90fd8e38d9b,False,tested,21,0,21,0
+qwen3_8b,ClassEval_7,BalancedBrackets,False,extracted fenced code blocks without changing code,0bcb1ddd3dcf5599de3cddbafc294d41399872507e263a9be564c39236c971dc,True,tested,15,0,0,15
+qwen3_8b,ClassEval_86,TicTacToe,False,extracted fenced code blocks without changing code,5cc7a4bb88e2d31c8116b3d0a4fbc9673698049ffad644b60612f9c63385fc16,True,tested,16,0,0,16
+qwen3_8b,ClassEval_8,BankAccount,True,,064d653363267f771a00e2ebe6ed2b1697a8ef34da9bd4426d5f3a540dc53dbf,True,tested,22,0,0,22
+qwen3_8b,ClassEval_97,Words2Numbers,False,extracted fenced code blocks without changing code,5a0fd0100436f4bcb6512f47e818238c08e2cda6e1cf77ae4b87847694a3c4fa,False,tested,13,0,13,0

@@ -1,0 +1,33 @@
+test_format_1 (candidate_module.NumberWordFormatterTestFormat.test_format_1) ... ok
+test_format_2 (candidate_module.NumberWordFormatterTestFormat.test_format_2) ... ok
+test_format_3 (candidate_module.NumberWordFormatterTestFormat.test_format_3) ... ok
+test_format_4 (candidate_module.NumberWordFormatterTestFormat.test_format_4) ... ok
+test_format_5 (candidate_module.NumberWordFormatterTestFormat.test_format_5) ... ok
+test_format_6 (candidate_module.NumberWordFormatterTestFormat.test_format_6) ... ok
+test_format_string_1 (candidate_module.NumberWordFormatterTestFormatString.test_format_string_1) ... ok
+test_format_string_2 (candidate_module.NumberWordFormatterTestFormatString.test_format_string_2) ... ok
+test_format_string_3 (candidate_module.NumberWordFormatterTestFormatString.test_format_string_3) ... ok
+test_format_string_4 (candidate_module.NumberWordFormatterTestFormatString.test_format_string_4) ... ok
+test_format_string_5 (candidate_module.NumberWordFormatterTestFormatString.test_format_string_5) ... ok
+test_format_string_6 (candidate_module.NumberWordFormatterTestFormatString.test_format_string_6) ... ok
+test_trans_two_1 (candidate_module.NumberWordFormatterTestTransTwo.test_trans_two_1) ... ok
+test_trans_two_2 (candidate_module.NumberWordFormatterTestTransTwo.test_trans_two_2) ... ok
+test_trans_two_3 (candidate_module.NumberWordFormatterTestTransTwo.test_trans_two_3) ... ok
+test_trans_two_4 (candidate_module.NumberWordFormatterTestTransTwo.test_trans_two_4) ... ok
+test_trans_two_5 (candidate_module.NumberWordFormatterTestTransTwo.test_trans_two_5) ... ok
+test_trans_two_6 (candidate_module.NumberWordFormatterTestTransTwo.test_trans_two_6) ... ok
+test_trans_three_1 (candidate_module.NumberWordFormatterTestTransThree.test_trans_three_1) ... ok
+test_trans_three_2 (candidate_module.NumberWordFormatterTestTransThree.test_trans_three_2) ... ok
+test_trans_three_3 (candidate_module.NumberWordFormatterTestTransThree.test_trans_three_3) ... ok
+test_trans_three_4 (candidate_module.NumberWordFormatterTestTransThree.test_trans_three_4) ... ok
+test_trans_three_5 (candidate_module.NumberWordFormatterTestTransThree.test_trans_three_5) ... ok
+test_parse_more_1 (candidate_module.NumberWordFormatterTestParseMore.test_parse_more_1) ... ok
+test_parse_more_2 (candidate_module.NumberWordFormatterTestParseMore.test_parse_more_2) ... ok
+test_parse_more_3 (candidate_module.NumberWordFormatterTestParseMore.test_parse_more_3) ... ok
+test_parse_more_4 (candidate_module.NumberWordFormatterTestParseMore.test_parse_more_4) ... ok
+test_NumberWordFormatter (candidate_module.NumberWordFormatterTest.test_NumberWordFormatter) ... ok
+
+----------------------------------------------------------------------
+Ran 28 tests in 0.001s
+
+OK

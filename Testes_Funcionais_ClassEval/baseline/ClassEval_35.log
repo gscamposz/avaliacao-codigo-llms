@@ -1,0 +1,26 @@
+test_find_blank_1 (candidate_module.EightPuzzleTestFindBlank.test_find_blank_1) ... ok
+test_find_blank_2 (candidate_module.EightPuzzleTestFindBlank.test_find_blank_2) ... ok
+test_find_blank_3 (candidate_module.EightPuzzleTestFindBlank.test_find_blank_3) ... ok
+test_find_blank_4 (candidate_module.EightPuzzleTestFindBlank.test_find_blank_4) ... ok
+test_find_blank_5 (candidate_module.EightPuzzleTestFindBlank.test_find_blank_5) ... ok
+test_move_1 (candidate_module.EightPuzzleTestMove.test_move_1) ... ok
+test_move_2 (candidate_module.EightPuzzleTestMove.test_move_2) ... ok
+test_move_3 (candidate_module.EightPuzzleTestMove.test_move_3) ... ok
+test_move_4 (candidate_module.EightPuzzleTestMove.test_move_4) ... ok
+test_move_5 (candidate_module.EightPuzzleTestMove.test_move_5) ... ok
+test_get_possible_moves_1 (candidate_module.EightPuzzleTestGetPossibleMoves.test_get_possible_moves_1) ... ok
+test_get_possible_moves_2 (candidate_module.EightPuzzleTestGetPossibleMoves.test_get_possible_moves_2) ... ok
+test_get_possible_moves_3 (candidate_module.EightPuzzleTestGetPossibleMoves.test_get_possible_moves_3) ... ok
+test_get_possible_moves_4 (candidate_module.EightPuzzleTestGetPossibleMoves.test_get_possible_moves_4) ... ok
+test_get_possible_moves_5 (candidate_module.EightPuzzleTestGetPossibleMoves.test_get_possible_moves_5) ... ok
+test_solve_1 (candidate_module.EightPuzzleTestSolve.test_solve_1) ... ok
+test_solve_2 (candidate_module.EightPuzzleTestSolve.test_solve_2) ... ok
+test_solve_3 (candidate_module.EightPuzzleTestSolve.test_solve_3) ... ok
+test_solve_4 (candidate_module.EightPuzzleTestSolve.test_solve_4) ... ok
+test_solve_5 (candidate_module.EightPuzzleTestSolve.test_solve_5) ... ok
+test_solve_6 (candidate_module.EightPuzzleTestSolve.test_solve_6) ... ok
+
+----------------------------------------------------------------------
+Ran 21 tests in 3.499s
+
+OK

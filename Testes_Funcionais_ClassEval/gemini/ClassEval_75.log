@@ -1,0 +1,41 @@
+test_add_item_1 (candidate_module.ShoppingCartTestAddItem.test_add_item_1) ... ok
+test_add_item_2 (candidate_module.ShoppingCartTestAddItem.test_add_item_2) ... ok
+test_add_item_3 (candidate_module.ShoppingCartTestAddItem.test_add_item_3) ... ok
+test_add_item_4 (candidate_module.ShoppingCartTestAddItem.test_add_item_4) ... ok
+test_add_item_5 (candidate_module.ShoppingCartTestAddItem.test_add_item_5) ... ok
+test_add_item_6 (candidate_module.ShoppingCartTestAddItem.test_add_item_6) ... FAIL
+test_remove_item_1 (candidate_module.ShoppingCartTestRemoveItem.test_remove_item_1) ... ok
+test_remove_item_2 (candidate_module.ShoppingCartTestRemoveItem.test_remove_item_2) ... ok
+test_remove_item_3 (candidate_module.ShoppingCartTestRemoveItem.test_remove_item_3) ... ok
+test_remove_item_4 (candidate_module.ShoppingCartTestRemoveItem.test_remove_item_4) ... ok
+test_remove_item_5 (candidate_module.ShoppingCartTestRemoveItem.test_remove_item_5) ... ok
+test_remove_item_6 (candidate_module.ShoppingCartTestRemoveItem.test_remove_item_6) ... ok
+test_view_items_1 (candidate_module.ShoppingCartTestViewItems.test_view_items_1) ... ok
+test_view_items_2 (candidate_module.ShoppingCartTestViewItems.test_view_items_2) ... ok
+test_view_items_3 (candidate_module.ShoppingCartTestViewItems.test_view_items_3) ... ok
+test_view_items_4 (candidate_module.ShoppingCartTestViewItems.test_view_items_4) ... ok
+test_view_items_5 (candidate_module.ShoppingCartTestViewItems.test_view_items_5) ... ok
+test_total_price_1 (candidate_module.ShoppingCartTestTotalPrice.test_total_price_1) ... ok
+test_total_price_2 (candidate_module.ShoppingCartTestTotalPrice.test_total_price_2) ... ok
+test_total_price_3 (candidate_module.ShoppingCartTestTotalPrice.test_total_price_3) ... ok
+test_total_price_4 (candidate_module.ShoppingCartTestTotalPrice.test_total_price_4) ... ok
+test_total_price_5 (candidate_module.ShoppingCartTestTotalPrice.test_total_price_5) ... ok
+test_shoppingcart (candidate_module.ShoppingCartTest.test_shoppingcart) ... ok
+
+======================================================================
+FAIL: test_add_item_6 (candidate_module.ShoppingCartTestAddItem.test_add_item_6)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "official_tests.py", line 34, in test_add_item_6
+AssertionError: {'apple': {'price': 1, 'quantity': 10}} != {'apple': {'price': 1, 'quantity': 5}}
+- {'apple': {'price': 1, 'quantity': 10}}
+?                                    ^^
+
++ {'apple': {'price': 1, 'quantity': 5}}
+?                                    ^
+
+
+----------------------------------------------------------------------
+Ran 23 tests in 0.001s
+
+FAILED (failures=1)

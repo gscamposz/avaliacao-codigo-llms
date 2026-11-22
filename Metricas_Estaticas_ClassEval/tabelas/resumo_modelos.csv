@@ -1,0 +1,5 @@
+modelo,arquivos,sintaxe_bruta_valida,sintaxe_normalizada_valida,arquivos_com_classe_esperada,contrato_completo,classes_declaradas,nom_total,npm_total,cc_media_ponderada_metodos,cc_mediana_metodos,cc_max_metodos,metodos_cc_maior_10,metodos_stub,metodos_esperados_total,metodos_esperados_encontrados_em_analisaveis
+chatgpt,30,30,30,30,30,30,152,122,3.651315789473684,2.0,24,6,1,150,150
+gemini,30,0,30,30,29,30,153,123,3.718954248366013,3,26,7,1,150,149
+qwen3_8b,30,3,29,16,14,25,115,92,2.626086956521739,2,13,1,1,150,73
+baseline,30,,30,30,30,30,150,121,3.2,2.0,44,2,1,150,150

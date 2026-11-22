@@ -1,0 +1,21 @@
+test_mean_1 (candidate_module.DataStatisticsTestMean.test_mean_1) ... ok
+test_mean_2 (candidate_module.DataStatisticsTestMean.test_mean_2) ... ok
+test_mean_3 (candidate_module.DataStatisticsTestMean.test_mean_3) ... ok
+test_mean_4 (candidate_module.DataStatisticsTestMean.test_mean_4) ... ok
+test_mean_5 (candidate_module.DataStatisticsTestMean.test_mean_5) ... ok
+test_median_1 (candidate_module.DataStatisticsTestMedian.test_median_1) ... ok
+test_median_2 (candidate_module.DataStatisticsTestMedian.test_median_2) ... ok
+test_median_3 (candidate_module.DataStatisticsTestMedian.test_median_3) ... ok
+test_median_4 (candidate_module.DataStatisticsTestMedian.test_median_4) ... ok
+test_median_5 (candidate_module.DataStatisticsTestMedian.test_median_5) ... ok
+test_mode_1 (candidate_module.DataStatisticsTestMode.test_mode_1) ... ok
+test_mode_2 (candidate_module.DataStatisticsTestMode.test_mode_2) ... ok
+test_mode_3 (candidate_module.DataStatisticsTestMode.test_mode_3) ... ok
+test_mode_4 (candidate_module.DataStatisticsTestMode.test_mode_4) ... ok
+test_mode_5 (candidate_module.DataStatisticsTestMode.test_mode_5) ... ok
+test_datastatistics (candidate_module.DataStatisticsTest.test_datastatistics) ... ok
+
+----------------------------------------------------------------------
+Ran 16 tests in 0.000s
+
+OK

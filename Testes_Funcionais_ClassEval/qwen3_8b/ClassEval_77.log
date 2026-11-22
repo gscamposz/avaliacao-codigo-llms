@@ -1,0 +1,173 @@
+test_move_1 (candidate_module.SnakeTestMove.test_move_1) ... ERROR
+test_move_2 (candidate_module.SnakeTestMove.test_move_2) ... ERROR
+test_move_3 (candidate_module.SnakeTestMove.test_move_3) ... ERROR
+test_move_4 (candidate_module.SnakeTestMove.test_move_4) ... ERROR
+test_move_5 (candidate_module.SnakeTestMove.test_move_5) ... ERROR
+test_random_food_position_1 (candidate_module.SnakeTestRandomFoodPosition.test_random_food_position_1) ... ERROR
+test_random_food_position_2 (candidate_module.SnakeTestRandomFoodPosition.test_random_food_position_2) ... ERROR
+test_random_food_position_3 (candidate_module.SnakeTestRandomFoodPosition.test_random_food_position_3) ... ERROR
+test_random_food_position_4 (candidate_module.SnakeTestRandomFoodPosition.test_random_food_position_4) ... ERROR
+test_random_food_position_5 (candidate_module.SnakeTestRandomFoodPosition.test_random_food_position_5) ... ERROR
+test_reset_1 (candidate_module.SnakeTestReset.test_reset_1) ... ERROR
+test_reset_2 (candidate_module.SnakeTestReset.test_reset_2) ... ERROR
+test_reset_3 (candidate_module.SnakeTestReset.test_reset_3) ... ERROR
+test_reset_4 (candidate_module.SnakeTestReset.test_reset_4) ... ERROR
+test_reset_5 (candidate_module.SnakeTestReset.test_reset_5) ... ERROR
+test_eat_food_1 (candidate_module.SnakeTestEatFood.test_eat_food_1) ... ERROR
+test_eat_food_2 (candidate_module.SnakeTestEatFood.test_eat_food_2) ... ERROR
+test_eat_food_3 (candidate_module.SnakeTestEatFood.test_eat_food_3) ... ERROR
+test_eat_food_4 (candidate_module.SnakeTestEatFood.test_eat_food_4) ... ERROR
+test_eat_food_5 (candidate_module.SnakeTestEatFood.test_eat_food_5) ... ERROR
+test_snake (candidate_module.SnakeTest.test_snake) ... ERROR
+
+======================================================================
+ERROR: test_move_1 (candidate_module.SnakeTestMove.test_move_1)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "official_tests.py", line 6, in test_move_1
+NameError: name 'Snake' is not defined
+
+======================================================================
+ERROR: test_move_2 (candidate_module.SnakeTestMove.test_move_2)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "official_tests.py", line 14, in test_move_2
+NameError: name 'Snake' is not defined
+
+======================================================================
+ERROR: test_move_3 (candidate_module.SnakeTestMove.test_move_3)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "official_tests.py", line 21, in test_move_3
+NameError: name 'Snake' is not defined
+
+======================================================================
+ERROR: test_move_4 (candidate_module.SnakeTestMove.test_move_4)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "official_tests.py", line 28, in test_move_4
+NameError: name 'Snake' is not defined
+
+======================================================================
+ERROR: test_move_5 (candidate_module.SnakeTestMove.test_move_5)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "official_tests.py", line 35, in test_move_5
+NameError: name 'Snake' is not defined
+
+======================================================================
+ERROR: test_random_food_position_1 (candidate_module.SnakeTestRandomFoodPosition.test_random_food_position_1)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "official_tests.py", line 44, in test_random_food_position_1
+NameError: name 'Snake' is not defined
+
+======================================================================
+ERROR: test_random_food_position_2 (candidate_module.SnakeTestRandomFoodPosition.test_random_food_position_2)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "official_tests.py", line 54, in test_random_food_position_2
+NameError: name 'Snake' is not defined
+
+======================================================================
+ERROR: test_random_food_position_3 (candidate_module.SnakeTestRandomFoodPosition.test_random_food_position_3)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "official_tests.py", line 64, in test_random_food_position_3
+NameError: name 'Snake' is not defined
+
+======================================================================
+ERROR: test_random_food_position_4 (candidate_module.SnakeTestRandomFoodPosition.test_random_food_position_4)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "official_tests.py", line 74, in test_random_food_position_4
+NameError: name 'Snake' is not defined
+
+======================================================================
+ERROR: test_random_food_position_5 (candidate_module.SnakeTestRandomFoodPosition.test_random_food_position_5)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "official_tests.py", line 84, in test_random_food_position_5
+NameError: name 'Snake' is not defined
+
+======================================================================
+ERROR: test_reset_1 (candidate_module.SnakeTestReset.test_reset_1)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "official_tests.py", line 96, in test_reset_1
+NameError: name 'Snake' is not defined
+
+======================================================================
+ERROR: test_reset_2 (candidate_module.SnakeTestReset.test_reset_2)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "official_tests.py", line 104, in test_reset_2
+NameError: name 'Snake' is not defined
+
+======================================================================
+ERROR: test_reset_3 (candidate_module.SnakeTestReset.test_reset_3)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "official_tests.py", line 112, in test_reset_3
+NameError: name 'Snake' is not defined
+
+======================================================================
+ERROR: test_reset_4 (candidate_module.SnakeTestReset.test_reset_4)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "official_tests.py", line 120, in test_reset_4
+NameError: name 'Snake' is not defined
+
+======================================================================
+ERROR: test_reset_5 (candidate_module.SnakeTestReset.test_reset_5)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "official_tests.py", line 128, in test_reset_5
+NameError: name 'Snake' is not defined
+
+======================================================================
+ERROR: test_eat_food_1 (candidate_module.SnakeTestEatFood.test_eat_food_1)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "official_tests.py", line 138, in test_eat_food_1
+NameError: name 'Snake' is not defined
+
+======================================================================
+ERROR: test_eat_food_2 (candidate_module.SnakeTestEatFood.test_eat_food_2)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "official_tests.py", line 146, in test_eat_food_2
+NameError: name 'Snake' is not defined
+
+======================================================================
+ERROR: test_eat_food_3 (candidate_module.SnakeTestEatFood.test_eat_food_3)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "official_tests.py", line 155, in test_eat_food_3
+NameError: name 'Snake' is not defined
+
+======================================================================
+ERROR: test_eat_food_4 (candidate_module.SnakeTestEatFood.test_eat_food_4)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "official_tests.py", line 165, in test_eat_food_4
+NameError: name 'Snake' is not defined
+
+======================================================================
+ERROR: test_eat_food_5 (candidate_module.SnakeTestEatFood.test_eat_food_5)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "official_tests.py", line 176, in test_eat_food_5
+NameError: name 'Snake' is not defined
+
+======================================================================
+ERROR: test_snake (candidate_module.SnakeTest.test_snake)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "official_tests.py", line 190, in test_snake
+NameError: name 'Snake' is not defined
+
+----------------------------------------------------------------------
+Ran 21 tests in 0.009s
+
+FAILED (errors=21)
