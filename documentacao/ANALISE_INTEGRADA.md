@@ -1,13 +1,13 @@
 # Análise integrada — resultados funcionais e estáticos
 
 Revisão 2 baseada no snapshot de entradas d997a313306b52b6c03a8c7ee48cbb8afa8da41c.
-Este documento consolida a análise descritiva. O texto acadêmico final, a conclusão formal e a apresentação serão preparados na etapa posterior autorizada pelo autor.
+Este documento consolida a análise descritiva. O relatório acadêmico e o roteiro da apresentação foram preparados na etapa final autorizada pelo autor e estão em documentacao/.
 
 ## Amostra e coleta
 
 Foram selecionadas 30 tarefas do ClassEval e coletada uma resposta por tarefa em cada modelo, totalizando 90 respostas.
 ChatGPT e Gemini foram acessados pelo navegador. Qwen3 8B foi executado localmente pelo Ollama com tag qwen3:8b, conforme confirmado pelo autor e pelos registros locais.
-As versões exatas de ChatGPT e Gemini e as datas de todas as conversas não foram informadas. Essa lacuna consta em COLETA_MODELOS.md.
+O autor informou GPT-6 para o ChatGPT e o período de coleta de 9 a 21 de novembro de 2026. Não há snapshot técnico independente do ChatGPT nem variante específica do Gemini. Datas individuais das conversas não foram preservadas. Consulte COLETA_MODELOS.md.
 O piloto Calculator/VendingMachine é separado desta amostra e não entra nos totais.
 
 ## Resultados funcionais
@@ -87,7 +87,7 @@ Jogos aleatórios foram executados com random.seed(0), e outra semente pode alte
 
 - Seleção intencional de 30 tarefas e uma geração por tarefa.
 - Possível exposição dos modelos ao benchmark público durante treinamento não investigada.
-- Versões exatas de ChatGPT e Gemini ainda desconhecidas.
+- Identificação GPT-6 declarada pelo autor, sem snapshot técnico; Gemini sem variante registrada.
 - Formatação dos arquivos exportados pode diferir da resposta visível no navegador.
 - Cobertura de testes e ambiguidades do benchmark limitam a interpretação de aprovações.
 - Estruturas predefinidas das tarefas influenciam NOM e NPM.
@@ -118,7 +118,7 @@ Os arquivos CHECKSUMS.json são regenerados após alterações nos pacotes.
 - Python AST — https://docs.python.org/3/library/ast.html
 - PEP 8 — https://peps.python.org/pep-0008/
 
-## Próxima etapa reservada ao item 4
+## Documentação final
 
-Finalizar o texto acadêmico com fundamentação e discussão completas, validar os requisitos de entrega do professor, revisar o README final e preparar a apresentação.
-Essa etapa aguarda a autorização do autor.
+O texto acadêmico, as justificativas, o roteiro de 10 minutos, o README e o checklist foram preparados. O autor ainda deve revisar os materiais, ensaiar e entregar ao professor.
+Etapa final autorizada pelo autor. Nenhuma resposta original foi corrigida funcionalmente nesta finalização.

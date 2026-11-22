@@ -4,7 +4,7 @@ Formas de acesso confirmadas por Gustavo Silva Campos em 21/11/2026.
 
 | Identificação no experimento | Forma de acesso | Identificador técnico comprovado |
 |---|---|---|
-| ChatGPT | Navegador | Modelo/versão selecionado não informado |
+| ChatGPT | Navegador | GPT-6 informado pelo autor; snapshot técnico não preservado |
 | Gemini | Navegador no piloto e na coleta principal | Modelo/versão selecionado não informado |
 | Qwen3 8B | Ollama local | qwen3:8b em 30 registros JSON |
 
@@ -18,10 +18,14 @@ Os registros comprovam o tag, mas não contêm o digest do modelo, a versão do 
 
 O comando de coleta compartilhado na conversa enviava model, prompt e stream=false, com timeout de 3600 segundos. Ele fazia uma requisição independente por tarefa. A confirmação de que todos os arquivos foram gerados exatamente com esse comando depende dos registros locais do autor.
 
-## Informações ainda a completar
+## Período confirmado pelo autor
 
-- Nome do modelo selecionado no ChatGPT e no Gemini, conforme a interface no momento da coleta.
-- Datas da coleta pelo navegador.
+Coleta de 9 a 21 de novembro de 2026. Não foram atribuídas datas individuais às tarefas do navegador. O autor relata quase 20 horas de execução local; os timestamps de conclusão do Ollama cobrem aproximadamente 18h56, sem registrar por si só o início da primeira solicitação.
+
+## Informações não recuperadas
+
+- Snapshot técnico da versão do ChatGPT e variante específica do Gemini.
+- Datas individuais das conversas do navegador.
 - Caso disponível, versão efetiva do Ollama durante a coleta, digest e parâmetros do modelo.
 - Histórico de retomadas. erros.log registra dois timeouts em ClassEval_65, e os arquivos finais dessa tarefa estão presentes.
 
