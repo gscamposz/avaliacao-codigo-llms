@@ -20,7 +20,7 @@ Analisar como diferentes modelos de linguagem implementam classes Python, consid
 
 | Modelo | Ambiente |
 |---|---|
-| ChatGPT (GPT-6 informado pelo autor) | Navegador |
+| ChatGPT (GPT-6) | Navegador |
 | Gemini | Navegador, no piloto e na coleta principal |
 | Qwen3 8B | Ollama local — `qwen3:8b` |
 
